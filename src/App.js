@@ -1,8 +1,7 @@
 import './App.css';
-import ShoppingListTable from './components/ShoppingListTable';
 function App() 
 {
-  return(<ShoppingListTable/>);
+  return(<div />);
 }
 
 export default App;
