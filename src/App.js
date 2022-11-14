@@ -3,9 +3,7 @@ import SalesPage from './components/SalesPage'
 function App() 
 
 {
-  return(
-  <SalesPage />
-  );
+  return(<div />);
 }
 
 export default App;
