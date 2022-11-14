@@ -1,7 +1,11 @@
 import './App.css';
+import SalesPage from './components/SalesPage'
 function App() 
+
 {
-  return(<div />);
+  return(
+  <SalesPage />
+  );
 }
 
 export default App;
