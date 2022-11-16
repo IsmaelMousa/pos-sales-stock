@@ -1,10 +1,10 @@
 import "./MenPantsCard.css"
-import img1 from '../Images/Jeans.jpg';
+import img1 from '../images/Chieno.webp';
 const Card = (props) => {
 
     const classes = "card"
     return (
-        <div className="col-3">
+        <div className="col-2">
             <div className={classes}>
                 <img src={img1} alt ='Pants'/>
                 <div className="card-body">

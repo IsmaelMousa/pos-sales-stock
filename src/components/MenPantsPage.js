@@ -2,11 +2,21 @@ import MenPantsCard from './MenPantsCard'
 
 const MenPantsPage =()=> {
     return (
-    <section><MenPantsCard></MenPantsCard>
+    <section className='container'>
+    <div className='row pt-5'>
     <MenPantsCard></MenPantsCard>
     <MenPantsCard></MenPantsCard>
     <MenPantsCard></MenPantsCard>
     <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    <MenPantsCard></MenPantsCard>
+    </div>
     </section>
     );
 }
