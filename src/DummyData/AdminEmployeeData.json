@@ -1,0 +1,66 @@
+[
+    {
+        "id" :1,
+        "name":"Ismael Mousa",
+        "phone":"0117721002",
+        "email":"vanderlinde@gmail.com",
+        "address":"Nablus",
+        "rank":"Supervisor"
+    },
+    {
+        "id" :2,
+        "name":"Renad Iwidat",
+        "phone":"0194211209",
+        "email":"renad@gmail.com",
+        "address":"Hebron",
+        "rank":"Seller"
+    },
+    {
+        "id" :3,
+        "name":"Batool Mohammad",
+        "phone":"0120891001",
+        "email":"batool@gmail.com",
+        "address":"Jenin",
+        "rank":"Seller"
+    },
+    {
+        "id" :4,
+        "name":"Muawyia Ismael",
+        "phone":"0599311201",
+        "email":"muawyia@gmail.com",
+        "address":"Nablus",
+        "rank":"Seller"
+    },
+    {
+        "id" :5,
+        "name":"Borooj Edaily",
+        "phone":"0992141880",
+        "email":"borooj@gmail.com",
+        "address":"Nablus",
+        "rank":"Assistant"
+    },
+    {
+        "id" :6,
+        "name":"Naseem Mahmoud",
+        "phone":"0677411911",
+        "email":"naseem@gmail.com",
+        "address":"Nablus",
+        "rank":"Assistant"
+    },
+    {
+        "id" :7,
+        "name":"Omar Hamdan",
+        "phone":"0997810120",
+        "email":"omar@gmail.com",
+        "address":"Tulkarm",
+        "rank":"Assistant"  
+    },
+    {
+        "id" :8,
+        "name":"Alaa Afoori",
+        "phone":"0771434407",
+        "email":"Alaa@gmail.com",
+        "address":"Nablus",
+        "rank":"Seller"           
+    }
+]
