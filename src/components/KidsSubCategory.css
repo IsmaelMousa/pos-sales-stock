@@ -10,7 +10,7 @@ body{
     display: inline-block;
    
 }
-button{
+.btn-outline-dark{
 margin-top: 30px;
 align-content: center;
 padding-left: 10px;
