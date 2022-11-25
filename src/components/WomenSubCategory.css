@@ -1,0 +1,35 @@
+body{
+    background: radial-gradient(#cbbdc7,rgb(245, 240, 245),#f4ebf3);
+    padding-left: 70px ;
+    border: 1px solid #dadada;
+
+
+}
+.card{
+    width: 20rem;
+    margin: 10px;
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+
+.card-img-top{
+    height: 20rem;
+    width: 12rem;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card-title{
+    color: #96788c;
+}
+.btn{
+    color: #f8f4f8;
+    border-radius: 10px ;
+    background-color: #d4b3d4;
+}
