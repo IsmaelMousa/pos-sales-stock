@@ -20,7 +20,7 @@ body{
 
 .card-img-top{
     height: 20rem;
-    width: 12rem;
+    width: 15rem;
     padding-top: 10px;
     border-radius: 10px;
 }
@@ -29,7 +29,11 @@ body{
     color: #96788c;
 }
 .btn{
+    margin-top: 10px;
     color: #f8f4f8;
     border-radius: 10px ;
     background-color: #d4b3d4;
+    font-size: 25px;
+    width: 40%;
+    padding: 1%;
 }
