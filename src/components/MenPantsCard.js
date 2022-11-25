@@ -1,6 +1,6 @@
 import "./MenPantsCard.css"
 import img1 from '../images/Chieno.webp';
-const Card = (props) => {
+const CardPantsCard = (props) => {
 
     const classes = "card"
     return (
@@ -16,10 +16,9 @@ const Card = (props) => {
                     {props.quantity}
                     </p>
                 </div>
-                {props.children}
                 </div>
                 </div>
     );
 }
 
-export default Card;
+export default CardPantsCard;
