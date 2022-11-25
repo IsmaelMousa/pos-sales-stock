@@ -1,0 +1,44 @@
+body{
+    background: radial-gradient(white);
+    padding-left: 70px ;
+    border: 1px solid white;
+}
+.card{
+    width: 20rem;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+   
+}
+.btn-outline-dark{
+margin-top: 30px;
+align-content: center;
+padding-left: 10px;
+padding-right: 10px;
+}
+.card-title{
+font-size:xx-large;
+text-align: center;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0,0,0.253)!important;
+}
+.card-body{
+    padding: auto;
+    margin: auto;
+}
+.card-fluid .row{
+padding-left: 10px;
+padding-right: 10px;
+}
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+    transition: transform 0.5s ease;
+
+    height: 20rem;
+    width: 19rem;
+   
+
+}
