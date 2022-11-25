@@ -4,6 +4,7 @@ const NavigationBar = () => {
         <nav>
             <a href="/"> Point - Of - Sale </a>
             <div>
+
                 <p> Welcome , <span>Guest </span>
                 </p>
                 <i className="bi bi-person-circle"></i>

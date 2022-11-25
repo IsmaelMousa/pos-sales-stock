@@ -12,6 +12,7 @@ const LoginSignup = () => {
     };
     return (
         <div className="login-signup-container" ref={LoginSignupRef}>
+
             <Login />
             <div className="side-div">
                 <button type="button" onClick={handleClick}>
