@@ -3,6 +3,7 @@ import AdminProductsData from '../DummyData/AdminProductsData.json';
 import ReadOnlyProductsRow from './ReadOnlyProductsRow';
 import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
+import './AdminProductsTable.css';
 
 const AdminProductsTable = () => {
     const [contacts, setContacts] = useState(AdminProductsData);
@@ -117,9 +118,9 @@ const AdminProductsTable = () => {
     };
 
     return (
-    <div className="">
+    <div className='table-admin'>
         
-        <h4>Add New Product</h4>
+        <h4 >Add New Product</h4>
         <form onSubmit={handleAddFormSubmit}>
           <input
             type="text"
@@ -171,18 +172,21 @@ const AdminProductsTable = () => {
           <button type="submit">Add</button>
           <button type='reset'>Reset</button>
         </form>
-        <form onSubmit={handleEditFormSubmit}>
-        <table>
-            <thead>
-                    <tr>
-                        <th>Category</th>
+      <form onSubmit={handleEditFormSubmit} >
+        <table >
+          <thead  >
+                    <tr className='thead' >
+
+                        <th >Category</th>
                         <th>Sub-Category</th>
                         <th>Product</th>
                         <th>Cost Price</th>
                         <th>Price</th>
                         <th>Quantity</th>
+                        <th> Action </th>
                     </tr>
             </thead>
+           
             <tbody>
               {contacts.map((contact) => (
                 <Fragment>
