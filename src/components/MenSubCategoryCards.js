@@ -1,12 +1,13 @@
 import MenSubCategoryCard from '../components/MenSubCategotyCard';
-import img1 from'../images/Scarf.png';
+import img1 from'../images/scarf.png';
 import img2 from'../images/Coat.png';
-import img3 from'../images/Jacket.png';
-import img4 from'../images/T-Shirt.png';
-import img5 from'../images/Pant.png';
-import img6 from'../images/Short.png';
+import img3 from'../images/jacket.png';
+import img4 from'../images/t-shirt.png';
+import img5 from'../images/pant.png';
+import img6 from'../images/short.png';
 import img7 from'../images/Sweater.png';
 import img8 from'../images/Shirt.jpg';
+
 
 const MenSubCategoryCards=()=>{
 const data = [
