@@ -18,10 +18,10 @@ function MainCategoryBar () {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
-
+<div>
            <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
       <Nav.Item>
-        <Nav.Link eventKey="1" href="#/home">
+        <Nav.Link eventKey="1" href="#home">
          Sales
         </Nav.Link>
       </Nav.Item>
@@ -35,7 +35,6 @@ function MainCategoryBar () {
         Men
         </Nav.Link>
       </Nav.Item>
-
       <Nav.Item>
         <Nav.Link eventKey="4" title="Item">
       Kids
@@ -43,7 +42,7 @@ function MainCategoryBar () {
       </Nav.Item>
      
       </Nav>
-
+      </div>
     </Navbar>
     </section>
   );
