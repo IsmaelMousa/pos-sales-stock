@@ -1,5 +1,6 @@
-import MenSubCategoryCards from './components/MenSubCategoryCards'
-function App(){
-  return (<MenSubCategoryCards/>);
+function App()
+{
+  return (<div></div>);  
 }
+
 export default App;
