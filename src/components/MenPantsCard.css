@@ -1,26 +1,39 @@
 body{
+    background: radial-gradient(rgb(187, 187, 235));
+    padding-left: 70px ;
+    border: 1px solid #ffffff;
 
-    background:radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+
 }
-
-
-.card:hover{
-    box-shadow:5px 10px 20px 1px rgba(0, 0,0, 0.253)!important;
-}
-
-.card-text{
-
-    text-align: center;
-}
-.card-title{
-
-    text-align: center;
-}
-.card
-{
+.card{
+    width: 20rem;
     margin: 10px;
-}
-.container-fluid.row{
+    padding: 2px;
+    background-color: #fff;
+    float: left;
 
-    padding-top:6rem;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+
+.card-img-top{
+    height: 20rem;
+    width: 15rem;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card-title{
+    color: #000000;
+}
+.btn{
+    margin-top: 10px;
+    color: #f8f4f8;
+    border-radius: 10px ;
+    background-color: #4661ff;
+    font-size: 25px;
+    width: 40%;
+    padding: 1%;
 }

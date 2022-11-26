@@ -1,24 +1,18 @@
-import "./MenPantsCard.css"
-import img1 from '../images/Chieno.webp';
-const CardPantsCard = (props) => {
+import'./MenPantsCard.css';
 
-    const classes = "card"
+const MenPantsCard= (props) =>{
     return (
-        <div className="col-2">
-            <div className={classes}>
-                <img src={img1} alt ='Pants'/>
-                <div className="card-body">
-                    <h5 className="card-title">{props.title}</h5>
-                    <p className="card-text">
-                    {props.price}
-                    </p>
-                    <p className="card-text">
-                    {props.quantity}
-                    </p>
-                </div>
-                </div>
-                </div>
-    );
+        <div className="card text-center"> 
+            <div className="overflow">
+                <img src={props.imgsrc} alt="pants" className='card-img-top'/>
+            </div>
+<div className='card-body text-dark '>
+<h4 className='card-title'> {props.title}</h4>
+<h5 className='h5'>{props.price}</h5>
+<h6 className='h6'>{props.quantity}</h6>
+<a href='#' className='btn btn-outline'><b> GO </b> </a>
+</div>            
+</div>);    
 }
 
-export default CardPantsCard;
+export default MenPantsCard;

@@ -1,8 +1,6 @@
-import MenPantsPage from "./components/MenPantsPage";
-
 function App()
 {
-  return (<MenPantsPage/>);  
+  return (<div></div>);  
 }
 
 export default App;
