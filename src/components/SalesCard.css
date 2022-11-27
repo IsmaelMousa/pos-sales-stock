@@ -1,0 +1,39 @@
+body{
+    background: radial-gradient(rgb(235, 226, 187));
+    padding-left: 70px ;
+    border: 1px solid #ffffff;
+
+
+}
+.card{
+    width: 20rem;
+    margin: 10px;
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+
+.card-img-top{
+    height: 20rem;
+    width: 15rem;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card-title{
+    color: #000000;
+}
+.btn{
+    margin-top: 10px;
+    color: #f8f4f8;
+    border-radius: 10px ;
+    background-color: #ddff46;
+    font-size: 25px;
+    width: 40%;
+    padding: 1%;
+}
