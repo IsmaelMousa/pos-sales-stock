@@ -1,5 +1,5 @@
 import {nanoid} from 'nanoid';
-import AdminEmployeeData from '../DummyData/AdminEmployeeData.json';
+import AdminEmployeeData from '../../dummy-data/AdminEmployeeData.json';
 import ReadOnlyEmployeeRow from './ReadOnlyEmployeeRow';
 import EditEmployeeTableRow from "./EditEmployeeTableRow";
 import { useState, Fragment } from "react";

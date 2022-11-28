@@ -1,5 +1,5 @@
 import {nanoid} from 'nanoid';
-import AdminProductsData from '../DummyData/AdminProductsData.json';
+import AdminProductsData from '../../dummy-data/AdminProductsData.json';
 import ReadOnlyProductsRow from './ReadOnlyProductsRow';
 import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
