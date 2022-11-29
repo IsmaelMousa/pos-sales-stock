@@ -1,19 +1,19 @@
 import SalesCard from "./SalesCard";
-import img1 from'../images/Black-Sweat-Pants.jpg';
-import img2 from"../images/Cheino-brown-pants.webp";
-import img3 from"../images/Dark-Cargo-pants.jpg";
-import img4 from"../images/Gray-formal-pants.jpg";
-import img5 from"../images/Jeans-1.webp";
-import img6 from"../images/Off-White-Pants.jpg";
-import img7 from"../images/White-Pants.webp";
-import img8 from"../images/Green-Sweat.jpg";
-import img9 from"../images/Off-White-Pants.jpg";
-import img10 from"../images/White-Pants.webp";
-import img11 from"../images/Green-Sweat.jpg";
-import img12 from"../images/Off-White-Pants.jpg";
-import img13 from"../images/White-Pants.webp";
-import img14 from"../images/Green-Sweat.jpg";
-import img15 from"../images/Green-Sweat.jpg";
+import img1 from"../../images/Black-Sweat-Pants.jpg";
+import img2 from"../../images/Cheino-brown-pants.webp";
+import img3 from"../../images/Dark-Cargo-pants.jpg";
+import img4 from"../../images/Gray-formal-pants.jpg";
+import img5 from"../../images/Jeans-1.webp";
+import img6 from"../../images/Off-White-Pants.jpg";
+import img7 from"../../images/White-Pants.webp";
+import img8 from"../../images/Green-Sweat.jpg";
+import img9 from"../../images/Off-White-Pants.jpg";
+import img10 from"../../images/White-Pants.webp";
+import img11 from"../../images/Green-Sweat.jpg";
+import img12 from"../../images/Off-White-Pants.jpg";
+import img13 from"../../images/White-Pants.webp";
+import img14 from"../../images/Green-Sweat.jpg";
+import img15 from"../../images/Green-Sweat.jpg";
 const SalesPage= () =>{
 const data = 
 [

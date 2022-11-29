@@ -163,6 +163,7 @@ const AdminEmployeeTable = () => {
                         <th>Email</th>
                         <th>Address</th>
                         <th>Rank</th>
+                        <th>Action</th>
                     </tr>
             </thead>
             <tbody>
