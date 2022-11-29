@@ -1,4 +1,4 @@
-import MenPantsCard from "./MenPantsCard";
+import MenScarfCard from "./MenScarfCard";
 import img1 from"../../../images/Black-Sweat-Pants.jpg";
 import img2 from"../../../images/Cheino-brown-pants.webp";
 import img3 from"../../../images/Dark-Cargo-pants.jpg";
@@ -8,7 +8,7 @@ import img6 from"../../../images/Off-White-Pants.jpg";
 import img7 from"../../../images/White-Pants.webp";
 import img8 from"../../../images/Green-Sweat.jpg";
 
-const MenPantsPage= () =>{
+const MenScarfPage= () =>{
 
 const data = [
     { title: "Black Sweat", img:  img1, price: "50$",quantity :77},
@@ -25,7 +25,7 @@ return (
     {
         data.map((props) => {
         return (
-        <MenPantsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>
+        <MenScarfCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>
         )
     }
     )
@@ -34,4 +34,4 @@ return (
 );
 }
 
-export default MenPantsPage;
+export default MenScarfPage;

@@ -1,6 +1,6 @@
 import"./MenItemsCard.css";
 
-const MenPantsCard= (props) =>{
+const MenShortCard= (props) =>{
     return (
         <div className="card text-center"> 
             <div className="overflow">
@@ -15,4 +15,4 @@ const MenPantsCard= (props) =>{
 </div>);    
 }
 
-export default MenPantsCard;
+export default MenShortCard;

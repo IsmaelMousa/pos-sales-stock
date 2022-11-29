@@ -1,10 +1,10 @@
 import"./MenItemsCard.css";
 
-const MenPantsCard= (props) =>{
+const MenTShirtCard= (props) =>{
     return (
         <div className="card text-center"> 
             <div className="overflow">
-                <img src={props.imgsrc} alt="pants" className='card-img-top'/>
+                <img src={props.imgsrc} alt="T Shirt" className='card-img-top'/>
             </div>
 <div className='card-body text-dark '>
 <h4 className='card-title'> {props.title}</h4>
@@ -15,4 +15,4 @@ const MenPantsCard= (props) =>{
 </div>);    
 }
 
-export default MenPantsCard;
+export default MenTShirtCard;
