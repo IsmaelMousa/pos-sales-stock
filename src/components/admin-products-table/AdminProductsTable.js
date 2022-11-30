@@ -71,7 +71,7 @@ const AdminProductsTable = () => {
     const editedContact = {
         id: editContactId,
         category: editFormData.category,
-        subcategory: editFormData.subCategory,
+        subCategory: editFormData.subCategory,
         productName: editFormData.productName,
         costPrice: editFormData.costPrice,
         price: editFormData.price,
