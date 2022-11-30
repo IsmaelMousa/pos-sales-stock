@@ -1,4 +1,4 @@
-import MenCoatCard from "./MenCoatCard";
+import MenCoatCard from "./MenItemsCard";
 import img1 from"../../../images/Black-Sweat-Pants.jpg";
 import img2 from"../../../images/Cheino-brown-pants.webp";
 import img3 from"../../../images/Dark-Cargo-pants.jpg";
