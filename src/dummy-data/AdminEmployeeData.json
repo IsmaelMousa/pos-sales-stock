@@ -59,7 +59,39 @@
         "id" :8,
         "name":"Alaa Afoori",
         "phone":"0771434407",
-        "email":"Alaa@gmail.com",
+        "email":"alaa@gmail.com",
+        "address":"Nablus",
+        "rank":"Seller"           
+    },
+    {
+        "id" :9,
+        "name":"Arthur Morgan",
+        "phone":"0321414457",
+        "email":"arthur@gmail.com",
+        "address":"Jenin",
+        "rank":"Assistant"           
+    },
+    {
+        "id" :10,
+        "name":"Hosea Der Linde",
+        "phone":"0771434407",
+        "email":"hosea@gmail.com",
+        "address":"Nablus",
+        "rank":"Assistant"           
+    },
+    {
+        "id" :11,
+        "name":"Ezzeldeen Mousa",
+        "phone":"0714214407",
+        "email":"ezz@gmail.com",
+        "address":"Nablus",
+        "rank":"Supervisor"           
+    },
+    {
+        "id" :12,
+        "name":"Ahmed Wael",
+        "phone":"0993134421",
+        "email":"ahmed@gmail.com",
         "address":"Nablus",
         "rank":"Seller"           
     }
