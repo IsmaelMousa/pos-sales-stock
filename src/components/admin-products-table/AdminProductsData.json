@@ -74,151 +74,151 @@
     {
         "id" :9,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Brown LA",
+        "costPrice" : "200",
+        "price" : "250",
+        "quantity" : 77
     },
     {
         "id" :10,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Red & Black",
+        "costPrice" : "90",
+        "price" : "110",
+        "quantity" : 53
     },
     {
         "id" :11,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Black Nikki",
+        "costPrice" : "250",
+        "price" : "350",
+        "quantity" : 60
     },
     {
         "id" :12,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Brown Stalin",
+        "costPrice" : "120",
+        "price" : "150",
+        "quantity" : 100
     },
     {
         "id" :13,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Gray H&M",
+        "costPrice" : "100",
+        "price" : "130",
+        "quantity" : 120
     },
     {
         "id" :14,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Sliver Ganga",
+        "costPrice" : "250",
+        "price" : "270",
+        "quantity" : 200
     },
     {
         "id" :15,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Black Marin",
+        "costPrice" : "290",
+        "price" : "320",
+        "quantity" : 50
     },
     {
         "id" :16,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Coat",
+        "productName" : "Army Ganga",
+        "costPrice" : "170",
+        "price" : "200",
+        "quantity" : 60
     },
     {
         "id" :17,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
+        "subCategory" : "Jacket",
+        "productName" : "Black Scalfi",
         "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "price" : "70",
+        "quantity" : 90
     },
     {
         "id" :18,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Jacket",
+        "productName" : "Black Heavy",
+        "costPrice" : "160",
+        "price" : "200",
+        "quantity" : 50
     },
     {
         "id" :19,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
+        "subCategory" : "Jacket",
+        "productName" : "Blue Scalfi",
         "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "price" : "70",
+        "quantity" : 90
     },
     {
         "id" :20,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Jacket",
+        "productName" : "Black & Panther",
+        "costPrice" : "250",
+        "price" : "350",
+        "quantity" : 150
     },
     {
         "id" :21,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
+        "subCategory" : "Jacket",
+        "productName" : "Black Wishi",
+        "costPrice" : "180",
+        "price" : "200",
         "quantity" : 93
     },
     {
         "id" :22,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Jacket",
+        "productName" : "Green Bumb",
+        "costPrice" : "350",
+        "price" : "400",
+        "quantity" : 50
     },
     {
         "id" :23,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Jacket",
+        "productName" : "Off-White Heavy",
+        "costPrice" : "230",
+        "price" : "270",
+        "quantity" : 100
     },
     {
         "id" :24,
         "category" : "Men",
-        "subCategory" : "Shoes",
-        "productName" : "White Sneaker",
-        "costPrice" : "50",
-        "price" : "75",
-        "quantity" : 93
+        "subCategory" : "Jacket",
+        "productName" : "Pure Silver",
+        "costPrice" : "70",
+        "price" : "100",
+        "quantity" : 90
     },
     {
         "id" :25,
         "category" : "Men",
-        "subCategory" : "Shoes",
+        "subCategory" : "Jacket",
         "productName" : "White Sneaker",
         "costPrice" : "50",
         "price" : "75",
