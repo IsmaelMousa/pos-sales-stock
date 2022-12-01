@@ -1,0 +1,569 @@
+[
+    {
+        "id" :1,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Gray Skini",
+        "costPrice" : "100",
+        "price" : "130",
+        "quantity" : 60
+    },
+    {
+        "id" :2,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Blue OverLA",
+        "costPrice" : "150",
+        "price" : "200",
+        "quantity" : 100
+    },
+    {
+        "id" :3,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Dark Cargo LS",
+        "costPrice" : "180",
+        "price" : "250",
+        "quantity" : 100
+    },
+    {
+        "id" :4,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Black Cut",
+        "costPrice" : "250",
+        "price" : "300",
+        "quantity" : 93
+    },
+    {
+        "id" :5,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Black Skini",
+        "costPrice" : "100",
+        "price" : "130",
+        "quantity" : 150
+    },
+    {
+        "id" :6,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Sky POP",
+        "costPrice" : "50",
+        "price" : "70",
+        "quantity" : 90
+    },
+    {
+        "id" :7,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Pure Blue",
+        "costPrice" : "80",
+        "price" : "110",
+        "quantity" : 93
+    },
+    {
+        "id" :8,
+        "category" : "Men",
+        "subCategory" : "Pants",
+        "productName" : "Black OverLA",
+        "costPrice" : "200",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :9,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :10,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :11,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :12,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :13,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :14,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :15,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :16,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :17,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :18,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :19,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :20,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :21,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :22,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :23,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :24,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :25,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :26,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :27,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :28,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :29,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :30,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :31,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :33,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :34,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :35,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :36,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :37,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :38,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :39,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :40,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :41,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :42,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :43,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :44,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :45,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :46,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :47,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :48,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :49,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :50,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :51,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :52,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :53,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :54,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :55,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :56,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :57,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :58,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :59,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :60,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :61,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :62,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :63,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    },
+    {
+        "id" :64,
+        "category" : "Men",
+        "subCategory" : "Shoes",
+        "productName" : "White Sneaker",
+        "costPrice" : "50",
+        "price" : "75",
+        "quantity" : 93
+    }
+]
