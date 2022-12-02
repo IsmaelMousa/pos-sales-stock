@@ -1,37 +1,28 @@
-import MenJacketCard from "./MenItemsCard";
-import img1 from"../../../images/Black-Sweat-Pants.jpg";
-import img2 from"../../../images/Cheino-brown-pants.webp";
-import img3 from"../../../images/Dark-Cargo-pants.jpg";
-import img4 from"../../../images/Gray-formal-pants.jpg";
-import img5 from"../../../images/Jeans-1.webp";
-import img6 from"../../../images/Off-White-Pants.jpg";
-import img7 from"../../../images/White-Pants.webp";
-import img8 from"../../../images/Green-Sweat.jpg";
+import MenItemsCard from "./MenItemsCard";
+import img1 from"../../../images/jacket-men-1.webp";
+import img2 from"../../../images/jacket-men-2.webp";
+import img3 from"../../../images/jacket-men-3.webp";
+import img4 from"../../../images/jacket-men-4.webp";
+import img5 from"../../../images/jacket-men-5.webp";
+import img6 from"../../../images/jacket-men-6.webp";
+import img7 from"../../../images/jacket-men-7.webp";
+import img8 from"../../../images/jacket-men-8.webp";
 
 const MenJacketPage= () =>{
-
-const data = [
-    { title: "Black Sweat", img:  img1, price: "50$",quantity :77},
-    { title: "Beige Cheino", img:  img4, price: "110$",quantity :53},
-    { title: "Dark Cargo" , img:  img3 ,price: "80$",quantity :55},
-    { title: "Gray Formal", img:  img5 ,price: "75$",quantity :12},
-    { title: "Blue Jeans", img:  img2 ,price: "35$",quantity :100},
-    {  title: "Off-White Cheino", img:  img6 ,price: "50$",quantity :93},
-    {  title: "White Jeans", img:  img7 ,price: "200$",quantity :25},
-    {  title: "Green Sweat", img:  img8 ,price: "60$",quantity :30},
-]
-return (
+    const data = 
+    [
+        { title: "Black Scalfi",img: img1,price: "70$",quantity :32},
+        { title: "Black Heavy",img: img4,price: "200$",quantity :23},
+        { title: "Blue Scalfi",img: img3,price: "70$",quantity :35},
+        { title: "Black & Panther",img: img5,price: "350$",quantity :100},
+        { title: "Black Wishi",img: img2,price: "200$",quantity :93},
+        { title: "Green Bumb",img: img6,price: "400$",quantity :16},
+        { title: "Off-White Heavy",img: img7,price: "270$",quantity :25},
+        { title: "Pure Silver",img: img8,price: "100$",quantity :76},
+    ]
+    return(
     <div>
-    {
-        data.map((props) => {
-        return (
-        <MenJacketCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>
-        )
+        {data.map((props) => {return (<MenItemsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>)})}
+    </div>);
     }
-    )
-    }
-    </div>
-);
-}
-
 export default MenJacketPage;
