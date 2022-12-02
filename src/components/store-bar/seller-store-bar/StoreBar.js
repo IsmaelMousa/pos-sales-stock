@@ -1,6 +1,6 @@
 import React from 'react';
 import './StoreBar.css';
-import logo from "../images/Logo.png";
+import logo from "../../../images/Logo.png"
 
 const StoreBar = () => {
     return (
@@ -14,7 +14,7 @@ const StoreBar = () => {
             </li>
             <li className='logo'>
                 <a href="index.html">
-                    <img src={logo} className="img" alt="website"/>
+                    <img src={logo} className="img" alt="website" />
                 </a>
             </li>
             <li className='return'>
