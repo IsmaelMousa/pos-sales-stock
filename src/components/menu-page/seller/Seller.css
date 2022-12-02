@@ -1,4 +1,4 @@
-.signup {
+.seller {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -9,7 +9,7 @@
 
 }
 
-.signup h1 {
+.seller h1 {
     font-size: 4.5rem;
     margin-top: 20px;
     color: #000;
@@ -17,7 +17,7 @@
     padding: 15px 0;
 }
 
-.signup form {
+.seller form {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     gap: 10px;
 }
 
-.signup form input:not([type="submit"]) {
+.seller form input:not([type="submit"]) {
     width: 100%;
     padding: 10px;
     border: 2px solid #000;
@@ -39,7 +39,7 @@
     color: #000;
 }
 
-.signup form button {
+.seller form button {
     width: 100%;
     padding: 10px;
     border: 2px solid #000;
@@ -53,7 +53,7 @@
     transition: 0.3s linear;
 }
 
-.signup form button:hover {
+.seller form button:hover {
     background: #000;
     color: #fff;
 }
