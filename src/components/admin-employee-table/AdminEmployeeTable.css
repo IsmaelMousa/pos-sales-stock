@@ -1,0 +1,56 @@
+.body{
+    background-color:#eeeeee;
+}
+.employee-table{
+    margin: 2px;
+    color:#000;
+    border: 1px solid #fff;
+    font-size: 20px;
+    border-collapse: collapse;
+    display: flex;
+   flex-direction:column;
+   gap: 20px;
+   padding: 2rem;
+   text-align:center;
+   width: 100%;
+ background-color:#eeeeee;
+}
+table, td , tr,th{ border:1px solid rgb(93, 92, 92);
+    border-collapse: collapse ;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+
+
+}
+th
+{     background-color: #dce1e5;
+}
+h4{
+    font-size: 40px;
+    color: #565658;
+}
+
+
+button {
+    background-color: #2e4469; 
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 12px;
+    width: 80px;
+
+  
+  }
+ 
+
+  button:hover{
+    box-shadow: 5px 10px 20px 1px rgba(37, 54, 79, 0.363)!important;
+}
