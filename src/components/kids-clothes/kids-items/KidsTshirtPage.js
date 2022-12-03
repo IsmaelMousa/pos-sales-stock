@@ -11,14 +11,14 @@ import img8 from"../../../images/tshirt-kids-8.webp";
 const KidsTshirtPage= () =>{
 const data = 
 [
-    { title: "Colorful graphics",img: img1,price: "50$",quantity :30},
-    { title: "Flower Many",img: img2,price: "60$",quantity :40},
+    { title: "Red tshirt",img: img1,price: "50$",quantity :30},
+    { title: "Cool Pink",img: img2,price: "60$",quantity :40},
     { title: "England",img: img3,price: "50$",quantity :60},
     { title: "Black Tshirt",img: img4,price: "55$",quantity :50},
-    { title: "Cool blue",img: img5,price: "70$",quantity :50},
+    { title: "Spoort tshirt",img: img5,price: "70$",quantity :50},
     { title: "Red Dark",img: img6,price: "50$",quantity :45},
-    { title: "Outline",img: img7,price: "85$",quantity :55},
-    { title: "Outline Light",img: img8,price: "60$",quantity :50},
+    { title: "Black tshirt",img: img7,price: "85$",quantity :55},
+    { title: "Light tshirt",img: img8,price: "60$",quantity :50},
 ]
 return(
 <div>

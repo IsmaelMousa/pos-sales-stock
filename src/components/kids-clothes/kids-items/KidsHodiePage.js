@@ -14,10 +14,10 @@ const KidsHodiePage= () =>{
         { title: "Cartoon Fees",img: img1,price: "70$",quantity :30},
         { title: "Gray cartoon",img: img2,price: "80$",quantity :10},
         { title: "Red Hodies",img: img3,price: "80$",quantity :12},
-        { title: "Cartoon Fees",img: img4,price: "90$",quantity :25},
-        { title: "Army Hoodie",img: img5,price: "65$",quantity :23},
+        { title: "hoodies long",img: img4,price: "90$",quantity :25},
+        { title: "Black Hoodie",img: img5,price: "65$",quantity :23},
         { title: "Plain blue",img: img6,price: "90$",quantity :30},
-        { title: "XBox Hodie",img: img7,price: "100$",quantity :35},
+        { title: "Plain Hodie",img: img7,price: "100$",quantity :35},
         { title: "England Hodie",img: img8,price: "80$",quantity :15},
     ]
     return(
