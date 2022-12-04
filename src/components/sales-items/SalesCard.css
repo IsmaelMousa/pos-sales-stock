@@ -5,6 +5,11 @@ body{
 
 
 }
+.pre-price
+{
+    font-size: medium;
+    color: grey;
+}
 .card{
     width: 20rem;
     margin: 10px;
@@ -32,7 +37,7 @@ body{
     margin-top: 10px;
     color: #f8f4f8;
     border-radius: 10px ;
-    background-color: #4690ff;
+    background-color: #302b2b;
     font-size: 25px;
     width: 40%;
     padding: 1%;
