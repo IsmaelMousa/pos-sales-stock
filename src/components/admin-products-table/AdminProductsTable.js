@@ -3,7 +3,6 @@ import AdminProductsData from './AdminProductsData.json';
 import ReadOnlyProductsRow from './ReadOnlyProductsRow';
 import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
-import './AdminProductsTable.css';
 
 const AdminProductsTable = () => {
     const [contacts, setContacts] = useState(AdminProductsData);
@@ -118,11 +117,11 @@ const AdminProductsTable = () => {
     };
 
     return (
-    <div className='table-admin'>
-        
-        <h4 >Add New Product</h4>
+    <div className= "container">
+        <h4 className='h4 text-center'>Add New Product</h4>
         <form onSubmit={handleAddFormSubmit}>
           <input
+            className="col-2 text-center"
             type="text"
             name="category"
             required="required"
@@ -130,6 +129,7 @@ const AdminProductsTable = () => {
             onChange={handleAddFormChange}
           />
           <input
+            className="col-2 text-center"
             type="text"
             name="subCategory"
             required="required"
@@ -137,6 +137,7 @@ const AdminProductsTable = () => {
             onChange={handleAddFormChange}
           />
           <input
+            className="col-2 text-center"
             type="text"
             name="productName"
             required="required"
@@ -144,6 +145,7 @@ const AdminProductsTable = () => {
             onChange={handleAddFormChange}
           />
           <input
+            className="col-2 text-center"
             type="number"
             min="1" 
             max="1000"
@@ -153,6 +155,7 @@ const AdminProductsTable = () => {
             onChange={handleAddFormChange}
           />
           <input
+            className="col-2 text-center"
             type="number"
             name="price"
             min="2"
@@ -162,6 +165,7 @@ const AdminProductsTable = () => {
             onChange={handleAddFormChange}
           />
           <input
+            className="col-2 text-center"
             type="number"
             min="1" 
             name="quantity"
@@ -169,25 +173,26 @@ const AdminProductsTable = () => {
             placeholder="Quantity"
             onChange={handleAddFormChange}
           />
-          <button type="submit">Add</button>
-          <button type='reset'>Reset</button>
+          <div className="text-end">
+          <button type="submit" className="btn">Add</button>
+          <button type="reset" className="btn">Reset</button>
+          </div>
         </form>
       <form onSubmit={handleEditFormSubmit} >
-        <table >
+        <table className="table table-hover">
           <thead  >
-                    <tr className='thead' >
+                    <tr className='text-center'>
 
-                        <th >Category</th>
-                        <th>Sub-Category</th>
-                        <th>Product</th>
-                        <th>Cost Price</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th> Action </th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Sub-Category</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Cost Price</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Action</th>
                     </tr>
             </thead>
-           
-            <tbody>
+            <tbody className='text-center'>
               {contacts.map((contact) => (
                 <Fragment>
                   {editContactId === contact.id ? (

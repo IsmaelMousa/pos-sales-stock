@@ -7,6 +7,7 @@ const EditProductsTableRow = ({
     <tr>
       <td>
         <input
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Category"
@@ -17,6 +18,7 @@ const EditProductsTableRow = ({
       </td>
       <td>
       <input
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Sub Category"
@@ -26,7 +28,8 @@ const EditProductsTableRow = ({
         ></input>
       </td>
       <td>
-        <input
+        <input   
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Product"
@@ -37,6 +40,7 @@ const EditProductsTableRow = ({
       </td>
       <td>
         <input
+          className="col-12 text-center"
           type="number"
           min="1"
           max="1000"
@@ -49,6 +53,7 @@ const EditProductsTableRow = ({
       </td>
       <td>
         <input
+          className="col-12 text-center"
           type="number"
           min="2"
           max="10000"
@@ -61,6 +66,7 @@ const EditProductsTableRow = ({
       </td>
       <td>
         <input
+          className="col-12 text-center"
           type="number"
           min="1"
           required="required"
@@ -71,9 +77,9 @@ const EditProductsTableRow = ({
         ></input>
       </td>
       <td>
-        <button type="submit">Save</button>
-        <button type="button" onClick={handleCancelClick}>
-          Cancel
+        <button type="submit " className="btn">Save</button>
+        <button type="button" className="btn" onClick={handleCancelClick}>
+        Cancel
         </button>
       </td>
     </tr>

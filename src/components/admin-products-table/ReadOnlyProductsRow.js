@@ -8,15 +8,8 @@ const ReadOnlyProductsRow = ({ contact, handleEditClick, handleDeleteClick }) =>
       <td>{contact.price}</td>
       <td>{contact.quantity}</td>
       <td>
-        <button
-          type="button"
-          onClick={(event) => handleEditClick(event, contact)}
-        >
-          Edit
-        </button>
-        <button type="button" onClick={() => handleDeleteClick(contact.id)}>
-          Delete
-        </button>
+      <button type="button" className="btn" onClick={(event) => handleEditClick(event, contact)}>Edit</button>
+      <button type="button" className="btn" onClick={() => handleDeleteClick(contact.id)}>Delete</button>
       </td>
     </tr>
   );

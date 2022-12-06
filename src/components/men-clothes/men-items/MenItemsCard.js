@@ -9,7 +9,7 @@ const MenItemsCard= (props) =>{
             <h4 className='card-title'> {props.title}</h4>
             <h5 className='h5'>{props.price}</h5>
             <h6 className='h6'>{props.quantity}</h6>
-            <a href='#' className='btn btn-outline'><b>Pick Up</b></a>
+            <button className='btn btn-outline'><b>Pick Up</b></button>
         </div>            
     </div>);    
 }
