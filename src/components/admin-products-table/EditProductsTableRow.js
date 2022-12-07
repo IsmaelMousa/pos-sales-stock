@@ -4,8 +4,8 @@ const EditProductsTableRow = ({
   handleCancelClick,
 }) => {
   return (
-    <tr>
-      <td>
+    <tr className="tr">
+      <td className="td">
         <input
           className="col-12 text-center"
           type="text"
@@ -16,8 +16,8 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
-      <input
+      <td className="td">
+        <input
           className="col-12 text-center"
           type="text"
           required="required"
@@ -27,8 +27,8 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
-        <input   
+      <td className="td">
+        <input
           className="col-12 text-center"
           type="text"
           required="required"
@@ -38,7 +38,7 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
           className="col-12 text-center"
           type="number"
@@ -51,7 +51,7 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
           className="col-12 text-center"
           type="number"
@@ -64,7 +64,7 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
           className="col-12 text-center"
           type="number"
@@ -76,10 +76,12 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
-        <button type="submit " className="btn">Save</button>
+      <td className="td">
+        <button type="submit " className="btn">
+          Save
+        </button>
         <button type="button" className="btn" onClick={handleCancelClick}>
-        Cancel
+          Cancel
         </button>
       </td>
     </tr>

@@ -1,24 +1,33 @@
-const ReadOnlyEmployeeRow = ({ contact, handleEditClick, handleDeleteClick }) => {
-    return (
-      <tr>
-        <td>{contact.name}</td>
-        <td>{contact.phone}</td>
-        <td>{contact.email}</td>
-        <td>{contact.address}</td>
-        <td>{contact.rank}</td>
-        <td>
-          <button
-            type="button"
-            onClick={(event) => handleEditClick(event, contact)}
-          >
-            Edit
-          </button>
-          <button type="button" onClick={() => handleDeleteClick(contact.id)}>
-            Delete
-          </button>
-        </td>
-      </tr>
-    );
-  };
-  
-  export default ReadOnlyEmployeeRow;
+const ReadOnlyEmployeeRow = ({
+  contact,
+  handleEditClick,
+  handleDeleteClick,
+}) => {
+  return (
+    <tr className="tr">
+      <td className="td">{contact.name}</td>
+      <td className="td">{contact.phone}</td>
+      <td className="td">{contact.email}</td>
+      <td className="td">{contact.address}</td>
+      <td className="td">{contact.rank}</td>
+      <td className="td">
+        <button
+          type="button"
+          className="btn"
+          onClick={(event) => handleEditClick(event, contact)}
+        >
+          Edit
+        </button>
+        <button
+          type="button"
+          className="btn"
+          onClick={() => handleDeleteClick(contact.id)}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  );
+};
+
+export default ReadOnlyEmployeeRow;
