@@ -4,9 +4,10 @@ const EditProductsTableRow = ({
   handleCancelClick,
 }) => {
   return (
-    <tr>
-      <td>
+    <tr className="tr">
+      <td className="td">
         <input
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Category"
@@ -15,8 +16,9 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
-      <input
+      <td className="td">
+        <input
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Sub Category"
@@ -25,8 +27,9 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
+          className="col-12 text-center"
           type="text"
           required="required"
           placeholder="Product"
@@ -35,8 +38,9 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
+          className="col-12 text-center"
           type="number"
           min="1"
           max="1000"
@@ -47,8 +51,9 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
+          className="col-12 text-center"
           type="number"
           min="2"
           max="10000"
@@ -59,8 +64,9 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
+      <td className="td">
         <input
+          className="col-12 text-center"
           type="number"
           min="1"
           required="required"
@@ -70,9 +76,11 @@ const EditProductsTableRow = ({
           onChange={handleEditFormChange}
         ></input>
       </td>
-      <td>
-        <button type="submit">Save</button>
-        <button type="button" onClick={handleCancelClick}>
+      <td className="td">
+        <button type="submit " className="btn">
+          Save
+        </button>
+        <button type="button" className="btn" onClick={handleCancelClick}>
           Cancel
         </button>
       </td>
