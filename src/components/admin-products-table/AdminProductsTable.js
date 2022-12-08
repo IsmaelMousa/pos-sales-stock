@@ -120,7 +120,7 @@ const AdminProductsTable = () => {
     return (
     <div className='table-admin'>
         
-        <h4 >Add New Product</h4>
+        <h4 id="title-products" >Add New Product</h4>
         <form onSubmit={handleAddFormSubmit}>
           <input
             type="text"

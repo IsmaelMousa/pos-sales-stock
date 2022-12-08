@@ -3,6 +3,7 @@ import AdminEmployeeData from './AdminEmployeeData.json';
 import ReadOnlyEmployeeRow from './ReadOnlyEmployeeRow';
 import EditEmployeeTableRow from "./EditEmployeeTableRow";
 import { useState, Fragment } from "react";
+import "./AdminEmployeeTable.css";
 
 const AdminEmployeeTable = () => {
     const [contacts, setContacts] = useState(AdminEmployeeData);
@@ -114,7 +115,7 @@ const AdminEmployeeTable = () => {
     return (
     <div className="">
         
-        <h4>Add New Employee</h4>
+        <h4 id="title-empolyee">Add New Employee</h4>
         <form onSubmit={handleAddFormSubmit}>
           <input
             type="text"
@@ -151,12 +152,12 @@ const AdminEmployeeTable = () => {
             placeholder="Rank"
             onChange={handleAddFormChange}
           />
-          <button type="submit">Add</button>
+          <button  type="submit">Add</button>
           <button type='reset'>Reset</button>
         </form>
         <form onSubmit={handleEditFormSubmit}>
-        <table>
-            <thead>
+        <table id="table-employee">
+            <thead >
                     <tr>
                         <th>Name</th>
                         <th>Phone</th>
