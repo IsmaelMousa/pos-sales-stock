@@ -1,4 +1,5 @@
+import LoginSignup from"./components/menu-page/login-signup/LoginSignup"
 function App() {
-  return <div></div>;
+  return (<LoginSignup/>);
 }
 export default App;
