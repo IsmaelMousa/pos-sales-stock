@@ -1,0 +1,38 @@
+.table-table-hover {
+   color:rgb(0, 0, 0);
+   font-size: 20px;
+   border-collapse: collapse;
+  width: 100%;
+ background-color:#eeeeee;
+ }
+ .text-center{
+   padding: 10px;
+ }
+ td{
+   border: 1px solid rgb(0, 0, 0);
+ }
+ th{
+ border: 1px solid rgb(0, 0, 0);
+ background-color: #b9d2e1e9;
+ border-collapse: collapse;
+ }
+ .h4-text-center {
+ font-size: 40px;
+ color: #565658;
+ margin-top: 20px;
+ text-align: center;
+ }
+ .btn{
+ background-color: #2e4469;
+ border-radius: 5px;
+ position: relative;
+ color: rgb(249, 249, 249);
+ padding: 10px 14px  ;
+ text-align: center;
+ font-size: 15px;
+ margin: 10px;
+ width: 80px;
+ }
+ .btn:hover {
+ box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
+ }

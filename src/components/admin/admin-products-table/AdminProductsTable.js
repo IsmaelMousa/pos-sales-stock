@@ -1,25 +1,27 @@
 import { nanoid } from "nanoid";
-import AdminEmployeeData from "./AdminEmployeeData.json";
-import ReadOnlyEmployeeRow from "./ReadOnlyEmployeeRow";
-import EditEmployeeTableRow from "./EditEmployeeTableRow";
+import AdminProductsData from "./AdminProductsData.json";
+import ReadOnlyProductsRow from "./ReadOnlyProductsRow";
+import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
-
-const AdminEmployeeTable = () => {
-  const [contacts, setContacts] = useState(AdminEmployeeData);
+import "./AdminProductsTable.css"
+const AdminProductsTable = () => {
+  const [contacts, setContacts] = useState(AdminProductsData);
   const [addFormData, setAddFormData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    address: "",
-    rank: "",
+    category: "",
+    subCategory: "",
+    productName: "",
+    costPrice: "",
+    price: "",
+    quantity: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    address: "",
-    rank: "",
+    category: "",
+    subCategory: "",
+    productName: "",
+    costPrice: "",
+    price: "",
+    quantity: "",
   });
   const [editContactId, setEditContactId] = useState(null);
 
@@ -52,11 +54,12 @@ const AdminEmployeeTable = () => {
 
     const newContact = {
       id: nanoid(),
-      name: addFormData.name,
-      phone: addFormData.phone,
-      email: addFormData.email,
-      address: addFormData.address,
-      rank: addFormData.rank,
+      category: addFormData.category,
+      subCategory: addFormData.subCategory,
+      productName: addFormData.productName,
+      costPrice: addFormData.costPrice,
+      price: addFormData.price,
+      quantity: addFormData.quantity,
     };
 
     const newContacts = [...contacts, newContact];
@@ -66,11 +69,12 @@ const AdminEmployeeTable = () => {
     event.preventDefault();
     const editedContact = {
       id: editContactId,
-      name: editFormData.name,
-      phone: editFormData.phone,
-      email: editFormData.email,
-      address: editFormData.address,
-      rank: editFormData.rank,
+      category: editFormData.category,
+      subCategory: editFormData.subCategory,
+      productName: editFormData.productName,
+      costPrice: editFormData.costPrice,
+      price: editFormData.price,
+      quantity: editFormData.quantity,
     };
     const newContacts = [...contacts];
 
@@ -87,11 +91,12 @@ const AdminEmployeeTable = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      name: contact.name,
-      phone: contact.phone,
-      email: contact.email,
-      address: contact.address,
-      rank: contact.rank,
+      category: contact.category,
+      subCategory: contact.subCategory,
+      productName: contact.productName,
+      costPrice: contact.costPrice,
+      price: contact.price,
+      quantity: contact.quantity,
     };
 
     setEditFormData(formValues);
@@ -113,64 +118,80 @@ const AdminEmployeeTable = () => {
 
   return (
     <div className="container">
-      <h4 className="h4 text-center">Add New Employee</h4>
+      <h4 className="h4-text-center">Add New Product</h4>
       <form onSubmit={handleAddFormSubmit}>
         <input
           className="col-2 text-center"
           type="text"
-          name="name"
+          name="category"
           required="required"
-          placeholder="Name"
+          placeholder="Category"
           onChange={handleAddFormChange}
         />
         <input
           className="col-2 text-center"
           type="text"
-          name="phone"
+          name="subCategory"
           required="required"
-          placeholder="Phone"
-          onChange={handleAddFormChange}
-        />
-        <input
-          className="col-2 text-center"
-          type="email"
-          name="email"
-          required="required"
-          placeholder="Email"
+          placeholder="Sub Category"
           onChange={handleAddFormChange}
         />
         <input
           className="col-2 text-center"
           type="text"
-          name="address"
+          name="productName"
           required="required"
-          placeholder="Address"
+          placeholder="Product"
           onChange={handleAddFormChange}
         />
         <input
           className="col-2 text-center"
-          type="text"
-          name="rank"
+          type="number"
+          min="1"
+          max="1000"
+          name="costPrice"
           required="required"
-          placeholder="Rank"
+          placeholder="Cost Price"
           onChange={handleAddFormChange}
         />
-        <button type="submit" className="btn">
-          Add
-        </button>
-        <button type="reset" className="btn">
-          Reset
-        </button>
+        <input
+          className="col-2 text-center"
+          type="number"
+          name="price"
+          min="2"
+          max="10000"
+          required="required"
+          placeholder="Price"
+          onChange={handleAddFormChange}
+        />
+        <input
+          className="col-2 text-center"
+          type="number"
+          min="1"
+          name="quantity"
+          required="required"
+          placeholder="Quantity"
+          onChange={handleAddFormChange}
+        />
+        <div className="text-end">
+          <button type="submit" className="btn">
+            Add
+          </button>
+          <button type="reset" className="btn">
+            Reset
+          </button>
+        </div>
       </form>
       <form onSubmit={handleEditFormSubmit}>
-        <table className="table table-hover">
+        <table className="table-table-hover">
           <thead>
             <tr className="text-center">
-              <th scope="col">Name</th>
-              <th scope="col">Phone</th>
-              <th scope="col">Email</th>
-              <th scope="col">Address</th>
-              <th scope="col">Rank</th>
+              <th scope="col">Category</th>
+              <th scope="col">Sub-Category</th>
+              <th scope="col">Product</th>
+              <th scope="col">Cost Price</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
               <th scope="col">Action</th>
             </tr>
           </thead>
@@ -178,13 +199,13 @@ const AdminEmployeeTable = () => {
             {contacts.map((contact) => (
               <Fragment>
                 {editContactId === contact.id ? (
-                  <EditEmployeeTableRow
+                  <EditProductsTableRow
                     editFormData={editFormData}
                     handleEditFormChange={handleEditFormChange}
                     handleCancelClick={handleCancelClick}
                   />
                 ) : (
-                  <ReadOnlyEmployeeRow
+                  <ReadOnlyProductsRow
                     contact={contact}
                     handleEditClick={handleEditClick}
                     handleDeleteClick={handleDeleteClick}
@@ -198,5 +219,4 @@ const AdminEmployeeTable = () => {
     </div>
   );
 };
-
-export default AdminEmployeeTable;
+export default AdminProductsTable;

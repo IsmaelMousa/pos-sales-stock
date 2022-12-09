@@ -12,7 +12,6 @@ const WomenSubCategoryCard = (props) => {
                 <h4 className='card-title'> {props.title}</h4>
                 <button>
                     <Link to={"/Women/" + props.title}  ><b>Go</b></Link>
-
                 </button>
 
             </div>

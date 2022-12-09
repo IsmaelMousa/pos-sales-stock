@@ -8,7 +8,6 @@ import img6 from '../../../images/coat-men-1.webp';
 import img7 from '../../../images/coat-men-1.webp';
 import img8 from '../../../images/coat-men-1.webp';
 
-
 const MenSubCategoryCards = () => {
   const data = [
 

@@ -1,4 +1,4 @@
-import KidsSubCategoryCard from "./KidsSubCategoryCard";
+import KidsSubCategoryCard from './KidsSubCategoryCard';
 import img1 from "../../../images/hat-kids-sub.webp";
 import img2 from "../../../images/hoodie-kids-sub.webp";
 import img3 from "../../../images/jacket-kids-sub.webp";

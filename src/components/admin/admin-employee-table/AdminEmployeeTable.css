@@ -1,3 +1,54 @@
+.table {
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  border-collapse: collapse;
+ text-align:center;
+ width: 100%;
+background-color:#eeeeee;
+padding-bottom: 10px;
+
+}
+.text-center{
+border-collapse: collapse;
+text-align: center;
+  padding:10px 10px 10px 10px;
+}
+
+
+td{
+  border: 1px solid rgb(0, 0, 0);
+
+}
+th{
+border: 1px solid rgb(0, 0, 0);
+background-color: #a3b1bc;
+
+
+}
+.h4-text-center {
+font-size: 40px;
+color: #565658;
+margin-top: 15px;
+
+}
+
+.btn{
+background-color: #2e4469;
+border-radius: 5px;
+color: rgb(249, 249, 249);
+padding: 10px 14px  ;
+text-align: center;
+font-size: 15px;
+margin: 10px;
+width: 80px;
+border-collapse: collapse;
+margin-bottom: 1rem;
+}
+
+.btn:hover {
+box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
+}
+=======
 .body {
   background-color: #eeeeee;
 }
