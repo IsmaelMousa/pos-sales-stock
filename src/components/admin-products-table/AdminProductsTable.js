@@ -4,7 +4,6 @@ import ReadOnlyProductsRow from "./ReadOnlyProductsRow";
 import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
 import "./AdminProductsTable.css"
-
 const AdminProductsTable = () => {
   const [contacts, setContacts] = useState(AdminProductsData);
   const [addFormData, setAddFormData] = useState({
@@ -220,3 +219,4 @@ const AdminProductsTable = () => {
     </div>
   );
 };
+export default AdminProductsTable;

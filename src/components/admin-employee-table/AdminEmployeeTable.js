@@ -199,3 +199,4 @@ const AdminEmployeeTable = () => {
     </div>
   );
 };
+export default AdminEmployeeTable;
