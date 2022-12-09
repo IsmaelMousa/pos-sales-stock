@@ -20,7 +20,14 @@ import KidsPants from "./components/subCategoryPageForKids/KidsPants"
 import KidsShorts from "./components/subCategoryPageForKids/KidsShorts"
 import KidsDresses from "./components/subCategoryPageForKids/KidsDresses"
 import KidsPajamas from "./components/subCategoryPageForKids/KidsPajamas"
-
+import WomenCoats from "./components/subCategoryPageForWomen/WomenCoats"
+import WomenDressPage from "./components/subCategoryPageForWomen/WomenDresses"
+import WomenHoodiePage from "./components/subCategoryPageForWomen/WomenHoodie"
+import WomenJacket from "./components/subCategoryPageForWomen/WomenJacket"
+import WomenPantPage from "./components/subCategoryPageForWomen/WomenPants"
+import WomenPyjamas from "./components/subCategoryPageForWomen/WomenPyjamas"
+import WomenShirtsPage from "./components/subCategoryPageForWomen/WomenShirt"
+import WomenTShirt from "./components/subCategoryPageForWomen/WomenTShirts"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -38,8 +45,16 @@ root.render(
         <Route path='/kids/Jackets' element={<KidsJackets />} />
         <Route path='/kids/Pants' element={<KidsPants />} />
         <Route path='/kids/Shorts' element={<KidsShorts />} />
-        <Route path='/kids/Dresses' element={<KidsDresses />} />2
+        <Route path='/kids/Dresses' element={<KidsDresses />} />
         <Route path='/kids/Pyjamas' element={<KidsPajamas />} />
+        <Route path='/Women/Coats' element={<WomenCoats />} />
+        <Route path='/Women/Dresses' element={<WomenDressPage />} />
+        <Route path='/Women/Hoodies' element={<WomenHoodiePage />} />
+        <Route path='/Women/Jacket' element={<WomenJacket />} />
+        <Route path='/Women/Pants' element={<WomenPantPage />} />
+        <Route path='/Women/Pyjamas' element={<WomenPyjamas />} />
+        <Route path='/Women/Shirt' element={<WomenShirtsPage />} />
+        <Route path='/Women/T-Shirts' element={<WomenTShirt />} />
       </Routes>
     </BrowserRouter>
     <App />
