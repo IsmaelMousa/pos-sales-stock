@@ -1,69 +1,38 @@
-.table-admin {
-  margin: 2px;
-  color:#000;
-  border: 1px solid #fff;
-  font-size: 20px;
-  border-collapse: collapse;
-  display: flex;
- flex-direction:column;
- gap: 20px;
- padding: 2rem;
- text-align:center;
- width: 100%;
-background-color:#eeeeee;
-
-}
-
-
-.head{
-   text-align: center;
-   width: 100%;
-}
-table, td , tr,th{ border:1px solid rgb(93, 92, 92);
-   border-collapse: collapse ;
-   text-align:center;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 7px;
-
-
-}
-th{
-padding: 20px;
-color: #000;
-   background-color: #dce1e5;
-}
-
- button {
- background-color:#32476c;
- border-radius: 10px;
- border:none;
- color: white;
- padding: 15px 32px;
+.table-table-hover {
+   color:rgb(0, 0, 0);
+   font-size: 20px;
+   border-collapse: collapse;
+  width: 100%;
+ background-color:#eeeeee;
+ }
+ .text-center{
+   padding: 10px;
+ }
+ td{
+   border: 1px solid rgb(0, 0, 0);
+ }
+ th{
+ border: 1px solid rgb(0, 0, 0);
+ background-color: #b9d2e1e9;
+ border-collapse: collapse;
+ }
+ .h4-text-center {
+ font-size: 40px;
+ color: #565658;
+ margin-top: 20px;
  text-align: center;
- text-decoration: none;
- display: inline-block;
+ }
+ .btn{
+ background-color: #2e4469;
+ border-radius: 5px;
+ position: relative;
+ color: rgb(249, 249, 249);
+ padding: 10px 14px  ;
+ text-align: center;
  font-size: 15px;
- margin: 12px;
- width: 100px;
-
-}
-
-form {
-   display: inline-block;
-     gap: 3px;
-     
-     
-}
-
-form td:last-child {
-display: flex;
-justify-content: space-evenly;
-}
-button:hover{
-   box-shadow: 5px 10px 20px 1px rgba(37, 54, 79, 0.363)!important;}
-
-#title-products{
-font-size: 40px;
-color:#5c5a5a;
-}
+ margin: 10px;
+ width: 80px;
+ }
+ .btn:hover {
+ box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
+ }
