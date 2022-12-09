@@ -1,5 +1,6 @@
 import React from 'react';
 import './WomenSubCategoryCards.css';
+import { Link } from 'react-router-dom';
 
 const WomenSubCategoryCard = (props) => {
     return (
@@ -9,9 +10,10 @@ const WomenSubCategoryCard = (props) => {
             </div>
             <div className='card-body text-dark '>
                 <h4 className='card-title'> {props.title}</h4>
-                <a href='#' className='btn btn-outline'><b> GO </b> </a>
+                <button>
+                    <Link to={"/Women/" + props.title}  ><b>Go</b></Link>
 
-
+                </button>
 
             </div>
         </div>);
