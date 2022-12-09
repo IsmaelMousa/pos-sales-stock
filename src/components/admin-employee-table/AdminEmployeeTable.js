@@ -3,6 +3,7 @@ import AdminEmployeeData from "./AdminEmployeeData.json";
 import ReadOnlyEmployeeRow from "./ReadOnlyEmployeeRow";
 import EditEmployeeTableRow from "./EditEmployeeTableRow";
 import { useState, Fragment } from "react";
+import "./AdminEmployeeTable.css";
 
 const AdminEmployeeTable = () => {
   const [contacts, setContacts] = useState(AdminEmployeeData);
@@ -113,7 +114,7 @@ const AdminEmployeeTable = () => {
 
   return (
     <div className="container">
-      <h4 className="h4 text-center">Add New Employee</h4>
+      <h4 className="h4-text-center">Add New Employee</h4>
       <form onSubmit={handleAddFormSubmit}>
         <input
           className="col-2 text-center"
@@ -198,5 +199,4 @@ const AdminEmployeeTable = () => {
     </div>
   );
 };
-
 export default AdminEmployeeTable;

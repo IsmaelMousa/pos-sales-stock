@@ -3,7 +3,7 @@ import AdminProductsData from "./AdminProductsData.json";
 import ReadOnlyProductsRow from "./ReadOnlyProductsRow";
 import EditProductsTableRow from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
-
+import "./AdminProductsTable.css"
 const AdminProductsTable = () => {
   const [contacts, setContacts] = useState(AdminProductsData);
   const [addFormData, setAddFormData] = useState({
@@ -118,7 +118,7 @@ const AdminProductsTable = () => {
 
   return (
     <div className="container">
-      <h4 className="h4 text-center">Add New Product</h4>
+      <h4 className="h4-text-center">Add New Product</h4>
       <form onSubmit={handleAddFormSubmit}>
         <input
           className="col-2 text-center"
@@ -183,7 +183,7 @@ const AdminProductsTable = () => {
         </div>
       </form>
       <form onSubmit={handleEditFormSubmit}>
-        <table className="table table-hover">
+        <table className="table-table-hover">
           <thead>
             <tr className="text-center">
               <th scope="col">Category</th>
@@ -219,5 +219,4 @@ const AdminProductsTable = () => {
     </div>
   );
 };
-
 export default AdminProductsTable;

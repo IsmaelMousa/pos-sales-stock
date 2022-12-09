@@ -11,11 +11,15 @@ body{
     display: inline-block;
    
 }
-.btn-outline{
-margin-top: 30px;
-align-content: center;
-padding-left: 10px;
-padding-right: 10px;
+.btn-outline-men{
+    margin-top: 10px;
+    color: #f8f4f8;
+    border-radius: 10px ;
+    background-color: #141514;
+    font-size: 25px;
+    width: 40%;
+    padding: 1%;
+
 }
 .card-title{
 font-size:xx-large;
