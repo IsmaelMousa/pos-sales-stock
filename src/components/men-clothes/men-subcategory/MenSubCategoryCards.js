@@ -12,7 +12,7 @@ const MenSubCategoryCards = () => {
   const data = [
 
 
-    { title: "Coat", img: img1},
+    { title: "Coat", img: img1 },
     { title: "Jacket", img: img2 },
     { title: "T-Shirt", img: img3 },
     { title: "Shirt", img: img4 },
