@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./KidsSubCategoryCards.css"
+import "./KidsSubCategoryCards.css";
 const KidsSubCategoryCard = (props) => {
   return (
     <div className="card">

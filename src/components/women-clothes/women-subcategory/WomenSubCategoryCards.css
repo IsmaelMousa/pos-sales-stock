@@ -1,10 +1,4 @@
-body{
-    background: radial-gradient(#cbbdc7,rgb(245, 240, 245),#f4ebf3);
-    padding-left: 70px ;
-    border: 1px solid #dadada;
 
-
-}
 .card{
     width: 20rem;
     margin: 10px;
@@ -26,13 +20,13 @@ body{
 }
 
 .card-title{
-    color: #96788c;
+    color: #000000;
 }
 .btn-outline-women{
     margin-top: 10px;
     color: #f8f4f8;
     border-radius: 10px ;
-    background-color: #d4b3d4;
+    background-color: #000000;
     font-size: 25px;
     width: 40%;
     padding: 1%;

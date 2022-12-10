@@ -1,49 +1,33 @@
-body{
-    background: radial-gradient(white);
-    padding-left: 70px ;
-    border: 1px solid white;
-}
 
 .card{
     width: 20rem;
     margin: 10px;
-    background-color: white;
-    display: inline-block;
-   
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+
 }
-.btn-outline-men{
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+
+.card-img-top{
+    height: 20rem;
+    width: 15rem;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.card-title{
+    color: #96788c;
+}
+.btn{
     margin-top: 10px;
     color: #f8f4f8;
     border-radius: 10px ;
-    background-color: #141514;
+    background-color: #000000;
     font-size: 25px;
     width: 40%;
     padding: 1%;
-
-}
-.card-title{
-font-size:xx-large;
-text-align: center;
-}
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0, 0,0,0.253)!important;
-}
-.card-body{
-    padding: auto;
-    margin: auto;
-}
-.card-fluid .row{
-padding-left: 10px;
-padding-right: 10px;
-}
-.overflow{
-    overflow: hidden;
-}
-.card-img-top{
-    transition: transform 0.5s ease;
-
-    height: 20rem;
-    width: 19rem;
-   
-
 }
