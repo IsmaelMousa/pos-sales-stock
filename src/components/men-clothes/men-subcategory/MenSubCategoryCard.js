@@ -1,5 +1,5 @@
 import React from 'react';
-import'./MenSubCategoryCard.css';
+import"./MenSubCategoryCard.css";
 
 
 const MenSubCategoryCard= (props) =>{
@@ -10,7 +10,7 @@ const MenSubCategoryCard= (props) =>{
             </div>
             <div className='card-body text-dark'>
  <h4 className='card-title'> {props.title}</h4>
- <a href='#' className='btn btn-outline-men'> <b>GO</b> </a>
+ <a href='#' className='btn btn-outline'> <b>Go</b> </a>
 
 
 
