@@ -77,10 +77,10 @@ const EditProductsTableRow = ({
         ></input>
       </td>
       <td className="td">
-        <button type="submit " className="btn">
+        <button type="submit " className="btn" id="btn">
           Save
         </button>
-        <button type="button" className="btn" onClick={handleCancelClick}>
+        <button type="button" className="btn"  id="btn" onClick={handleCancelClick}>
           Cancel
         </button>
       </td>
