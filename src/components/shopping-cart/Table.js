@@ -38,10 +38,10 @@ const Table = () => {
                     <td>5$</td>
                     <td><button className="btn btn-outline-danger"> Delete</button></td>
                 </tr>
-                <div>
-                    <button id="but11" className=" btn btn-outline-primary" onClick={Print}> Checkout</button>
-                    <p className="/"> Total Price = 118$</p>
-                </div>
+                <tr>
+                    <td colSpan={3}>Total Price = 118$</td>
+                    <td>  <button id="but11" className=" btn btn-outline-primary" onClick={Print}> Checkout</button></td>
+                </tr>
             </tbody>
         </table>
     )

@@ -5,3 +5,21 @@
     top: 266px;
     right: 213px;
 }
+
+.table-striped {
+    border-collapse: separate;
+
+}
+
+.table-striped thead th {
+    text-align: center;
+}
+
+.table-striped thead tr {
+    background-color: rgb(193, 209, 204);
+}
+
+.table-striped tbody td {
+    font-size: 20px;
+    text-align: center;
+}
