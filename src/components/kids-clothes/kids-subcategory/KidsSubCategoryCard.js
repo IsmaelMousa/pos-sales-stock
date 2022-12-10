@@ -8,7 +8,7 @@ const KidsSubCategoryCard = (props) => {
       <div class="card-body">
         <h4 className='card-title'> {props.title}</h4>
         <button>
-          <Link to={"/kids/" + props.title}  ><b>Go</b></Link>
+          <Link to={"/kids/" + props.title}  ><b> Go </b></Link>
         </button>
       </div>
     </div>

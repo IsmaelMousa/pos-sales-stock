@@ -28,6 +28,15 @@ import WomenPantPage from "./components/subCategoryPageForWomen/WomenPants"
 import WomenPyjamas from "./components/subCategoryPageForWomen/WomenPyjamas"
 import WomenShirtsPage from "./components/subCategoryPageForWomen/WomenShirt"
 import WomenTShirt from "./components/subCategoryPageForWomen/WomenTShirts"
+import MenCoat from "./components/subCategoryPageForMen/MenCoat"
+import MenJacket from "./components/subCategoryPageForMen/MenJacket"
+import MenPant from "./components/subCategoryPageForMen/MenPant"
+import MenShirt from "./components/subCategoryPageForMen/MenShirt"
+import MenShort from "./components/subCategoryPageForMen/MenShort"
+import MenSweater from "./components/subCategoryPageForMen/MenSweater"
+import MenTShirt from "./components/subCategoryPageForMen/MenTShirt"
+import MenPajama from "./components/subCategoryPageForMen/MenPajama"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -55,6 +64,16 @@ root.render(
         <Route path='/Women/Pyjamas' element={<WomenPyjamas />} />
         <Route path='/Women/Shirt' element={<WomenShirtsPage />} />
         <Route path='/Women/T-Shirts' element={<WomenTShirt />} />
+        <Route path='/Men/Coat' element={<MenCoat />} />
+        <Route path='/Men/Jacket' element={<MenJacket />} />
+        <Route path='/Men/Pant' element={<MenPant />} />
+        <Route path='/Men/Shirt' element={<MenShirt />} />
+        <Route path='/Men/Short' element={<MenShort />} />
+        <Route path='/Men/Sweater' element={<MenSweater />} />
+        <Route path='/Men/T-Shirt' element={<MenTShirt />} />
+        <Route path='/Men/Pyjama' element={<MenPajama />} />
+
+
       </Routes>
     </BrowserRouter>
     <App />
