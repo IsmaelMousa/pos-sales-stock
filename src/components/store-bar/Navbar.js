@@ -1,48 +1,33 @@
-import "./NavBar.css"
-import logo from "../../images/logo.webp";
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
-    const path = window.location.pathname
+
+function NavBar() {
     return (
-        <ul>
-            <li className="logo">
-            <a  className="img"  href="index.html"><img src={logo} class="img" alt="website"/></a>
-            </li>
+        <div className="container">
 
-            <li>
-            <button className="category">
-            <a href="/sale"> Sale</a>
-            </button>
-            </li>
-            
-            <li >
-            <button className="category">
-                <a href="/men"> Men</a>
-                </button>
-            </li>
 
-            <li>
-            <button className="category">
-                <a href="/women"> Women</a>
-                </button>
-            </li>
+            <nav className="nav">
+                <ul>
+                    <li>
+                        <Link to="/"> Logo</Link>
+                    </li>
+                    <li>
+                        <Link to="/women"> Women</Link>
+                    </li>
+                    <li>
+                        <Link to="/men"> Men</Link>
+                    </li>
+                    <li>
+                        <Link to="/kids"> Kids</Link>
+                    </li>
+                    <li>
+                        <Link to="/sale"> Sale</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    );
+};
 
-            <li>
-            <button className="category">
-                <a href="/kids"> Kids</a>
-                </button>
-            </li>
-
-            <li className="return">
-                <button className="category">
-                    <a className="return" href="#">
-                        <i className="fa-solid fa-arrow-right-from-bracket" />
-                    </a>
-                </button>
-            </li>
-
-        </ul>
-        
-    )
-    
-}
+export default NavBar;

@@ -114,7 +114,7 @@ const AdminEmployeeTable = () => {
 
   return (
     <div className="container">
-      <h4 className="h4-text-center">Add New Employee</h4>
+      <h4 className="h4 text-center" id="title">Add New Employee</h4>
       <form onSubmit={handleAddFormSubmit}>
         <input
           className="col-2 text-center"
@@ -156,15 +156,15 @@ const AdminEmployeeTable = () => {
           placeholder="Rank"
           onChange={handleAddFormChange}
         />
-        <button type="submit" className="btn">
+        <button type="submit" className="btn" id="btn">
           Add
         </button>
-        <button type="reset" className="btn">
+        <button type="reset" className="btn" id="btn">
           Reset
         </button>
       </form>
       <form onSubmit={handleEditFormSubmit}>
-        <table className="table table-hover">
+        <table className="table table-hover" id="table-employee">
           <thead>
             <tr className="text-center">
               <th scope="col">Name</th>

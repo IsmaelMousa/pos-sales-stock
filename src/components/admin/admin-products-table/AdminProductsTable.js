@@ -118,8 +118,8 @@ const AdminProductsTable = () => {
 
   return (
     <div className="container">
-      <h4 className="h4-text-center">Add New Product</h4>
-      <form onSubmit={handleAddFormSubmit}>
+      <h4 className="h4 text-center" id="title"> Add New Product</h4>
+      <form onSubmit={handleAddFormSubmit} id="form">
         <input
           className="col-2 text-center"
           type="text"
@@ -174,18 +174,18 @@ const AdminProductsTable = () => {
           onChange={handleAddFormChange}
         />
         <div className="text-end">
-          <button type="submit" className="btn">
+          <button type="submit" className="btn" id="btn">
             Add
           </button>
-          <button type="reset" className="btn">
+          <button type="reset" className="btn" id="btn">
             Reset
           </button>
         </div>
       </form>
       <form onSubmit={handleEditFormSubmit}>
-        <table className="table-table-hover">
+        <table className="table table-hover" id="table-products">
           <thead>
-            <tr className="text-center">
+            <tr className="text-center"> 
               <th scope="col">Category</th>
               <th scope="col">Sub-Category</th>
               <th scope="col">Product</th>

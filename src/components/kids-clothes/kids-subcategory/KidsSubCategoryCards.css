@@ -1,43 +1,33 @@
-body{
-    background: radial-gradient(rgb(253, 253, 253));
-    padding-left: 70px ;
-    border: 1px solid white;
-}
+
 .card{
     width: 20rem;
     margin: 10px;
-    background-color: white;
-    display: inline-block;
-    
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+
 }
-.btn-outline-kids{
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+
+.card-img-top{
+    height: 20rem;
+    width: 15rem;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.card-title{
+    color: #fffbfb;
+}
+button{
     margin-top: 10px;
-    color: #f8f4f8;
     border-radius: 10px ;
-    background-color: #74a593;
+    background-color: #000000;
     font-size: 25px;
     width: 40%;
     padding: 1%;
-    margin-left: 30%;
-
-}
-.card-title{
-font-size:xx-large;
-text-align: center;
-}
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0, 0,0,0.253)!important;
-}
-
-
-.overflow{
-    overflow: hidden;
-}
-.card-img-top{
-    transition: transform 0.5s ease;
-    height: 20rem;
-    width: 19rem;
-    padding: 15px;
-   
-
 }

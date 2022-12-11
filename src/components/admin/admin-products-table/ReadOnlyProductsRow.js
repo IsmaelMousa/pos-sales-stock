@@ -15,6 +15,7 @@ const ReadOnlyProductsRow = ({
         <button
           type="button"
           className="btn"
+          id="btn"
           onClick={(event) => handleEditClick(event, contact)}
         >
           Edit
@@ -22,6 +23,7 @@ const ReadOnlyProductsRow = ({
         <button
           type="button"
           className="btn"
+          id="btn"
           onClick={() => handleDeleteClick(contact.id)}
         >
           Delete
