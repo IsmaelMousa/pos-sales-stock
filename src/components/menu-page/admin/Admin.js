@@ -1,8 +1,9 @@
 import "./Admin.css";
 const Admin = () => {
+
     return (
         <div className="admin">
-            <h1> Admin</h1>
+            <h1 className="h1"> Admin</h1>
             <form>
                 <input type={"email"} placeholder={"Email"} />
                 <input type={"password"} placeholder={"Password"} />

@@ -1,3 +1,8 @@
+import WomenSubcategoryCards from "../women-clothes/women-subcategory/WomenSubCategoryCards"
+
+
 export default function Women() {
-    return <h1> welcome to Women page </h1>
+    return (
+        <WomenSubcategoryCards />
+    )
 }
