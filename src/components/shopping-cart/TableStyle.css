@@ -1,7 +1,23 @@
-#but11 {
-    position: absolute;
-    width: 83px;
-    height: 42px;
-    top: 266px;
-    right: 213px;
-}
+.table-striped{
+    border-collapse:initial;
+    width: 60%;
+    }
+    .table-striped thead th{
+    text-align: center; 
+    width: 60%;
+       }
+    
+    .table-striped thead tr{
+    background-color:rgb(193, 209, 204);
+    }
+    
+    .table-striped tbody td{
+       font-size:25px;
+    text-align: center;
+        }
+    
+        .bi-dash-circle{
+    align-items: center;
+    
+        }
+    
