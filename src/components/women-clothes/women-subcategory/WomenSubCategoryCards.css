@@ -16,18 +16,27 @@
     height: 20rem;
     width: 15rem;
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .card-title{
     color: #000000;
 }
-.btn-outline-women{
-    margin-top: 10px;
-    color: #f8f4f8;
-    border-radius: 10px ;
-    background-color: #000000;
-    font-size: 25px;
-    width: 40%;
-    padding: 1%;
+#b3 {
+    background-color: #333;
+ border-radius:15px ;
+ align-items: center;
+ color: #fff;
+
+}
+.text3{
+    color: #fff;
+    
+}
+#b3:hover{
+    box-shadow:5px 10px 20px 1px rgba !important;
+    background-color:white;
+}
+.text3:hover{
+    color: #000000;
 }

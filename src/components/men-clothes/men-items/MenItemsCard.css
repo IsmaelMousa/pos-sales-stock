@@ -31,9 +31,9 @@ body{
 .btn{
     margin-top: 10px;
     color: #f8f4f8;
-    border-radius: 10px ;
-    background-color: #4661ff;
-    font-size: 25px;
+    border-radius:15px ;
+    background-color: #333;
+    font-size: 22px;
     width: 40%;
     padding: 1%;
 }

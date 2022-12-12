@@ -1,23 +1,39 @@
-.table-striped{
-    border-collapse:initial;
-    width: 60%;
-    }
-    .table-striped thead th{
-    text-align: center; 
-    width: 60%;
-       }
-    
-    .table-striped thead tr{
-    background-color:rgb(193, 209, 204);
-    }
-    
-    .table-striped tbody td{
-       font-size:25px;
-    text-align: center;
-        }
-    
-        .bi-dash-circle{
-    align-items: center;
-    
-        }
-    
+.table-striped {
+   border-collapse: initial;
+   width: 40%;
+   height: 60%;
+}
+
+.table-striped thead th {
+   text-align: center;
+   font-size: 23px;
+
+}
+
+.table-striped tbody td {
+   text-align: center;
+   font-size: 15px;
+}
+
+.table-striped thead tr {
+   background-color: rgb(193, 209, 204);
+}
+
+.table-striped tbody td {
+   font-size: 20px;
+   text-align: center;
+}
+#icon{
+ color: rgb(215, 28, 28);
+}
+#icon1{
+border: none;
+background: none;
+
+
+}
+.button1{
+   border-radius:15px;
+   border:solid 3px;
+   padding:8px;
+}
