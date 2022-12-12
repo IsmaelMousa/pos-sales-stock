@@ -16,15 +16,15 @@
     height: 20rem;
     width: 15rem;
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .card-title{
     color: #000000;
 }
 #b3 {
-    background-color: rgba(12, 10, 10, 0.584);
- border-radius:30px ;
+    background-color: #333;
+ border-radius:15px ;
  align-items: center;
  color: #fff;
 

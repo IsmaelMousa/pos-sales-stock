@@ -1,11 +1,12 @@
 .table-striped {
    border-collapse: initial;
-   width: 50%;
+   width: 40%;
+   height: 60%;
 }
 
 .table-striped thead th {
    text-align: center;
-   font-size: 25px;
+   font-size: 23px;
 
 }
 
@@ -19,13 +20,20 @@
 }
 
 .table-striped tbody td {
-   font-size: 25px;
+   font-size: 20px;
    text-align: center;
 }
+#icon{
+ color: rgb(215, 28, 28);
+}
+#icon1{
+border: none;
+background: none;
 
-.button {
-   background-color: rgb(193, 209, 204);
-   border-radius:5%;
-   box-shadow:0px 0px;
-  
+
+}
+.button1{
+   border-radius:15px;
+   border:solid 3px;
+   padding:8px;
 }
