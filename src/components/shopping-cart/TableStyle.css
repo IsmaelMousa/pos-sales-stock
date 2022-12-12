@@ -1,21 +1,31 @@
-.table-striped{
-    border-collapse:initial;
-    width: 70%;
-    }
-    .table-striped thead th{
-    text-align: center; 
+.table-striped {
+   border-collapse: initial;
+   width: 50%;
+}
 
-       }
-       .table-striped tbody th{
-        text-align: center;
-       }
-    
-    .table-striped thead tr{
-    background-color:rgb(193, 209, 204);
-    }
-    
-    .table-striped tbody td{
-       font-size:25px;
-    text-align: center;
-        }
-    
+.table-striped thead th {
+   text-align: center;
+   font-size: 25px;
+
+}
+
+.table-striped tbody td {
+   text-align: center;
+   font-size: 15px;
+}
+
+.table-striped thead tr {
+   background-color: rgb(193, 209, 204);
+}
+
+.table-striped tbody td {
+   font-size: 25px;
+   text-align: center;
+}
+
+.button {
+   background-color: rgb(193, 209, 204);
+   border-radius:5%;
+   box-shadow:0px 0px;
+  
+}

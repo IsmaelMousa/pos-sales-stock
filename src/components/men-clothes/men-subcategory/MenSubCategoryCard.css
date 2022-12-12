@@ -20,14 +20,23 @@
 }
 
 .card-title{
-    color: #96788c;
+    color:#000000;
 }
-.btn{
-    margin-top: 10px;
-    color: #f8f4f8;
-    border-radius: 10px ;
-    background-color: #000000;
-    font-size: 25px;
-    width: 40%;
-    padding: 1%;
+#b2 {
+    background-color: rgba(12, 10, 10, 0.584);
+ border-radius:30px ;
+ align-items: center;
+ color: #fff;
+
+}
+.text2{
+    color: #fff;
+    
+}
+#b2:hover{
+    box-shadow:5px 10px 20px 1px rgba !important;
+    background-color:white;
+}
+.text2:hover{
+    color: #000000;
 }

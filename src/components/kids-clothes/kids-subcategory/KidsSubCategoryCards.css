@@ -1,31 +1,48 @@
+
 .card{
     width: 20rem;
     margin: 10px;
     padding: 2px;
     background-color: #fff;
-    float: left;
 
 }
+
+
 .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
-.card-img-top{
+.card-img{
     height: 20rem;
     width: 15rem;
     padding-top: 10px;
     border-radius: 10px;
-    padding-left: 50px;
+align-items: center;
+  
 }
+.card-body{
+    align-items: center;
+}
+
 .card-title{
-    color: #fffbfb;
+    color: #000000;
     text-align: center;
 }
-button{
-    margin-top: 10px;
 
-    border-radius: 10px ;
-    background-color: #000000;
-    font-size: 25px;
-    width: 40%;
-    padding: 1%;
+#b1 {
+    background-color: rgba(12, 10, 10, 0.584);
+ border-radius:30px ;
+ align-items: center;
+ color: #fff;
+
+}
+.text{
+    color: #fff;
+    
+}
+#b1:hover{
+    box-shadow:5px 10px 20px 1px rgba !important;
+    background-color:white;
+}
+.text:hover{
+    color: #000000;
 }
