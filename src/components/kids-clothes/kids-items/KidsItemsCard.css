@@ -1,10 +1,4 @@
-body{
-    background: radial-gradient(rgb(187, 187, 235));
-    padding-left: 70px ;
-    border: 1px solid #ffffff;
 
-
-}
 .card{
     width: 20rem;
     margin: 10px;
@@ -18,22 +12,32 @@ body{
 }
 
 
+
+.quantity{
+    text-align: center;
+}
+.price{
+    text-align: center;
+}
+.card-text{
+    text-align:center;
+}
 .card-img-top{
-    height: 20rem;
-    width: 15rem;
-    padding-top: 10px;
-    border-radius: 15px;
+    top: 0;
+    height:20rem;
+    width:100%;
 }
 
 .card-title{
     color: #000000;
+    text-align: center;
 }
-.btn{
+#b3{
     margin-top: 10px;
     color: #f8f4f8;
-    border-radius: 10px ;
+    border-radius:15px ;
     background-color: #333;
-    font-size: 25px;
+    font-size: 22px;
     width: 40%;
     padding: 1%;
 }
