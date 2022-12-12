@@ -36,12 +36,14 @@ import MenShort from "./components/subCategoryPageForMen/MenShort"
 import MenSweater from "./components/subCategoryPageForMen/MenSweater"
 import MenTShirt from "./components/subCategoryPageForMen/MenTShirt"
 import MenPajama from "./components/subCategoryPageForMen/MenPajama"
-
+import Table from './components/shopping-cart/Table';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <NavBar />
+  <div className="perant">
+    
       <Routes>
         <Route path="/" element={<Logo />} />
         <Route path="/women" element={<Women />} />
@@ -72,9 +74,10 @@ root.render(
         <Route path='/Men/Sweater' element={<MenSweater />} />
         <Route path='/Men/T-Shirt' element={<MenTShirt />} />
         <Route path='/Men/Pyjama' element={<MenPajama />} />
-
-
       </Routes>
+      
+      <div><Table/></div>
+      </div>
     </BrowserRouter>
     <App />
   </React.StrictMode>
