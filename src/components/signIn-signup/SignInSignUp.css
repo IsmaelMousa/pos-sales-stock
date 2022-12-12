@@ -1,12 +1,13 @@
 * {
     text-align: center;
+    font-size: medium;
 }
 
-.container {
+.containers {
     margin-top: 100px;
 }
 
-.input_space {
+.input_spaces {
     margin-bottom: 10px;
 }
 
