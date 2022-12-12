@@ -42,7 +42,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <NavBar />
-  <div className="perant">
+  <div className="parent">
     
       <Routes>
         <Route path="/" element={<Logo />} />
