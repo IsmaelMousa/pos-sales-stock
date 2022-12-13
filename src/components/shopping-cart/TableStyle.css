@@ -1,12 +1,12 @@
 .table-striped {
    border-collapse: initial;
    width: 40%;
-   height: 60%;
+   height: 19%;
 }
 
 .table-striped thead th {
    text-align: center;
-   font-size: 23px;
+   font-size: 25px;
 
 }
 
@@ -18,7 +18,11 @@
 .table-striped thead tr {
    background-color: rgb(193, 209, 204);
 }
-
+.text-center{
+   
+text-align:center;
+padding-top:11px;
+}
 .table-striped tbody td {
    font-size: 20px;
    text-align: center;

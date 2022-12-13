@@ -13,16 +13,17 @@
 
 
 .card-img-top{
-    height: 20rem;
-    width: 15rem;
-    padding-top: 10px;
-    border-radius: 15px;
+    top: 0;
+    height:20rem;
+    width:100%;
 }
 
 .card-title{
     color: #000000;
+    text-align: center;
 }
 #b3 {
+    
     background-color: #333;
  border-radius:15px ;
  align-items: center;
@@ -31,6 +32,7 @@
 }
 .text3{
     color: #fff;
+    text-align: center;
     
 }
 #b3:hover{
@@ -39,4 +41,5 @@
 }
 .text3:hover{
     color: #000000;
+    text-align: center;
 }

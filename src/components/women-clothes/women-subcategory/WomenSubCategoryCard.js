@@ -9,7 +9,7 @@ const WomenSubCategoryCard = (props) => {
                 <img src={props.imgsrc} alt="..." className='card-img-top' />
                 <div className='card-body  '>
                     <h4 className='card-title'> {props.title}</h4>
-                    <button type='button' className="btn btn-outline" id="b3">
+                    <button type='button' className="d-grid col-4 mx-auto" id="b3" >
                         <Link to={"/Women/" + props.title}  ><b className='text3'> Go </b></Link>
                     </button>
                 </div>

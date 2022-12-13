@@ -9,8 +9,8 @@ const MenSubCategoryCard = (props) => {
                 <img src={props.imgsrc} alt="..." className='card-img-top' />
                 <div className='card-body '>
                     <h4 className='card-title'> {props.title}</h4>
-                    <button type='button' className="btn btn-outline" id="b2" >
-                        <Link to={"/Men/" + props.title}  ><b className='text2'> Go </b></Link>
+                    <button type='button' className="btn btn-outline" id="b3" >
+                        <Link to={"/Men/" + props.title}  ><b className='text3'> Go </b></Link>
                     </button>
                 </div>
             </div>

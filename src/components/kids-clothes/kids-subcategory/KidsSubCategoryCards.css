@@ -11,38 +11,31 @@
 .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
-.card-img{
-    height: 20rem;
-    width: 15rem;
-    padding-top: 10px;
-    border-radius: 10px;
-align-items: center;
   
+.card-img-top{
+    top: 0;
+    height:20rem;
+    width:100%;
 }
-.card-body{
-    align-items: center;
-}
-
 .card-title{
-    color: #000000;
+    color:#000000;
     text-align: center;
 }
-
-#b1 {
-    background-color:#333;
+#b3 {
+    background-color:  #333;
  border-radius:15px ;
  align-items: center;
  color: #fff;
 
 }
-.text{
+.text3{
     color: #fff;
     
 }
-#b1:hover{
+#b3:hover{
     box-shadow:5px 10px 20px 1px rgba !important;
     background-color:white;
 }
-.text:hover{
+.text3:hover{
     color: #000000;
 }

@@ -7,7 +7,7 @@ const Table = () => {
         <table className="table table-striped">
             <thead>
                 <tr>
-                    <th scope="col">Product Name</th>
+                    <th scope="col">Product</th>
                     <th scope="col">Quantity</th>
                     <th scope="col">Price</th>
                     <th scope="col" ><svg xmlns="http://www.w3.org/2000/svg" id="icon" width="25" height="25" fill="currentColor" className="bi bi-trash-fill fa-3x" viewBox="0 0 16 16">
@@ -63,7 +63,7 @@ const Table = () => {
                     </td>
                 </tr>
                 <tr>
-                    <td colSpan={3}> <b>Total Price = 118$</b></td>
+                    <td colSpan={3}> <p className="text-center">Total Price = 118$</p></td>
                     <td>
                         <button className="button1" onClick={Print}><b> Checkout </b></button></td>
                 </tr>
