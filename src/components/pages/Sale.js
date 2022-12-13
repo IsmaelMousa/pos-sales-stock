@@ -1,4 +1,5 @@
-export default function Sale() {
-    return <h1> welcome to Sale page </h1>
+import SalesPage from "../sales-items/SalesPage";
 
+export default function Sale() {
+  return <SalesPage />;
 }

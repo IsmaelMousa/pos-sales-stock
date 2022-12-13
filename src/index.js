@@ -5,7 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
-
 import Logo from "./components/pages/logos"
 import Women from "./components/pages/Women"
 import Men from "./components/pages/Men"
@@ -45,11 +44,11 @@ root.render(
       <div className="parent">
 
         <Routes>
-          <Route path="/" element={<Logo />} />
+          <Route path="/" element={<Sale/>} />
           <Route path="/women" element={<Women />} />
           <Route path="/men" element={<Men />} />
           <Route path="/kids" element={<Kids />} />
-          <Route path="/sale" element={<Sale />} />
+          <Route path="/logo" element={<Logo />} />
           <Route path='/kids/Hat' element={<KidsHats />} />
           <Route path='/kids/Hoodies' element={<KidsHoodies />} />
           <Route path='/kids/T-Shirts' element={<KidsTShirt />} />

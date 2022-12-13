@@ -31,7 +31,7 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="main">
           <ul className="navbar-nav ms-5 mb-2 mb-lg-1" >
             <li className="nav-item">
-              <Link to="/Sale" className="nav-link p-lg-3 active" aria-current="page" >Sale</Link>
+              <Link to="/" className="nav-link p-lg-3 active" aria-current="page" >Sales</Link>
             </li>
 
             <li className="nav-item">
@@ -43,7 +43,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <Link to="/kids" className="nav-link  p-lg-3">kids</Link>
+              <Link to="/kids" className="nav-link  p-lg-3">Kids</Link>
             </li>
 
 
