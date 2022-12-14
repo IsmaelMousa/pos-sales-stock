@@ -1,4 +1,4 @@
-import WomenItemsCard from "./WomenItemsCard"
+import ItemsCard from "./WomenItemsCard"
 import img1 from"../../../images/dress-women-1.webp";
 import img2 from"../../../images/dress-women-2.webp";
 import img3 from"../../../images/dress-women-3.webp";
@@ -22,7 +22,7 @@ const WomenDressPage= () =>{
     ]
     return(
     <div>
-        {data.map((props) => {return (<WomenItemsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>)})}
+        {data.map((props) => {return (<ItemsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>)})}
     </div>);
     }
 export default WomenDressPage;

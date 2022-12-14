@@ -1,11 +1,11 @@
 import { nanoid } from "nanoid";
-import AdminProductsData from "./AdminProductsData.json";
-import ReadOnlyProductsRow from "./ReadOnlyProductsRow";
-import EditProductsTableRow from "./EditProductsTableRow";
+import Data from "./AdminProductsData.json";
+import Actions from "./ReadOnlyProductsRow";
+import Edit from "./EditProductsTableRow";
 import { useState, Fragment } from "react";
 import "./AdminProductsTable.css"
-const AdminProductsTable = () => {
-  const [contacts, setContacts] = useState(AdminProductsData);
+const Table = () => {
+  const [contacts, setContacts] = useState(Data);
   const [addFormData, setAddFormData] = useState({
     category: "",
     subCategory: "",
@@ -199,13 +199,13 @@ const AdminProductsTable = () => {
             {contacts.map((contact) => (
               <Fragment>
                 {editContactId === contact.id ? (
-                  <EditProductsTableRow
+                  <Edit
                     editFormData={editFormData}
                     handleEditFormChange={handleEditFormChange}
                     handleCancelClick={handleCancelClick}
                   />
                 ) : (
-                  <ReadOnlyProductsRow
+                  <Actions
                     contact={contact}
                     handleEditClick={handleEditClick}
                     handleDeleteClick={handleDeleteClick}
@@ -219,4 +219,4 @@ const AdminProductsTable = () => {
     </div>
   );
 };
-export default AdminProductsTable;
+export default Table;

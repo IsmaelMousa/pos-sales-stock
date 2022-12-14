@@ -1,4 +1,4 @@
-const ReadOnlyProductsRow = ({
+const Actions = ({
   contact,
   handleEditClick,
   handleDeleteClick,
@@ -33,4 +33,4 @@ const ReadOnlyProductsRow = ({
   );
 };
 
-export default ReadOnlyProductsRow;
+export default Actions;

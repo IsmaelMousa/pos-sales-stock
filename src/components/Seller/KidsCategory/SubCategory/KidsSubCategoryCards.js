@@ -1,4 +1,4 @@
-import KidsSubCategoryCard from './KidsSubCategoryCard';
+import SubCategoryCard from './KidsSubCategoryCard';
 import  './KidsSubCategoryCards.css';
 
 import img1 from "../../../images/hat-kids-sub.webp";
@@ -25,7 +25,7 @@ const KidsSubCategoryCards = () => {
       {
         data.map((item) => {
           return (
-            <KidsSubCategoryCard title={item.title} img={item.img} />
+            <SubCategoryCard title={item.title} img={item.img} />
           )
         }
         )

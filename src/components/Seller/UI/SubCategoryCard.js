@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './KidsSubCategoryCards.css';
-const KidsSubCategoryCard = (props) => {
+const SubCategoryCard = (props) => {
   return (
     <div className="card">
         <div className="overflow">
@@ -19,4 +19,4 @@ const KidsSubCategoryCard = (props) => {
 
   );
 }
-export default KidsSubCategoryCard;
+export default SubCategoryCard;

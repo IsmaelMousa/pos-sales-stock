@@ -1,12 +1,12 @@
 import { nanoid } from "nanoid";
-import AdminEmployeeData from "./AdminEmployeeData.json";
-import ReadOnlyEmployeeRow from "./ReadOnlyEmployeeRow";
-import EditEmployeeTableRow from "./EditEmployeeTableRow";
+import Data from "./AdminEmployeeData.json";
+import Actions from "./ReadOnlyEmployeeRow";
+import Edit from "./EditEmployeeTableRow";
 import { useState, Fragment } from "react";
 import "./AdminEmployeeTable.css";
 
-const AdminEmployeeTable = () => {
-  const [contacts, setContacts] = useState(AdminEmployeeData);
+const Table = () => {
+  const [contacts, setContacts] = useState(Data);
   const [addFormData, setAddFormData] = useState({
     name: "",
     phone: "",
@@ -179,13 +179,13 @@ const AdminEmployeeTable = () => {
             {contacts.map((contact) => (
               <Fragment>
                 {editContactId === contact.id ? (
-                  <EditEmployeeTableRow
+                  <Edit
                     editFormData={editFormData}
                     handleEditFormChange={handleEditFormChange}
                     handleCancelClick={handleCancelClick}
                   />
                 ) : (
-                  <ReadOnlyEmployeeRow
+                  <Actions
                     contact={contact}
                     handleEditClick={handleEditClick}
                     handleDeleteClick={handleDeleteClick}
@@ -199,4 +199,4 @@ const AdminEmployeeTable = () => {
     </div>
   );
 };
-export default AdminEmployeeTable;
+export default Table;

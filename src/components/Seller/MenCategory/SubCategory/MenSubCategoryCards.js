@@ -1,4 +1,4 @@
-import MenSubCategoryCard from "../men-subcategory/MenSubCategoryCard";
+import SubCategoryCard from "../men-subcategory/MenSubCategoryCard";
 import img1 from "../../../images/coat-men-sub.webp";
 import img2 from "../../../images/jacket-men-sub.webp";
 import img3 from "../../../images/t-shirt-men-sub.webp";
@@ -29,7 +29,7 @@ const MenSubCategoryCards = () => {
       {
         data.map((props) => {
           return (
-            <MenSubCategoryCard title={props.title} imgsrc={props.img} />
+            <SubCategoryCard title={props.title} imgsrc={props.img} />
 
           )
         }
