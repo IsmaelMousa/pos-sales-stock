@@ -1,0 +1,39 @@
+
+.card{
+    width: 20rem;
+    margin: 10px;
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
+}
+
+.card-img-top{
+    top: 0;
+    height:20rem;
+    width:100%;
+}
+.card-title{
+    color:#000000;
+}
+#b3 {
+    background-color:  #333;
+ border-radius:15px ;
+ align-items: center;
+ color: #fff;
+
+}
+.text2{
+    color: #fff;
+    
+}
+#b2:hover{
+    box-shadow:5px 10px 20px 1px rgba !important;
+    background-color:white;
+}
+.text2:hover{
+    color: #000000;
+}
