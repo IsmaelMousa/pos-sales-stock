@@ -1,4 +1,4 @@
-import KidsItemsCard from "./KidsItemsCard";
+import ItemsCard from "./KidsItemsCard";
 import img1 from"../../../images/hodies-kids-1.webp";
 import img2 from"../../../images/hodies-kids-2.webp";
 import img3 from"../../../images/hodies-kids-3.webp";
@@ -22,7 +22,7 @@ const KidsHodiePage= () =>{
     ]
     return(
     <div>
-        {data.map((props) => {return (<KidsItemsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>)})}
+        {data.map((props) => {return (<ItemsCard title={props.title} imgsrc={props.img} price={props.price} quantity={props.quantity}/>)})}
     </div>);
     }
 export default  KidsHodiePage;

@@ -1,4 +1,4 @@
-const EditProductsTableRow = ({
+const Edit = ({
   editFormData,
   handleEditFormChange,
   handleCancelClick,
@@ -88,4 +88,4 @@ const EditProductsTableRow = ({
   );
 };
 
-export default EditProductsTableRow;
+export default Edit;

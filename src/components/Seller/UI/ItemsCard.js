@@ -1,5 +1,5 @@
 import'./KidsItemsCard.css';
-const KidsItemsCard= (props) =>{
+const ItemsCard= (props) =>{
     return (
     <div className="card">
         <div className="overflow">
@@ -18,4 +18,4 @@ const KidsItemsCard= (props) =>{
 
 
 }
-export default KidsItemsCard;
+export default ItemsCard;

@@ -1,4 +1,4 @@
-import WomenSubCategoryCard from "./WomenSubCategoryCard";
+import SubCategoryCard from "./WomenSubCategoryCard";
 import img1 from "../../../images/shirt-women-sub.webp";
 import img2 from "../../../images/hoodie-women-sub.webp";
 import img3 from "../../../images/jacket-women-sub.webp";
@@ -25,7 +25,7 @@ const WomenSubcategoryCards = () => {
       {
         data.map((props) => {
           return (
-            <WomenSubCategoryCard title={props.title} imgsrc={props.img} />
+            <SubCategoryCard title={props.title} imgsrc={props.img} />
           )
         }
         )
