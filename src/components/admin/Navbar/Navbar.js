@@ -14,12 +14,12 @@ function NavBar() {
      </li>
 
     <li className="button">
-         <Link to="/AdminProductsTable"></Link>
+         <Link to="#"></Link>
          <i class="fa-solid fa-user-plus"></i>
     </li>
 
     <li  className="button">
-          <Link to="/AdminEmployeeTable"></Link>
+          <Link to="#"></Link>
           <i class="fa-sharp fa-solid fa-cart-plus"></i>
     </li>
 
