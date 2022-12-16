@@ -1,9 +1,6 @@
 import React from "react";
 import "./Navbar.css"
-import logo from "../../images/logo.webp";
 import { Link } from "react-router-dom";
-
-
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top">
@@ -11,7 +8,7 @@ function NavBar() {
 
 
     <nav className="justify-content-center">
-     <div className="search" classname="container-fluid">
+     <div className="search container-fluid">
       <form className="d-flex">
        <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search"/>
       
@@ -21,7 +18,7 @@ function NavBar() {
         
           <div className="logo">
         <Link to="/index.html" > 
-           <img  src={logo} className="img" alt="website"/> 
+           <img  src="../../images/logo.webp" className="img" alt="website"/> 
            </Link> 
           </div>
         
@@ -35,15 +32,15 @@ function NavBar() {
               </li>
 
               <li className="nav-item">
-              <Link to="/Men" className="nav-link  p-lg-3">Men</Link>
+              <Link to="/subcategory?category=Men" className="nav-link  p-lg-3">Men</Link>
               </li>
 
               <li className="nav-item">
-              <Link to="/Women" className="nav-link  p-lg-3">Women</Link>
+              <Link to="/subcategory?category=Women" className="nav-link  p-lg-3">Women</Link>
               </li>
 
               <li className="nav-item">
-                <Link to="/kids" className="nav-link  p-lg-3">kids</Link>
+                <Link to="/subcategory?category=Kids" className="nav-link  p-lg-3">Kids</Link>
               </li>
              
               

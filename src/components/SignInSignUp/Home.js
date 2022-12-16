@@ -27,6 +27,7 @@ function Home() {
             <button onClick={logout} className="logout">LogOut</button>
             <button onClick={deleteAccount} className="delete">Delete</button>
             <button onClick={goSeller} className="go">Go to Seller Page</button>
+
             <div>
                 {active === "NavBar" && <NavBar />}
                 {active === "" && <div>

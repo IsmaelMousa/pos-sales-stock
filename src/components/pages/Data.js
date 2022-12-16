@@ -1,4 +1,4 @@
-[
+const array=[
  {
     "id": 1,
     "category": "Men",
@@ -7,7 +7,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/coat-men-1.webp"
+    "image": "../../images/coat-men-1.webp"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/coat-men-2.webp"
+    "image": "../../images/coat-men-2.webp"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/coat-men-3.webp"
+    "image": "../../images/coat-men-3.webp"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/coat-men-4.webp"
+    "image": "../../images/coat-men-4.webp"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/coat-men-5.webp"
+    "image": "../../images/coat-men-5.webp"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/coat-men-6.webp"
+    "image": "../../images/coat-men-6.webp"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/coat-men-7.webp"
+    "image": "../../images/coat-men-7.webp"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/coat-men-8.webp"
+    "image": "../../images/coat-men-8.webp"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pants-men-1.webp"
+    "image": "../../images/pants-men-1.webp"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pants-men-2.webp"
+    "image": "../../images/pants-men-2.webp"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pants-men-3.webp"
+    "image": "../../images/pants-men-3.webp"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pants-men-4.webp"
+    "image": "../../images/pants-men-4.webp"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pants-men-5.webp"
+    "image": "../../images/pants-men-5.webp"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pants-men-6.webp"
+    "image": "../../images/pants-men-6.webp"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pants-men-7.webp"
+    "image": "../../images/pants-men-7.webp"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pants-men-8.webp"
+    "image": "../../images/pants-men-8.webp"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pajama-men-1.webp"
+    "image": "../../images/pajama-men-1.webp"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pajama-men-2.webp"
+    "image": "../../images/pajama-men-2.webp"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pajama-men-3.webp"
+    "image": "../../images/pajama-men-3.webp"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pajama-men-4.webp"
+    "image": "../../images/pajama-men-4.webp"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pajama-men-5.webp"
+    "image": "../../images/pajama-men-5.webp"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pajama-men-6.webp"
+    "image": "../../images/pajama-men-6.webp"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pajama-men-7.webp"
+    "image": "../../images/pajama-men-7.webp"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pajama-men-8.webp"
+    "image": "../../images/pajama-men-8.webp"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/shirt-men-1.webp"
+    "image": "../../images/shirt-men-1.webp"
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/shirt-men-2.webp"
+    "image": "../../images/shirt-men-2.webp"
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/shirt-men-3.webp"
+    "image": "../../images/shirt-men-3.webp"
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/shirt-men-4.webp"
+    "image": "../../images/shirt-men-4.webp"
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/shirt-men-5.webp"
+    "image": "../../images/shirt-men-5.webp"
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/shirt-men-6.webp"
+    "image": "../../images/shirt-men-6.webp"
   },
   {
     "id": 31,
@@ -307,7 +307,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/shirt-men-7.webp"
+    "image": "../../images/shirt-men-7.webp"
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/shirt-men-8.webp"
+    "image": "../../images/shirt-men-8.webp"
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/short-men-1.webp"
+    "image": "../../images/short-men-1.webp"
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/short-men-2.webp"
+    "image": "../../images/short-men-2.webp"
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/short-men-3.webp"
+    "image": "../../images/short-men-3.webp"
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/short-men-4.webp"
+    "image": "../../images/short-men-4.webp"
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/short-men-5.webp"
+    "image": "../../images/short-men-5.webp"
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/short-men-6.webp"
+    "image": "../../images/short-men-6.webp"
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/short-men-7.webp"
+    "image": "../../images/short-men-7.webp"
   },
   {
     "id": 40,
@@ -397,7 +397,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/short-men-8.webp"
+    "image": "../../images/short-men-8.webp"
   },
   {
     "id": 41,
@@ -407,7 +407,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/tshirt-men-1.webp"
+    "image": "../../images/tshirt-men-1.webp"
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/tshirt-men-2.webp"
+    "image": "../../images/tshirt-men-2.webp"
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/tshirt-men-3.webp"
+    "image": "../../images/tshirt-men-3.webp"
   },
   {
     "id": 44,
@@ -437,7 +437,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/tshirt-men-4.webp"
+    "image": "../../images/tshirt-men-4.webp"
   },
   {
     "id": 45,
@@ -447,7 +447,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/tshirt-men-5.webp"
+    "image": "../../images/tshirt-men-5.webp"
   },
   {
     "id": 46,
@@ -457,7 +457,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/tshirt-men-6.webp"
+    "image": "../../images/tshirt-men-6.webp"
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/tshirt-men-7.webp"
+    "image": "../../images/tshirt-men-7.webp"
   },
   {
     "id": 48,
@@ -477,7 +477,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/tshirt-men-8.webp"
+    "image": "../../images/tshirt-men-8.webp"
   },
   {
     "id": 49,
@@ -487,7 +487,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/jacket-men-1.webp"
+    "image": "../../images/jacket-men-1.webp"
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/jacket-men-2.webp"
+    "image": "../../images/jacket-men-2.webp"
   },
   {
     "id": 51,
@@ -507,7 +507,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/jacket-men-3.webp"
+    "image": "../../images/jacket-men-3.webp"
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/jacket-men-4.webp"
+    "image": "../../images/jacket-men-4.webp"
   },
   {
     "id": 53,
@@ -527,7 +527,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/jacket-men-5.webp"
+    "image": "../../images/jacket-men-5.webp"
   },
   {
     "id": 54,
@@ -537,7 +537,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/jacket-men-6.webp"
+    "image": "../../images/jacket-men-6.webp"
   },
   {
     "id": 55,
@@ -547,7 +547,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/jacket-men-7.webp"
+    "image": "../../images/jacket-men-7.webp"
   },
   {
     "id": 56,
@@ -557,7 +557,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/jacket-men-8.webp"
+    "image": "../../images/jacket-men-8.webp"
   },
   {
     "id": 57,
@@ -567,7 +567,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/ho-men-1.webp"
+    "image": "../../images/ho-men-1.webp"
   },
   {
     "id": 58,
@@ -577,7 +577,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/ho-men-2.webp"
+    "image": "../../images/ho-men-2.webp"
   },
   {
     "id": 59,
@@ -587,7 +587,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/ho-men-3.webp"
+    "image": "../../images/ho-men-3.webp"
   },
   {
     "id": 60,
@@ -597,7 +597,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/ho-men-4.webp"
+    "image": "../../images/ho-men-4.webp"
   },
   {
     "id": 61,
@@ -607,7 +607,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/ho-men-5.webp"
+    "image": "../../images/ho-men-5.webp"
   },
   {
     "id": 62,
@@ -617,7 +617,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/ho-men-6.webp"
+    "image": "../../images/ho-men-6.webp"
   },
   {
     "id": 63,
@@ -627,7 +627,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/ho-men-7.webp"
+    "image": "../../images/ho-men-7.webp"
   },
   {
     "id": 64,
@@ -637,7 +637,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/ho-men-8.webp"
+    "image": "../../images/ho-men-8.webp"
   },
   {
     "id": 65,
@@ -647,7 +647,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/coat-women-1.webp"
+    "image": "../../images/coat-women-1.webp"
   },
   {
     "id": 66,
@@ -657,7 +657,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/coat-women-2.webp"
+    "image": "../../images/coat-women-2.webp"
   },
   {
     "id": 67,
@@ -667,7 +667,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/coat-women-3.webp"
+    "image": "../../images/coat-women-3.webp"
   },
   {
     "id": 68,
@@ -677,7 +677,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/coat-women-4.webp"
+    "image": "../../images/coat-women-4.webp"
   },
   {
     "id": 69,
@@ -687,7 +687,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/coat-women-5.webp"
+    "image": "../../images/coat-women-5.webp"
   },
   {
     "id": 70,
@@ -697,7 +697,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/coat-women-6.webp"
+    "image": "../../images/coat-women-6.webp"
   },
   {
     "id": 71,
@@ -707,7 +707,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/coat-women-7.webp"
+    "image": "../../images/coat-women-7.webp"
   },
   {
     "id": 72,
@@ -717,7 +717,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/coat-women-8.webp"
+    "image": "../../images/coat-women-8.webp"
   },
   {
     "id": 73,
@@ -727,7 +727,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/dress-women-1.webp"
+    "image": "../../images/dress-women-1.webp"
   },
   {
     "id": 74,
@@ -737,7 +737,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/dress-women-2.webp"
+    "image": "../../images/dress-women-2.webp"
   },
   {
     "id": 75,
@@ -747,7 +747,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/dress-women-3.webp"
+    "image": "../../images/dress-women-3.webp"
   },
   {
     "id": 76,
@@ -757,7 +757,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/dress-women-4.webp"
+    "image": "../../images/dress-women-4.webp"
   },
   {
     "id": 77,
@@ -767,7 +767,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/dress-women-5.webp"
+    "image": "../../images/dress-women-5.webp"
   },
   {
     "id": 78,
@@ -777,7 +777,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/dress-women-6.webp"
+    "image": "../../images/dress-women-6.webp"
   },
   {
     "id": 79,
@@ -787,7 +787,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/dress-women-7.webp"
+    "image": "../../images/dress-women-7.webp"
   },
   {
     "id": 80,
@@ -797,7 +797,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/dress-women-8.webp"
+    "image": "../../images/dress-women-8.webp"
   },
   {
     "id": 81,
@@ -807,7 +807,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pajama-women-1.webp"
+    "image": "../../images/pajama-women-1.webp"
   },
   {
     "id": 82,
@@ -817,7 +817,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pajama-women-2.webp"
+    "image": "../../images/pajama-women-2.webp"
   },
   {
     "id": 83,
@@ -827,7 +827,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pajama-women-3.webp"
+    "image": "../../images/pajama-women-3.webp"
   },
   {
     "id": 84,
@@ -837,7 +837,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pajama-women-4.webp"
+    "image": "../../images/pajama-women-4.webp"
   },
   {
     "id": 85,
@@ -847,7 +847,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pajama-women-5.webp"
+    "image": "../../images/pajama-women-5.webp"
   },
   {
     "id": 86,
@@ -857,7 +857,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pajama-women-6.webp"
+    "image": "../../images/pajama-women-6.webp"
   },
   {
     "id": 87,
@@ -867,7 +867,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pajama-women-7.webp"
+    "image": "../../images/pajama-women-7.webp"
   },
   {
     "id": 88,
@@ -877,7 +877,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pajama-women-8.webp"
+    "image": "../../images/pajama-women-8.webp"
   },
   {
     "id": 89,
@@ -887,7 +887,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/shirt-women-1.webp"
+    "image": "../../images/shirt-women-1.webp"
   },
   {
     "id": 90,
@@ -897,7 +897,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/shirt-women-2.webp"
+    "image": "../../images/shirt-women-2.webp"
   },
   {
     "id": 91,
@@ -907,7 +907,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/shirt-women-3.webp"
+    "image": "../../images/shirt-women-3.webp"
   },
   {
     "id": 92,
@@ -917,7 +917,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/shirt-women-4.webp"
+    "image": "../../images/shirt-women-4.webp"
   },
   {
     "id": 93,
@@ -927,7 +927,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/shirt-women-5.webp"
+    "image": "../../images/shirt-women-5.webp"
   },
   {
     "id": 94,
@@ -937,7 +937,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/shirt-women-6.webp"
+    "image": "../../images/shirt-women-6.webp"
   },
   {
     "id": 95,
@@ -947,7 +947,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/shirt-women-7.webp"
+    "image": "../../images/shirt-women-7.webp"
   },
   {
     "id": 96,
@@ -957,7 +957,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/shirt-women-8.webp"
+    "image": "../../images/shirt-women-8.webp"
   },
   {
     "id": 97,
@@ -967,7 +967,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/hodie-women-1.webp"
+    "image": "../../images/hoodie-women-1.webp"
   },
   {
     "id": 98,
@@ -977,7 +977,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/hodie-women-2.webp"
+    "image": "../../images/hoodie-women-2.webp"
   },
   {
     "id": 99,
@@ -987,7 +987,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/hodie-women-3.webp"
+    "image": "../../images/hoodie-women-3.webp"
   },
   {
     "id": 100,
@@ -997,7 +997,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/hodie-women-4.webp"
+    "image": "../../images/hoodie-women-4.webp"
   },
   {
     "id": 101,
@@ -1007,7 +1007,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/hodie-women-5.webp"
+    "image": "../../images/hoodie-women-5.webp"
   },
   {
     "id": 102,
@@ -1017,7 +1017,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/hodie-women-6.webp"
+    "image": "../../images/hoodie-women-6.webp"
   },
   {
     "id": 103,
@@ -1027,7 +1027,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/hodie-women-7.webp"
+    "image": "../../images/hoodie-women-7.webp"
   },
   {
     "id": 104,
@@ -1037,7 +1037,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/hodie-women-8.webp"
+    "image": "../../images/hoodie-women-8.webp"
   },
   {
     "id": 105,
@@ -1047,7 +1047,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/tshirt-women-1.webp"
+    "image": "../../images/tshirt-women-1.webp"
   },
   {
     "id": 106,
@@ -1057,7 +1057,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/tshirt-women-2.webp"
+    "image": "../../images/tshirt-women-2.webp"
   },
   {
     "id": 107,
@@ -1067,7 +1067,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/tshirt-women-3.webp"
+    "image": "../../images/tshirt-women-3.webp"
   },
   {
     "id": 108,
@@ -1077,7 +1077,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/tshirt-women-4.webp"
+    "image": "../../images/tshirt-women-4.webp"
   },
   {
     "id": 109,
@@ -1087,7 +1087,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/tshirt-women-5.webp"
+    "image": "../../images/tshirt-women-5.webp"
   },
   {
     "id": 110,
@@ -1097,7 +1097,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/tshirt-women-6.webp"
+    "image": "../../images/tshirt-women-6.webp"
   },
   {
     "id": 111,
@@ -1107,7 +1107,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/tshirt-women-7.webp"
+    "image": "../../images/tshirt-women-7.webp"
   },
   {
     "id": 112,
@@ -1117,7 +1117,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/tshirt-women-8.webp"
+    "image": "../../images/tshirt-women-8.webp"
   },
   {
     "id": 113,
@@ -1127,7 +1127,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/jacket-women-1.webp"
+    "image": "../../images/jacket-women-1.webp"
   },
   {
     "id": 114,
@@ -1137,7 +1137,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/jacket-women-2.webp"
+    "image": "../../images/jacket-women-2.webp"
   },
   {
     "id": 115,
@@ -1147,7 +1147,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/jacket-women-3.webp"
+    "image": "../../images/jacket-women-3.webp"
   },
   {
     "id": 116,
@@ -1157,7 +1157,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/jacket-women-4.webp"
+    "image": "../../images/jacket-women-4.webp"
   },
   {
     "id": 117,
@@ -1167,7 +1167,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/jacket-women-5.webp"
+    "image": "../../images/jacket-women-5.webp"
   },
   {
     "id": 118,
@@ -1177,7 +1177,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/jacket-women-6.webp"
+    "image": "../../images/jacket-women-6.webp"
   },
   {
     "id": 119,
@@ -1187,7 +1187,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/jacket-women-7.webp"
+    "image": "../../images/jacket-women-7.webp"
   },
   {
     "id": 120,
@@ -1197,7 +1197,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/jacket-women-8.webp"
+    "image": "../../images/jacket-women-8.webp"
   },
   {
     "id": 121,
@@ -1207,7 +1207,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pant-women-1.webp"
+    "image": "../../images/pant-women-1.webp"
   },
   {
     "id": 122,
@@ -1217,7 +1217,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pant-women-2.webp"
+    "image": "../../images/pant-women-2.webp"
   },
   {
     "id": 123,
@@ -1227,7 +1227,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pant-women-3.webp"
+    "image": "../../images/pant-women-3.webp"
   },
   {
     "id": 124,
@@ -1237,7 +1237,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pant-women-4.webp"
+    "image": "../../images/pant-women-4.webp"
   },
   {
     "id": 125,
@@ -1247,7 +1247,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pant-women-5.webp"
+    "image": "../../images/pant-women-5.webp"
   },
   {
     "id": 126,
@@ -1257,7 +1257,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pant-women-6.webp"
+    "image": "../../images/pant-women-6.webp"
   },
   {
     "id": 127,
@@ -1267,7 +1267,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pant-women-7.webp"
+    "image": "../../images/pant-women-7.webp"
   },
   {
     "id": 128,
@@ -1277,7 +1277,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pant-women-8.webp"
+    "image": "../../images/pant-women-8.webp"
   },
   {
     "id": 129,
@@ -1287,7 +1287,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/jacket-kids-1.webp"
+    "image": "../../images/jacket-kids-1.webp"
   },
   {
     "id": 130,
@@ -1297,7 +1297,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/jacket-kids-2.webp"
+    "image": "../../images/jacket-kids-2.webp"
   },
   {
     "id": 131,
@@ -1307,7 +1307,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/jacket-kids-3.webp"
+    "image": "../../images/jacket-kids-3.webp"
   },
   {
     "id": 132,
@@ -1317,7 +1317,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/jacket-kids-4.webp"
+    "image": "../../images/jacket-kids-4.webp"
   },
   {
     "id": 133,
@@ -1327,7 +1327,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/jacket-kids-5.webp"
+    "image": "../../images/jacket-kids-5.webp"
   },
   {
     "id": 134,
@@ -1337,7 +1337,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/jacket-kids-6.webp"
+    "image": "../../images/jacket-kids-6.webp"
   },
   {
     "id": 135,
@@ -1347,7 +1347,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/jacket-kids-7.webp"
+    "image": "../../images/jacket-kids-7.webp"
   },
   {
     "id": 136,
@@ -1357,7 +1357,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/jacket-kids-8.webp"
+    "image": "../../images/jacket-kids-8.webp"
   },
   {
     "id": 137,
@@ -1367,7 +1367,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pajama-kids-1.webp"
+    "image": "../../images/pajama-kids-1.webp"
   },
   {
     "id": 138,
@@ -1377,7 +1377,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pajama-kids-2.webp"
+    "image": "../../images/pajama-kids-2.webp"
   },
   {
     "id": 139,
@@ -1387,7 +1387,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pajama-kids-3.webp"
+    "image": "../../images/pajama-kids-3.webp"
   },
   {
     "id": 140,
@@ -1397,7 +1397,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pajama-kids-4.webp"
+    "image": "../../images/pajama-kids-4.webp"
   },
   {
     "id": 141,
@@ -1407,7 +1407,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pajama-kids-5.webp"
+    "image": "../../images/pajama-kids-5.webp"
   },
   {
     "id": 142,
@@ -1417,7 +1417,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pajama-kids-6.webp"
+    "image": "../../images/pajama-kids-6.webp"
   },
   {
     "id": 143,
@@ -1427,7 +1427,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pajama-kids-7.webp"
+    "image": "../../images/pajama-kids-7.webp"
   },
   {
     "id": 144,
@@ -1437,7 +1437,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pajama-kids-8.webp"
+    "image": "../../images/pajama-kids-8.webp"
   },
   {
     "id": 145,
@@ -1447,7 +1447,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/pants-kids-1.webp"
+    "image": "../../images/pants-kids-1.webp"
   },
   {
     "id": 146,
@@ -1457,7 +1457,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/pants-kids-2.webp"
+    "image": "../../images/pants-kids-2.webp"
   },
   {
     "id": 147,
@@ -1467,7 +1467,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/pants-kids-3.webp"
+    "image": "../../images/pants-kids-3.webp"
   },
   {
     "id": 148,
@@ -1477,7 +1477,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/pants-kids-4.webp"
+    "image": "../../images/pants-kids-4.webp"
   },
   {
     "id": 149,
@@ -1487,7 +1487,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/pants-kids-5.webp"
+    "image": "../../images/pants-kids-5.webp"
   },
   {
     "id": 150,
@@ -1497,7 +1497,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/pants-kids-6.webp"
+    "image": "../../images/pants-kids-6.webp"
   },
   {
     "id": 151,
@@ -1507,7 +1507,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/pants-kids-7.webp"
+    "image": "../../images/pants-kids-7.webp"
   },
   {
     "id": 152,
@@ -1517,7 +1517,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/pants-kids-8.webp"
+    "image": "../../images/pants-kids-8.webp"
   },
   {
     "id": 153,
@@ -1527,7 +1527,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/tshirt-kids-1.webp"
+    "image": "../../images/tshirt-kids-1.webp"
   },
   {
     "id": 154,
@@ -1537,7 +1537,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/tshirt-kids-2.webp"
+    "image": "../../images/tshirt-kids-2.webp"
   },
   {
     "id": 155,
@@ -1547,7 +1547,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/tshirt-kids-3.webp"
+    "image": "../../images/tshirt-kids-3.webp"
   },
   {
     "id": 156,
@@ -1557,7 +1557,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/tshirt-kids-4.webp"
+    "image": "../../images/tshirt-kids-4.webp"
   },
   {
     "id": 157,
@@ -1567,7 +1567,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/tshirt-kids-5.webp"
+    "image": "../../images/tshirt-kids-5.webp"
   },
   {
     "id": 158,
@@ -1577,7 +1577,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/tshirt-kids-6.webp"
+    "image": "../../images/tshirt-kids-6.webp"
   },
   {
     "id": 159,
@@ -1587,7 +1587,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/tshirt-kids-7.webp"
+    "image": "../../images/tshirt-kids-7.webp"
   },
   {
     "id": 160,
@@ -1597,7 +1597,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/tshirt-kids-8.webp"
+    "image": "../../images/tshirt-kids-8.webp"
   },
   {
     "id": 161,
@@ -1607,7 +1607,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/short-kids-1.webp"
+    "image": "../../images/short-kids-1.webp"
   },
   {
     "id": 162,
@@ -1617,7 +1617,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/short-kids-2.webp"
+    "image": "../../images/short-kids-2.webp"
   },
   {
     "id": 163,
@@ -1627,7 +1627,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/short-kids-3.webp"
+    "image": "../../images/short-kids-3.webp"
   },
   {
     "id": 164,
@@ -1637,7 +1637,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/short-kids-4.webp"
+    "image": "../../images/short-kids-4.webp"
   },
   {
     "id": 165,
@@ -1647,7 +1647,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/short-kids-5.webp"
+    "image": "../../images/short-kids-5.webp"
   },
   {
     "id": 166,
@@ -1657,7 +1657,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/short-kids-6.webp"
+    "image": "../../images/short-kids-6.webp"
   },
   {
     "id": 167,
@@ -1667,7 +1667,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/short-kids-7.webp"
+    "image": "../../images/short-kids-7.webp"
   },
   {
     "id": 168,
@@ -1677,7 +1677,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/short-kids-8.webp"
+    "image": "../../images/short-kids-8.webp"
   },
   {
     "id": 169,
@@ -1687,7 +1687,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/hodies-kids-1.webp"
+    "image": "../../images/hodies-kids-1.webp"
   },
   {
     "id": 170,
@@ -1697,7 +1697,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/hodies-kids-2.webp"
+    "image": "../../images/hodies-kids-2.webp"
   },
   {
     "id": 171,
@@ -1707,7 +1707,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/hodies-kids-3.webp"
+    "image": "../../images/hodies-kids-3.webp"
   },
   {
     "id": 172,
@@ -1717,7 +1717,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/hodies-kids-4.webp"
+    "image": "../../images/hodies-kids-4.webp"
   },
   {
     "id": 173,
@@ -1727,7 +1727,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/hodies-kids-5.webp"
+    "image": "../../images/hodies-kids-5.webp"
   },
   {
     "id": 174,
@@ -1737,7 +1737,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/hodies-kids-6.webp"
+    "image": "../../images/hodies-kids-6.webp"
   },
   {
     "id": 175,
@@ -1747,7 +1747,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/hodies-kids-7.webp"
+    "image": "../../images/hodies-kids-7.webp"
   },
   {
     "id": 176,
@@ -1757,7 +1757,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/hodies-kids-8.webp"
+    "image": "../../images/hodies-kids-8.webp"
   },
   {
     "id": 177,
@@ -1767,7 +1767,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/hat-kids-1.webp"
+    "image": "../../images/hat-kids-1.webp"
   },
   {
     "id": 178,
@@ -1777,7 +1777,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/hat-kids-2.webp"
+    "image": "../../images/hat-kids-2.webp"
   },
   {
     "id": 179,
@@ -1787,7 +1787,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/hat-kids-3.webp"
+    "image": "../../images/hat-kids-3.webp"
   },
   {
     "id": 180,
@@ -1797,7 +1797,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/hat-kids-4.webp"
+    "image": "../../images/hat-kids-4.webp"
   },
   {
     "id": 181,
@@ -1807,7 +1807,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/hat-kids-5.webp"
+    "image": "../../images/hat-kids-5.webp"
   },
   {
     "id": 182,
@@ -1817,7 +1817,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/hat-kids-6.webp"
+    "image": "../../images/hat-kids-6.webp"
   },
   {
     "id": 183,
@@ -1827,7 +1827,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/hat-kids-7.webp"
+    "image": "../../images/hat-kids-7.webp"
   },
   {
     "id": 184,
@@ -1837,7 +1837,7 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/hat-kids-8.webp"
+    "image": "../../images/hat-kids-8.webp"
   },
   {
     "id": 185,
@@ -1847,7 +1847,7 @@
     "costPrice": 50,
     "price": 70,
     "quantity": 60,
-    "image": "/public/images/dress-kids-1.webp"
+    "image": "../../images/dress-kids-1.webp"
   },
   {
     "id": 186,
@@ -1857,7 +1857,7 @@
     "costPrice": 55,
     "price": 75,
     "quantity": 70,
-    "image": "/public/images/dress-kids-2.webp"
+    "image": "../../images/dress-kids-2.webp"
   },
   {
     "id": 187,
@@ -1867,7 +1867,7 @@
     "costPrice": 60,
     "price": 80,
     "quantity": 80,
-    "image": "/public/images/dress-kids-3.webp"
+    "image": "../../images/dress-kids-3.webp"
   },
   {
     "id": 188,
@@ -1877,7 +1877,7 @@
     "costPrice": 65,
     "price": 85,
     "quantity": 90,
-    "image": "/public/images/dress-kids-4.webp"
+    "image": "../../images/dress-kids-4.webp"
   },
   {
     "id": 189,
@@ -1887,7 +1887,7 @@
     "costPrice": 70,
     "price": 90,
     "quantity": 100,
-    "image": "/public/images/dress-kids-5.webp"
+    "image": "../../images/dress-kids-5.webp"
   },
   {
     "id": 190,
@@ -1897,7 +1897,7 @@
     "costPrice": 75,
     "price": 95,
     "quantity": 110,
-    "image": "/public/images/dress-kids-6.webp"
+    "image": "../../images/dress-kids-6.webp"
   },
   {
     "id": 191,
@@ -1907,7 +1907,7 @@
     "costPrice": 80,
     "price": 100,
     "quantity": 120,
-    "image": "/public/images/dress-kids-7.webp"
+    "image": "../../images/dress-kids-7.webp"
   },
   {
     "id": 192,
@@ -1917,6 +1917,8 @@
     "costPrice": 85,
     "price": 105,
     "quantity": 130,
-    "image": "/public/images/dress-kids-8.webp"
+    "image": "../../images/dress-kids-8.webp"
   }
 ]
+
+export default array;
