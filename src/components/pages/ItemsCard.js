@@ -1,5 +1,5 @@
-import "./MenItemsCard.css";
-const MenItemsCard = (props) => {
+import "./ItemsCard.css";
+const ItemsCard = (props) => {
   return (
     <div className="card ">
       <div className="overflow">
@@ -16,4 +16,4 @@ const MenItemsCard = (props) => {
     </div>
   );
 };
-export default MenItemsCard;
+export default ItemsCard;
