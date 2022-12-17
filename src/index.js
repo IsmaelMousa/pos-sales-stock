@@ -9,7 +9,7 @@ import SalesPage from "./components/pages/SalesPage"
 import NavBar from "./components/store-bar/Navbar"
 import Table from './components/shopping-cart/Table'
 import SubCategoryCards from "./components/pages/SubCategoryCards"
-import Items from './components/pages/Items';
+import Items from './components/pages/ItemsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
