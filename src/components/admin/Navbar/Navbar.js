@@ -1,5 +1,4 @@
 import "./Navbar.css"
-import logo from "../../../images/logo.webp";
 import { Link } from "react-router-dom";
 
 
@@ -10,7 +9,7 @@ function NavBar() {
 
    <li className='logo'>
          <Link to="index.html">
-         <img src={logo} className="img" alt="website"/></Link>
+         <img src="./images/logo.webp" className="img" alt="website"/></Link>
      </li>
 
     <li className="button">
