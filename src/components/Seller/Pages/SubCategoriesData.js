@@ -1,5 +1,5 @@
 
-const subCategories=[
+const SubCategoriesData=[
     {   category:"Men",
     subcategories:[
         {
@@ -71,4 +71,4 @@ subcategories:[
 }
     
 ]
- export default subCategories;
+ export default SubCategoriesData;

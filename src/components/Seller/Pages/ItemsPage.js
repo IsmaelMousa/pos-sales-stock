@@ -1,5 +1,5 @@
 import ItemsCard from "./ItemsCard";
-import array from "./Data";
+import array from "../../UI/Data";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
@@ -7,9 +7,9 @@ const ItemsPage= () =>{
     let  results = useParams();
     const url = new URL(window.location.href);
   
-    var data=array.filter((item)=>item.subCategory== url.searchParams.get('subcategory') && item.category== url.searchParams.get('category'))
+    var data=array.filter((item)=>item.subCategory=== url.searchParams.get('subcategory') && item.category=== url.searchParams.get('category'))
     useEffect(()=>{
-        const data = array.filter((item)=>item.subCategory== url.searchParams.get('subcategory') && item.category== url.searchParams.get('category'))
+        const data = array.filter((item)=>item.subCategory=== url.searchParams.get('subcategory') && item.category=== url.searchParams.get('category'))
 
         console.log(data)  
     },[results])
