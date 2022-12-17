@@ -4,13 +4,11 @@ import './index.css';
 //<Route path="/main" element={<Main />} />
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import SalesPage from "./components/pages/SalesPage"
-import NavBar from "./components/store-bar/Navbar"
-import Table from './components/shopping-cart/Table'
-import SubCategoryCards from "./components/pages/SubCategoryCards"
-import Items from './components/pages/Items';
-
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import SalesPage from "./components/Seller/Pages/SalesPage"
+import NavBar from "./components/Seller/NavBar/Navbar"
+import SubCategoryCards from "./components/Seller/Pages/SubCategoryCards"
+import Items from "./components/Seller/Pages/ItemsPage"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,7 +23,6 @@ root.render(
       
       </Routes>
       
-      <div><Table/></div>
       </div>
     </BrowserRouter>
     <App />
