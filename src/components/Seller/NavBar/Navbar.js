@@ -13,9 +13,7 @@ function NavBar() {
   </div>
 </nav>
           <div className="logo">
-        <Link to="/index.html" >
            <img  src="../../images/logo.webp" className="img" alt="website"/>
-           </Link>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
