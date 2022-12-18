@@ -10,6 +10,6 @@ const SalesPage= () =>{
         
     }
 data = [...new Set(data)];
-return(<div>{data.map((props) =>{return (<SalesCard title={props.productName} imgsrc={props.image} newPrice={props.newPrice+" $"} quantity={props.quantity} prePrice={props.price+" $"}/>)})}</div>);}
+return(<div>{data.map((props) =>{return (<SalesCard title={props.productName} imgsrc={props.image} newPrice={props.newPrice+"$"} quantity={props.quantity} prePrice={props.price+" $"}/>)})}</div>);}
 
 export default SalesPage;
