@@ -5,10 +5,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import SalesPage from "./components/Seller/Pages/SalesPage"
+import SalesPage from "./components/Seller/Products/SalesPage"
 import NavBar from "./components/Seller/NavBar/Navbar"
-import SubCategoryCards from "./components/Seller/Pages/SubCategoryCards"
-import Items from "./components/Seller/Pages/ItemsPage"
+import SubCategoryCards from "./components/Seller/Products/SubCategoryCards"
+import Items from "./components/Seller/Products/ItemsPage"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
