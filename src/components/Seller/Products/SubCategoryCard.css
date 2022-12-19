@@ -1,39 +1,45 @@
-
-.card{
-    width: 20rem;
-    margin: 10px;
-    padding: 2px;
-    background-color: #fff;
+#card-category{
+    width: 315px;
+    height: 390px;
+    margin: 7px;
+    zoom: 81%;
+    background-color:  rgb(255, 255, 255);
     float: left;
-
+    border:none;
+   
 }
-.card:hover{
+#card-category:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
 
-.card-img-top{
+#card-img-top-category{
     top: 0;
     height:20rem;
     width:100%;
+  }
+#card-body-category{
+    background-color: rgb(202, 202, 202);
 }
-.card-title{
+#card-title-category{
     color:#000000;
+font-family: 'Times New Roman', Times, serif;
 }
-#b3 {
-    background-color:  #333;
- border-radius:15px ;
+#b1{
+background-color:  #333;
+ border-radius: 21px ;
  align-items: center;
- color: #fff;
-
+text-decoration: none;
 }
-.text2{
-    color: #fff;
+.text3{
+color: rgb(175, 175, 175);
+text-decoration: none;
     
 }
-#b2:hover{
-    box-shadow:5px 10px 20px 1px rgba !important;
-    background-color:white;
+.text3:hover{
+    color: #ffffff;
 }
-.text2:hover{
-    color: #000000;
+
+.ClickImage{
+    border :none;
+    background-color: rgb(255, 255, 255);
 }
