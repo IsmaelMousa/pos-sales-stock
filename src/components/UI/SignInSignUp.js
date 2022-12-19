@@ -54,7 +54,7 @@ function SignInSignupWithLocalStorage() {
                     </div>
                     :
 
-                    <div className="container">
+                    <div className="container " id ="cont">
                         <h2 className="account"> Create Your Account Please </h2>
                         <br></br>
                         <div className="input_space">

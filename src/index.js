@@ -20,10 +20,10 @@ root.render(
         <Route path="/admin" element={<Admin />} />
 
 
-        <Route path="/seller" element={<><NavBar /><div className="parent"><SalesPage /></div></>} />
-        <Route path="/subcategory/:category" element={<><NavBar /><div className="parent"><SubCategoryCards /></div></>} />
-        <Route path="/items/:category/:subcategory" element={<><NavBar /><div className="parent"><Items /></div></>} />
-        <Route path="/search/:que" element={<><NavBar /><div className="parent"><Search /></div></>} />
+        <Route path="/Seller" element={<><NavBar /><SalesPage /></>} />
+        <Route path="/subcategory/:category" element={<><NavBar /><SubCategoryCards /></>} />
+        <Route path="/items/:category/:subcategory" element={<><NavBar /><Items /></>} />
+        <Route path="/search/:que" element={<><NavBar /><Search /></>} />
 
 
       </Routes>
