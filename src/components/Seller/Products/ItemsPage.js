@@ -1,16 +1,14 @@
 import ItemsCard from "./ItemsCard";
 import array from "../../UI/Data";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const ItemsPage= () =>{
-    let { results} = useParams();
-    const url = new URL(window.location.href);
-  
-    var data=array.filter((item)=>item.subCategory=== url.searchParams.get('subcategory') && item.category=== url.searchParams.get('category'))
+    let { category,subcategory} = useParams();
+    const [data,setData]=useState([])
     useEffect(()=>{
-         data = array.filter((item)=>item.subCategory=== url.searchParams.get('subcategory') && item.category=== url.searchParams.get('category'))
-    },[results])
+        setData(array.filter((item)=>item.subCategory===subcategory && item.category=== category))
+    },[category,subcategory])
      
   
     return(
