@@ -3,12 +3,11 @@ import SubCategoriesData from "./SubCategoriesData";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 const SubCategoryCards = () => {
-  let  {results} = useParams();
-  const url = new URL(window.location.href);
-  var data=SubCategoriesData.filter((item)=>item.category=== url.searchParams.get('category'));
+  let  {category} = useParams();
+  var data=SubCategoriesData.filter((item)=>item.category=== category);
   useEffect(()=>{
-      data = SubCategoriesData.filter((item)=>item.category=== url.searchParams.get('category'))
-  },[results])
+      data = SubCategoriesData.filter((item)=>item.category=== category)
+  },[category])
    
   return (
 

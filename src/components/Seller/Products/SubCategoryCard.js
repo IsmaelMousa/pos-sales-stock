@@ -13,7 +13,7 @@ const SubCategoryCard = (props) => {
                     <div className='card-body '>
                         <h4 className='card-title'> {props.subcategory}</h4>
                         <button type='button' className="btn btn-outline" id="b3" >
-                            <Link to={"/items?category=" + props.category + "&subcategory=" + props.subcategory}  ><b className='text3'> Go </b></Link>
+                            <Link to={"/items/" + props.category + "/" + props.subcategory}  ><b className='text3'> Go </b></Link>
                         </button>
                     </div>
                 </div>
