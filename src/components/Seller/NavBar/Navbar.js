@@ -8,27 +8,16 @@ function NavBar() {
     console.log(event.target.value)
     setSearchTerm(event.target.value);
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
        navigate("/search/"+searchTerm);
-    
   };
-
   return (
-    
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
         <nav className="justify-content-center">
           <div className="search container-fluid">
-            <form className="d-flex">
-              <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" onChange={handleChange} onKeyPress={(event) => {
-          if (event.key === 'Enter') {
-            handleSubmit(event);
-          }
-        }}
-/>
-            </form>
+
           </div>
           </nav>
         <div className="collapse navbar-collapse" id="main">
@@ -52,7 +41,11 @@ function NavBar() {
             <form className="d-flex">
             <div class="input-group">
               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-              <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" />
+              <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" onChange={handleChange} onKeyPress={(event) => {
+          if (event.key === 'Enter') {
+            handleSubmit(event);
+          }
+        }}/>
               </div>
             </form>
           </div>
