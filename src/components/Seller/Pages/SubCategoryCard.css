@@ -1,34 +1,34 @@
-.card{
-    width: 255.2px;
-    height: 427px;
+#card-category{
+    width: 315px;
+    height: 390px;
     margin: 7px;
+    zoom: 81%;
     background-color:  rgb(255, 255, 255);
     float: left;
     border:none;
    
 }
-.card:hover{
+#card-category:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
 
-.card-img-top{
+#card-img-top-category{
     top: 0;
     height:20rem;
     width:100%;
   }
-.card-body{
+#card-body-category{
     background-color: rgb(202, 202, 202);
 }
-.card-title{
+#card-title-category{
     color:#000000;
 font-family: 'Times New Roman', Times, serif;
 }
-#b3 {
+#b1{
 background-color:  #333;
  border-radius: 21px ;
  align-items: center;
 text-decoration: none;
-
 }
 .text3{
 color: rgb(175, 175, 175);
