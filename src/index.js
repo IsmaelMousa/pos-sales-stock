@@ -15,14 +15,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-        <Routes>
+      <Routes>
         <Route path="/" element={<SignInSignupWithLocalStorage />} />
         <Route path="/admin" element={<Admin />} />
-          <Route path="/home1" element={<><NavBar /><div className="parent"><SalesPage /></div></>} />
-          <Route path="/subcategory/:category" element={<><NavBar /><div className="parent"><SubCategoryCards /></div></>} />
-           <Route path="/items/:category/:subcategory" element={<><NavBar /><div className="parent"><Items /></div></>} />
-           <Route path="/search/:que" element={<><NavBar /><div className="parent"><Search /></div></>} />
-        </Routes>
+
+
+        <Route path="/seller" element={<><NavBar /><div className="parent"><SalesPage /></div></>} />
+        <Route path="/subcategory/:category" element={<><NavBar /><div className="parent"><SubCategoryCards /></div></>} />
+        <Route path="/items/:category/:subcategory" element={<><NavBar /><div className="parent"><Items /></div></>} />
+        <Route path="/search/:que" element={<><NavBar /><div className="parent"><Search /></div></>} />
+
+
+      </Routes>
+
+
+
     </BrowserRouter>
   </React.StrictMode>
 );
