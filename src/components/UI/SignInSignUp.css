@@ -1,37 +1,39 @@
 * {
     text-align: center;
+
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 200px;
+
+    margin-left: 400px;
 }
 
 .input_space {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 input {
-    height: 30px;
-    width: 20%;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 button {
-    height: 30px;
-    width: 15%;
-    background-color: grey;
+    height: 35px;
+    width: 50%;
+    background-color: rgb(128, 128, 128);
     border: none;
 }
 
 .logout {
-    margin-right: 5px;
-    color: white;
-    font-weight: 400;
+    height: 35px;
+    width: 50%;
+    border: none;
 }
 
 .delete {
     margin-right: 5px;
     color: white;
-    background-color: rgb(19, 103, 142);
+
     font-weight: 400;
 }

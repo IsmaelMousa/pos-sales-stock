@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import NavBar from "../store-bar/Navbar";
+import React from "react";
+import { Link } from "react-router-dom";
 import './SignInSignUp.css';
 function Home() {
-    const [active, setActive] = useState("")
     const logout = () => {
         localStorage.removeItem("signUp")
         window.location.reload()
@@ -11,28 +10,27 @@ function Home() {
         localStorage.clear()
         window.location.reload()
     }
-    const goSeller = () => {
+    const goPage = () => {
 
         return (
+            <Link to="/home1"> Go To Seller Page</Link>
+        )
+    }
+    const goAdmin = () => {
 
-            setActive("NavBar")
-
-
+        return (
+            <Link to="/admin"> Go To Admin Page</Link>
         )
     }
     return (
         <div>
-            <h1>Home Page </h1>
-            <p>Wellcome {localStorage.getItem('name')}</p>
+
+            <h1>Welcome {localStorage.getItem('name')}</h1>
+            <h2>Click on the Go To Seller button to go to the page designated for you, please</h2>
             <button onClick={logout} className="logout">LogOut</button>
             <button onClick={deleteAccount} className="delete">Delete</button>
-            <button onClick={goSeller} className="go">Go to Seller Page</button>
-
-            <div>
-                {active === "NavBar" && <NavBar />}
-                {active === "" && <div>
-                    welcooom </div>}
-            </div>
+            <button onClick={goPage} className="goPage">  <Link to="/home1">Go To Seller Page</Link></button>
+            <button onClick={goAdmin} className="goAdmin">  <Link to="/admin">Go To Admin Page</Link></button>
         </div>
     );
 }

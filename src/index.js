@@ -1,31 +1,26 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//<Route path="/main" element={<Main />} />
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import SalesPage from "./components/Seller/Products/SalesPage"
-import NavBar from "./components/Seller/NavBar/Navbar"
-import SubCategoryCards from "./components/Seller/Products/SubCategoryCards"
-import Items from "./components/Seller/Products/ItemsPage"
+import Home1 from './components/Seller/Pages/Home1';
+import SignInSignupWithLocalStorage from "./components/UI/SignInSignUp"
+import React from 'react';
+import Home2 from './components/Seller/Pages/Home2';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <NavBar />
-  <div className="parent">
-    
-      <Routes>
-      <Route path="/" element={<SalesPage />} />
-      <Route path="/subcategory" element={<SubCategoryCards />} />
-      <Route path="/items" element={<Items />} />
-      
-      </Routes>
-      
+      <div className="parent">
+        <Routes>
+          <Route path="/home1" element={<Home1 />} />
+          <Route path="/home2" element={<Home2 />} />
+        </Routes>
+
+        <SignInSignupWithLocalStorage />
+
       </div>
     </BrowserRouter>
-    <App />
   </React.StrictMode>
 );
 reportWebVitals();
