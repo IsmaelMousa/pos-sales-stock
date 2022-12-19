@@ -9,7 +9,7 @@ function Home2() {
     root.render(
         <React.StrictMode>
             <BrowserRouter>
-
+                <Admin />
                 <div className="parent">
                     <Routes>
                         <Route path="/admin" element={<Admin />} />

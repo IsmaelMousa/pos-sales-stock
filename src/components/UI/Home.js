@@ -19,7 +19,7 @@ function Home() {
     const goAdmin = () => {
 
         return (
-            <Link to="/admin"> Go To Admin Page</Link>
+            <Link to="/home2"> Go To Admin Page</Link>
         )
     }
     return (
@@ -30,7 +30,7 @@ function Home() {
             <button onClick={logout} className="logout">LogOut</button>
             <button onClick={deleteAccount} className="delete">Delete</button>
             <button onClick={goPage} className="goPage">  <Link to="/home1">Go To Seller Page</Link></button>
-            <button onClick={goAdmin} className="goAdmin">  <Link to="/admin">Go To Admin Page</Link></button>
+            <button onClick={goAdmin} className="goAdmin">  <Link to="/home2">Go To Admin Page</Link></button>
         </div>
     );
 }
