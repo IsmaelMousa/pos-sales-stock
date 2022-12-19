@@ -1,50 +1,52 @@
-.card{
-    width: 249px;
-    height: 450px;
+#card-item{
+    width: 340px;
+    height: 448px;
     margin: 7px;
     background-color: #fff;
     float: left;
     border: none;
-    
+    zoom: 71%;
+   
 }
-.card:hover{
+#card-item:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
-.price{
+#price-item{
     text-align: center;
     font-size: 23px;
-    color:rgb(255, 247, 195);
+    color:rgb(0, 0, 0);
 }
-.quantity{
+#quantity-item{
     text-align: center;
     color:rgb(43, 43, 43);
 }
 
-.card-img-top{
+#card-img-top-item{
     height:18rem;
     width:100%;
 }
-.card-body {
+#card-body-item{
 background-color: rgb(190, 190, 190);
 }
-.card-title{
+#card-title-item{
     color: #000000;
     text-align: center;
     font-size: 18px;
    
 }
-#b3{
+
+#b2{
     margin-top: 10px;
     color: #f4f8f8;
     border-radius: 90px ;
     background-color: rgb(73, 73, 73);
     border: none;
     font-size: 21px;
-    width: 50%;
+    width: 40%;
     padding: 2%;
-   
+    font-family: 'Times New Roman', Times, serif;
 }
-#b3:hover{
+#b2:hover{
     box-shadow:5px 10px 20px 1px rgba !important;
     background-color:rgb(55, 55, 55);
 }
