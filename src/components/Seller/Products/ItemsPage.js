@@ -13,7 +13,7 @@ const ItemsPage= () =>{
   
     return(
     <div>
-        {data.map((props) => {return (<ItemsCard title={props.productName} imgsrc={props.image} price={props.price+"$"} quantity={props.quantity}/>)})}
+        {data.map((props) => {return (<button><ItemsCard title={props.productName} imgsrc={props.image} price={props.price+"$"} quantity={props.quantity}/></button>)})}
     </div>);
     }
 export default ItemsPage;
