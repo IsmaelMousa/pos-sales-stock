@@ -1,43 +1,52 @@
-
-
-.card{
-    width: 20rem;
-    margin: 10px;
-    padding: 2px;
+#card-item{
+    width: 340px;
+    height: 448px;
+    margin: 7px;
     background-color: #fff;
     float: left;
-
+    border: none;
+    zoom: 71%;
+   
 }
-.card:hover{
+#card-item:hover{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.586)!important;
 }
-
-
-.quantity{
+#price-item{
     text-align: center;
+    font-size: 23px;
+    color:rgb(0, 0, 0);
 }
-.price{
+#quantity-item{
     text-align: center;
+    color:rgb(43, 43, 43);
 }
-.card-text{
-    text-align:center;
-}
-.card-img-top{
-    top: 0;
-    height:20rem;
+
+#card-img-top-item{
+    height:18rem;
     width:100%;
 }
-
-.card-title{
+#card-body-item{
+background-color: rgb(190, 190, 190);
+}
+#card-title-item{
     color: #000000;
     text-align: center;
+    font-size: 18px;
+   
 }
-#b3{
+
+#b2{
     margin-top: 10px;
-    color: #f8f4f8;
-    border-radius:15px ;
-    background-color: #333;
-    font-size: 22px;
+    color: #f4f8f8;
+    border-radius: 90px ;
+    background-color: rgb(73, 73, 73);
+    border: none;
+    font-size: 21px;
     width: 40%;
-    padding: 1%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#b2:hover{
+    box-shadow:5px 10px 20px 1px rgba !important;
+    background-color:rgb(55, 55, 55);
 }
