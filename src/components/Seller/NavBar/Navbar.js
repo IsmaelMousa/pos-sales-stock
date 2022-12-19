@@ -8,14 +8,12 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
       <div>
-          <Link to="/index.html" >
             <img src="./images/logo.webp" className="img" alt="website" />
-          </Link>
           </div>
         <div className="collapse navbar-collapse" id="main">
           <ul className="navbar-nav ms-5 mb-2 mb-lg-1" >
             <li className="nav-item">
-              <Link to="/" className="nav-link p-lg-3" id="item" aria-current="page" >Sale</Link>
+              <Link to="/" className="nav-link p-lg-3" id="item" aria-current="page" >Sales</Link>
             </li>
             <li className="nav-item">
               <Link to="/subcategory?category=Men" className="nav-link  p-lg-3" id="item">Men</Link>
@@ -24,7 +22,7 @@ function NavBar() {
               <Link to="/subcategory?category=Women" className="nav-link  p-lg-3" id="item" >Women</Link>
             </li>
             <li className="nav-item">
-              <Link to="/subcategory?category=Kids" className="nav-link  p-lg-3" id="item">kids</Link>
+              <Link to="/subcategory?category=Kids" className="nav-link  p-lg-3" id="item">Kids</Link>
             </li>
           </ul>
         </div>
