@@ -3,7 +3,7 @@ const ItemsCard = (props) => {
   return (
     <div className="card text-center" id="card-item">
       <div className="overflow">
-        <img src={props.imgsrc} alt="pants" className="card-img-top" id="card-img-top-item"/>
+        <img src={props.imgsrc} alt="..." className="card-img-top" id="card-img-top-item"/>
       </div>
       <div className="card-body text-dark" id="card-body-item">
         <h4 className="card-title" id="card-title-item"> {props.title}</h4>
