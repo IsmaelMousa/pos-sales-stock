@@ -15,24 +15,22 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
-        <nav className="justify-content-center">
-          <div className="search container-fluid">
-
+      <div>
+            <img src="./images/logo.webp" className="img" alt="website" />
           </div>
-          </nav>
         <div className="collapse navbar-collapse" id="main">
           <ul className="navbar-nav ms-5 mb-2 mb-lg-1" >
             <li className="nav-item">
-              <Link to="/home1" className="nav-link p-lg-3 active" aria-current="page" >Sales</Link>
+              <Link to="/home1" className="nav-link p-lg-3"id="item" aria-current="page" >Sales</Link>
             </li>
             <li className="nav-item">
-              <Link to="/subcategory/Men" className="nav-link  p-lg-3">Men</Link>
+              <Link to="/subcategory/Men" className="nav-link  p-lg-3" id="item">Men</Link>
             </li>
             <li className="nav-item">
-              <Link to="/subcategory/Women" className="nav-link  p-lg-3">Women</Link>
+              <Link to="/subcategory/Women" className="nav-link  p-lg-3" id="item">Women</Link>
             </li>
             <li className="nav-item">
-              <Link to="/subcategory/Kids" className="nav-link  p-lg-3">Kids</Link>
+              <Link to="/subcategory/Kids" className="nav-link  p-lg-3" id="item">Kids</Link>
             </li>
           </ul>
         </div>
