@@ -23,14 +23,18 @@ function Home() {
         )
     }
     return (
-        <div>
-
-            <h1>Welcome {localStorage.getItem('name')}</h1>
-            <h2>Click on the Go To Seller button to go to the page designated for you, please</h2>
-            <button onClick={logout} className="logout">LogOut</button>
-            <button onClick={deleteAccount} className="delete">Delete</button>
-            <button onClick={goPage} className="goPage">  <Link to="/seller">Go To Seller Page</Link></button>
-            <button onClick={goAdmin} className="goAdmin">  <Link to="/admin">Go To Admin Page</Link></button>
+        <div className="home1">
+            <button onClick={goPage} className="goPage">
+                  <Link to="/seller" className="goPage">Go To Seller Page</Link></button>
+            <br></br>
+            <button onClick={goAdmin} className="goPage">
+                  <Link to="/admin" className="goPage">Go To Admin Page</Link></button>
+            <br></br>
+            <button onClick={logout} className="state">LogOut</button>
+           <br></br>
+            <button onClick={deleteAccount} className="state">Delete Account</button>
+            <br></br>
+           
         </div>
     );
 }
