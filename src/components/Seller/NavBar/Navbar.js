@@ -1,8 +1,8 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Navbar.css"
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function NavBar() {
-  let navigate=useNavigate()
+  let navigate = useNavigate()
   const [searchTerm, setSearchTerm] = useState('');
   const handleChange = (event) => {
     console.log(event.target.value)
@@ -10,7 +10,7 @@ function NavBar() {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-       navigate("/search/"+searchTerm);
+    navigate("/search/" + searchTerm);
   };
   return (
     <nav className="navbar navbar-expand-lg sticky-top">
@@ -19,11 +19,11 @@ function NavBar() {
           <div className="search container-fluid">
 
           </div>
-          </nav>
+        </nav>
         <div className="collapse navbar-collapse" id="main">
           <ul className="navbar-nav ms-5 mb-2 mb-lg-1" >
             <li className="nav-item">
-              <Link to="/home1" className="nav-link p-lg-3 active" aria-current="page" >Sales</Link>
+              <Link to="/seller" className="nav-link p-lg-3 active" aria-current="page" >Sales</Link>
             </li>
             <li className="nav-item">
               <Link to="/subcategory/Men" className="nav-link  p-lg-3">Men</Link>
@@ -39,21 +39,21 @@ function NavBar() {
         <nav className="justify-content-center">
           <div classame="container-fluid">
             <form className="d-flex">
-            <div class="input-group">
-              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-              <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" onChange={handleChange} onKeyPress={(event) => {
-          if (event.key === 'Enter') {
-            handleSubmit(event);
-          }
-        }}/>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" onChange={handleChange} onKeyPress={(event) => {
+                  if (event.key === 'Enter') {
+                    handleSubmit(event);
+                  }
+                }} />
               </div>
             </form>
           </div>
-        </nav> 
+        </nav>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        </div>
+      </div>
     </nav>
   );
 };
