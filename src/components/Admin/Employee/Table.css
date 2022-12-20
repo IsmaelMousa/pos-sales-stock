@@ -1,28 +1,31 @@
-.container{
- background-color: rgb(227, 228, 228);
- margin-top: -20px;
-    margin-left: 100px;
+#et {
+  background-color: rgb(227, 228, 228);
+  margin-top: -20px;
+  margin-left: 100px;
 
 }
 
 #table-employee {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   font-size: 20px;
-  border-collapse:separate;
- text-align:center;
- width: 100%;
-padding-bottom: 20px;
+  border-collapse: separate;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
 
 }
-.text-center{
+
+.text-center {
   padding: 11px;
 }
-td{
+
+td {
   border: 1px solid rgb(12, 12, 12);
 
 }
-th{
-border: 1px solid rgb(5, 5, 5);
+
+th {
+  border: 1px solid rgb(5, 5, 5);
 
 }
 
@@ -31,24 +34,21 @@ border: 1px solid rgb(5, 5, 5);
   color: #565658;
   margin-top: 20px;
   text-align: center;
-  }
+}
 
 
-#btn{
-background-color: #2e4469;
-border-radius: 5px;
-color: rgb(249, 249, 249);
-padding: 10px 14px  ;
-text-align: center;
-font-size: 17px;
-margin: 10px;
-width: 80px;
-margin-bottom: 1rem;
+#btn {
+  background-color: #2e4469;
+  border-radius: 5px;
+  color: rgb(249, 249, 249);
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 17px;
+  margin: 10px;
+  width: 80px;
+  margin-bottom: 1rem;
 }
 
 #btn:hover {
-box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
+  box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
 }
-
-
-
