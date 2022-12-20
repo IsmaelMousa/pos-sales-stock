@@ -25,7 +25,7 @@ li :hover {
     margin-left: 19px;
 }
 
-.img {
+.imgg {
     width: 100px;
     height: 66px;
     float: right;
@@ -39,4 +39,3 @@ li :hover {
     font-size: 33px;
     cursor: pointer;
 }
-

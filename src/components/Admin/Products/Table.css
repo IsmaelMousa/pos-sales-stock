@@ -1,54 +1,60 @@
-.container{
+#pt {
   background-color: rgb(227, 228, 228);
   margin-top: -20px;
-    margin-left: 100px;
+  margin-left: 0px;
 }
 
-#form{
+#form {
   margin-right: 13rem;
   margin-left: 10px;
 }
 
-.text-end{
-  margin-top: -57px ;
+.text-end {
+  margin-top: -57px;
   margin-right: -200px;
   margin-bottom: 30px;
 }
 
 #table-products {
-   color:rgb(10, 11, 29);
-   font-size: 20px;
-   border-collapse: separate;
+  color: rgb(10, 11, 29);
+  font-size: 20px;
+  border-collapse: separate;
   width: 100%;
- background-color:#eeeeee;
- }
- .text-center{
-   padding: 10px;
- }
- td{
-   border: 1px solid rgb(12, 12, 12);
+  background-color: #eeeeee;
+}
 
- }
- th{
- border: 1px solid rgb(5, 5, 5);
+.text-center {
+  padding: 10px;
+}
 
- }
- #title {
- font-size: 40px;
- color: #565658;
- margin-top: 20px;
- text-align: center;
- }
- #btn{
- background-color: #2e4469;
- border-radius: 5px;
- color: rgb(249, 249, 249);
- padding: 10px 14px  ;
- text-align: center;
- font-size: 17px;
- margin: 10px;
- width: 80px;
- }
- #btn:hover {
- box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
- }
+td {
+  border: 1px solid rgb(12, 12, 12);
+
+}
+
+th {
+  border: 1px solid rgb(5, 5, 5);
+
+}
+
+#title {
+  font-size: 40px;
+  color: #565658;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#btn {
+  background-color: #2e4469;
+  border-radius: 5px;
+  color: rgb(249, 249, 249);
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 17px;
+  margin: 10px;
+  width: 80px;
+}
+
+#btn:hover {
+  box-shadow: 5px 10px 20px 1px rgba(36, 57, 88, 0.363) !important;
+}

@@ -117,7 +117,7 @@ const AdminProductsTable = () => {
   };
 
   return (
-    <div className="container">
+    <div id='pt'>
       <h4 className="h4 text-center" id="title">
         {" "}
         Add New Product
