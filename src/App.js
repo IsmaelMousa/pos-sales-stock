@@ -1,5 +1,4 @@
-import SignInSignupWithLocalStorage from "./components/UI/SignInSignUp"
-import Home1 from "./components/Seller/Pages/Home1"
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import SubCategoryCards from "./components/Seller/Pages/SubCategoryCards"
 import Items from "./components/Seller/Pages/ItemsPage"
