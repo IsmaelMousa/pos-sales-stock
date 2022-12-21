@@ -45,8 +45,7 @@ function SignInSignupWithLocalStorage() {
                 (show ?
 
                     <div className="container" id="Input-Data-user" >
-                    <p className="address">Welcom To Our</p>
-                    <h2 className="name"> Tchick Style</h2><p className="address">System</p>
+                    <p className="address">Welcome To Our Chic Style Store</p>
                         <div className="input_space">
                             <input placeholder="Email" type='text' ref={email} />
                         </div>

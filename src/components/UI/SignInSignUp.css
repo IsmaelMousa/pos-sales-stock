@@ -24,13 +24,10 @@
 .address{
 
     font-family:'Times New Roman', Times;
-    font-size: 40px;
-    color:rgb(78, 76, 76);
+    font-size: 30px;
+    text-shadow: rgb(199, 152, 35);
 }
-.name{
-     color:black ;
-    font-size: 50px;
-}
+
 
 input {
     width: 350px;
@@ -61,9 +58,9 @@ input {
     font-size: 30px;
     margin-top: 15px;
     color: #ffffff;
-    border-radius: 0px;
+    border-radius: 15px;
     background-color: rgb(78, 76, 76);
-    width: 30%;
+    width: 40%;
     padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -74,51 +71,52 @@ input {
     font-size: 30px;
     margin-top: 10px;
     color: #ffffff;
-    border-radius: 0px;
+    border-radius: 15px;
     background-color: rgb(78, 76, 76);
-    width: 30%;
+    width: 40%;
     padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .goSeller {
-
+text-decoration: none;
     margin-top: 10px;
     margin-left:10px;
     color: #ffffff;
     border-radius: 0px;
     background-color: rgb(78, 76, 76);
-    border: none;
+    border-radius: 15px;
     font-size: 30px;
-    width: 30%;
+    width: 40%;
     padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 
 }
 .goAdmin {
+    text-decoration: none;
     color: #ffffff;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 0px;
     background-color: rgb(78, 76, 76);
-    border: none;
+    border-radius: 15px;
     font-size: 30px;
-    width: 30%;
+    width: 40%;
     padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .goSeller:hover {
-    color:#15abbf;
+    color:#d0cd14;
 }
 .goAdmin:hover{
-    color:#15abbf;
+    color:#d0cd14;
 }
 #delete:hover{
-    color:#15abbf;
+    color:#d0cd14;
 }
 #logout:hover{
-    color:#15abbf;
+    color:#d0cd14;
 
 }
 .signin {
