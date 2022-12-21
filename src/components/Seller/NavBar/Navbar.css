@@ -29,15 +29,22 @@ img,svg {
 
 .navbar .navbar-toggler:focus {
   box-shadow: none;
-
 }
 
 .input-group {
   width: 400px;
   height: 35px;
-
 }
 
 #item:focus {
   color:#F6DE60;
+}
+
+#SearchIcon{
+  border: none;
+  background-color: #ffffff;
+}
+#Search{
+  border: none;
+  outline: none;
 }
