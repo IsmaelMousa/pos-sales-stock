@@ -145,7 +145,7 @@ const Table = () => {
             <input
               type="text"
               className="form-control ms-auto"
-              placeholder="search"
+              placeholder="Search"
               value={searchQuery}
               onChange={(get) => setSearchQuery(get.target.value)}
             />
@@ -180,7 +180,7 @@ const Table = () => {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-xl">
+        <div className="modal-dialog modal-lg">
           <div className="modal-content bg-light">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
@@ -292,7 +292,7 @@ const Table = () => {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-xl">
+        <div className="modal-dialog modal-lg">
           <div className="modal-content bg-light">
             <div className="modal-header">
               <h5 className="modal-title text-center" id="exampleModalLabel">
