@@ -1,10 +1,10 @@
 import SalesCard from "./SalesCard";
-import array from "../../UI/Data";
+import ProductsData from "../../UI/ProductsData";
 
 const SalesPage= () =>{
     var data=[]
     for (var i=0; i<=70;i++){
-        data.push(array[Math.floor(Math.random()*(array.length))])
+        data.push(ProductsData[Math.floor(Math.random()*(ProductsData.length))])
         data[i].newPrice=(data[i].costPrice+data[i].price)/2
 
         

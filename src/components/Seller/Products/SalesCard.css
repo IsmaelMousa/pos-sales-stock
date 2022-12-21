@@ -31,7 +31,8 @@
     width:100%;
 }
 #card-body-sale {
-background-color: rgb(190, 190, 190);
+background-color: rgba(0, 0, 0, 0.043);
+
 }
 #card-title-sale{
     color: #000000;
@@ -53,5 +54,6 @@ background-color: rgb(190, 190, 190);
 
 #b3:hover{
     box-shadow:5px 10px 20px 1px rgba !important;
-    background-color:rgb(55, 55, 55);
+    background-color: rgba(0, 0, 0, 0);
+    color:#333;
 }

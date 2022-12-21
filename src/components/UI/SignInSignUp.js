@@ -43,21 +43,22 @@ function SignInSignupWithLocalStorage() {
         <div>
             {showHome ? <Home /> :
                 (show ?
-                    <div className="container">
-                        <h1> Hello Dear Seller {localName} </h1>
-                        <h2>Click on the sign in button after entering your correct information to move to the next page</h2>
+
+                    <div className="container" id="Input-Data-user" >
+                    <p className="address">Welcome To Our Chic Style Store</p>
                         <div className="input_space">
                             <input placeholder="Email" type='text' ref={email} />
                         </div>
                         <div className="input_space">
                             <input placeholder="Password" type='password' ref={password} />
                         </div>
-                        <button onClick={handleSignIn}>Sign In</button>
+                        <button className="signin" onClick={handleSignIn}>Sign In</button>
                     </div>
                     :
 
-                    <div className="container">
-                        <h2> Create your account please </h2>
+                    <div className="container " id ="Input-Data-user">
+                        <h2 className="account"> Create Your Account Please </h2>
+                        <br></br>
                         <div className="input_space">
                             <input placeholder="Name" type='text' ref={name} />
                         </div>
@@ -67,7 +68,7 @@ function SignInSignupWithLocalStorage() {
                         <div className="input_space">
                             <input placeholder="Password" type='password' ref={password} />
                         </div>
-                        <button onClick={handleClick}>Sign Up</button>
+                        <button id="button2" onClick={handleClick}>Sign Up</button>
                     </div>)
             }
         </div>
