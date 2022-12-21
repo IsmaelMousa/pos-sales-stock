@@ -1,4 +1,4 @@
-const array=[
+const ProductsData=[
  {
     "id": 1,
     "category": "Men",
@@ -1921,4 +1921,4 @@ const array=[
   }
 ]
 
-export default array;
+export default ProductsData;

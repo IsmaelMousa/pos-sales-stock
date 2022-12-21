@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import nextId from "react-id-generator";
 import { useNavigate } from "react-router-dom";
 import EditRow from "./EditRow";
-import Data from "../UI/Data";
+import Data from "../UI/ProductsData";
 const Table = () => {
   const navigate = useNavigate();
 
