@@ -24,16 +24,18 @@ function Home() {
     }
     return (
         <div className="home1">
-            <button onClick={goPage} className="goPage">
-                  <Link to="/seller" className="goPage">Go To Seller Page</Link></button>
-            <br></br>
-            <button onClick={goAdmin} className="goPage">
-                  <Link to="/admin" className="goPage">Go To Admin Page</Link></button>
-            <br></br>
-            <button onClick={logout} className="state">LogOut</button>
-           <br></br>
-            <button onClick={deleteAccount} className="state">Delete Account</button>
-            <br></br>
+            <div>
+            <button onClick={goPage} className="goSeller">
+                  <Link to="/seller" className="goSeller">Go To Seller Page</Link></button>
+                  </div><br></br>
+                  <div>
+            <button onClick={goAdmin} className="goAdmin">
+                  <Link to="/admin" className="goAdmin">Go To Admin Page</Link></button></div>
+                  <div><br></br>
+            <button onClick={logout} className="button" id="logout">LogOut</button></div>
+            <div><br></br>
+            <button onClick={deleteAccount} className="button" id ="delete">Delete Account</button>
+            </div><br></br>
            
         </div>
     );
