@@ -1,5 +1,5 @@
-import SubCategoryCard from "./SubCategory/SubCategoryCard"
-import SubCategoriesData from "./SubCategory/SubCategoriesData"
+import SubCategoryCard from "./SubCategoryCard"
+import SubCategoriesData from "./SubCategoriesData"
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 const SubCategoryPage = () => {
