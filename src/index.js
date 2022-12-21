@@ -4,10 +4,10 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SignInSignupWithLocalStorage from "./components/UI/SignInSignUp";
 import React from "react";
-import SalesPage from "./components/Seller/Products/SalesPage";
-import SubCategoryCards from "./components/Seller/Products/SubCategoryPage";
+import SalesPage from "./components/Seller/Products/Sales/SalesPage";
+import SubCategoryPage from "./components/Seller/Products/SubCategoryPage";
 import Search from "./components/Seller/Products/Search";
-import Items from "./components/Seller/Products/ItemsPage";
+import Items from "./components/Seller/Products/Items/ItemsPage";
 import NavBar from "./components/Seller/NavBar/Navbar";
 import Table from "./components/Admin/Table";
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -41,7 +41,7 @@ root.render(
             <>
               <NavBar />
               <div className="parent">
-                <SubCategoryCards />
+                <SubCategoryPage />
               </div>
             </>
           }

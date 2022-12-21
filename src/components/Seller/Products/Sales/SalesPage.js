@@ -1,5 +1,5 @@
 import SalesCard from "./SalesCard";
-import ProductsData from "../../UI/ProductsData";
+import ProductsData from "../../../UI/ProductsData"
 
 const SalesPage= () =>{
     var data=[]

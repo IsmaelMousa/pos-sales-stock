@@ -1,5 +1,5 @@
 import ItemsCard from "./ItemsCard";
-import ProductsData from "../../UI/ProductsData";
+import ProductsData from "../../../UI/ProductsData";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
