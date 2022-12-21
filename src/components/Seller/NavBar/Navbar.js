@@ -16,7 +16,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
         <div>
-          <img src="./images/logo.webp" className="img" alt="website" />
+          <img src="./images/logo.png" className="img" alt="website" />
         </div>
         <div className="collapse navbar-collapse" id="main">
           <ul className="navbar-nav ms-5 mb-2 mb-lg-1" >
