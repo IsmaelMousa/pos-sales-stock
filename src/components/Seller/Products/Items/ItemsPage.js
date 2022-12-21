@@ -1,5 +1,5 @@
 import ItemsCard from "./ItemsCard";
-import array from "../../UI/Data";
+import Data from "../../../UI/Data";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -7,7 +7,7 @@ const ItemsPage= () =>{
     let { category,subcategory} = useParams();
     const [data,setData]=useState([])
     useEffect(()=>{
-        setData(array.filter((item)=>item.subCategory===subcategory && item.category=== category))
+        setData(Data.filter((item)=>item.subCategory===subcategory && item.category=== category))
     },[category,subcategory])
      
   
