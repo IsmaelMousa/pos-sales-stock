@@ -1,8 +1,6 @@
-* {
+*{
     text-align: center;
-
 }
-
 #Input-Data-user {
     margin-top: 150px;
     margin-left: 520px;
@@ -22,7 +20,6 @@
     margin-bottom: 15px;
 }
 .address{
-
     font-family:'Times New Roman', Times;
     font-size: 30px;
     text-shadow: rgb(199, 152, 35);
