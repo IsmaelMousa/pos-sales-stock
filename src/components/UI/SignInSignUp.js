@@ -43,7 +43,7 @@ function SignInSignupWithLocalStorage() {
         <div>
             {showHome ? <Home /> :
                 (show ?
-                    <div className="container">
+                    <div className="container" id="Input-Data-user" >
                         <div className="input_space">
                             <input placeholder="Email" type='text' ref={email} />
                         </div>
@@ -54,7 +54,7 @@ function SignInSignupWithLocalStorage() {
                     </div>
                     :
 
-                    <div className="container " id ="cont">
+                    <div className="container " id ="Input-Data-user">
                         <h2 className="account"> Create Your Account Please </h2>
                         <br></br>
                         <div className="input_space">

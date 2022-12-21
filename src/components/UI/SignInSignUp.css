@@ -1,36 +1,36 @@
-*{
+* {
     text-align: center;
 
 }
 
-#cont {
- 
+#Input-Data-user {
     margin-top: 150px;
     margin-left: 520px;
-    width:450px;
+    width: 450px;
     height: 400px;
 }
-.account{
+
+.account {
     color: black;
     font-size: 33px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 .input_space {
     margin-bottom: 15px;
-    
 }
+
 input {
     width: 350px;
     font-size: 20px;
     font-weight: 300px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#button2{
+#button2 {
     margin-top: 10px;
     color: #f4f8f8;
-    border-radius: 90px ;
+    border-radius: 90px;
     background-color: rgb(36, 34, 34);
     border: none;
     font-size: 21px;
@@ -38,58 +38,91 @@ input {
     padding: 2%;
     font-family: 'Times New Roman', Times, serif;
 }
-#button2:hover{
-    box-shadow:5px 10px 20px 1px rgba !important;
-    background-color:rgb(16, 12, 12);
-}
 
-.logout {
-    height: 35px;
-    width: 50%;
-    border: none;
+#button2:hover {
+    box-shadow: 5px 10px 20px 1px rgba !important;
+    background-color: rgb(16, 12, 12);
 }
-
-.state {
-   text-align: center;
+#logout {
+    margin-left:10px;
+    text-align: center;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #ffffff;
-    border-radius: 40px ;
+    border-radius: 0px;
     background-color: rgb(78, 76, 76);
-    width:30%;
-    padding: 4px;
+    width: 30%;
+    padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.goPage{
+#delete {
+    margin-left:3px;
+    text-align: center;
+    font-size: 30px;
     margin-top: 10px;
     color: #ffffff;
-    border-radius: 50px ;
+    border-radius: 0px;
+    background-color: rgb(78, 76, 76);
+    width: 30%;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.goSeller {
+
+    margin-top: 10px;
+    margin-left:10px;
+    color: #ffffff;
+    border-radius: 0px;
     background-color: rgb(78, 76, 76);
     border: none;
     font-size: 30px;
-    width:30%;
-padding: 2px;
+    width: 30%;
+    padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 
 }
-.goPage:hover{
-    color: black;
+.goAdmin {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 0px;
+    background-color: rgb(78, 76, 76);
+    border: none;
+    font-size: 30px;
+    width: 30%;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.signin{
+
+.goSeller:hover {
+    color:#15abbf;
+}
+.goAdmin:hover{
+    color:#15abbf;
+}
+#delete:hover{
+    color:#15abbf;
+}
+#logout:hover{
+    color:#15abbf;
+
+}
+.signin {
     text-align: center;
     font-size: 50px;
     margin-top: 10px;
     color: #ffffff;
-    border-radius: 40px ;
+    border-radius: 40px;
     background-color: rgb(78, 76, 76);
     font-size: 21px;
     width: 75%;
     padding: 4px;
     font-family: 'Helvetice Naue';
 }
-.home1{
 
+.home1 {
     margin-top: 150px;
-    margin-left: 10px;   
+    margin-left: 10px;
 }
