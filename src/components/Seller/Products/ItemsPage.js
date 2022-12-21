@@ -9,8 +9,6 @@ const ItemsPage= () =>{
     useEffect(()=>{
         setData(array.filter((item)=>item.subCategory===subcategory && item.category=== category))
     },[category,subcategory])
-     
-  
     return(
     <div>
         {data.map((props) => {return (<ItemsCard title={props.productName} imgsrc={props.image} price={props.price+"$"} quantity={props.quantity}/>)})}

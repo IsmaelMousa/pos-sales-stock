@@ -2,7 +2,7 @@ import SubCategoryCard from "./SubCategoryCard";
 import SubCategoriesData from "./SubCategoriesData";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-const SubCategoryCards = () => {
+const SubCategoryPage = () => {
   let  {category} = useParams();
   var data=SubCategoriesData.filter((item)=>item.category=== category);
   useEffect(()=>{
@@ -26,4 +26,4 @@ const SubCategoryCards = () => {
   );
 
 }
-export default SubCategoryCards;
+export default SubCategoryPage;

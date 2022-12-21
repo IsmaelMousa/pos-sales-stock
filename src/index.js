@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import SignInSignupWithLocalStorage from "./components/UI/SignInSignUp"
 import React from 'react';
 import SalesPage from "./components/Seller/Products/SalesPage"
-import SubCategoryCards from "./components/Seller/Products/SubCategoryCards"
+import SubCategoryCards from "./components/Seller/Products/SubCategoryPage"
 import Search from "./components/Seller/Products/Search"
 import Items from "./components/Seller/Products/ItemsPage"
 import NavBar from "./components/Seller/NavBar/Navbar"
