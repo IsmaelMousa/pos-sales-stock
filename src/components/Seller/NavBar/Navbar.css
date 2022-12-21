@@ -2,43 +2,51 @@ body {
   font-family: "Roboto", sans-serif;
   padding-left: 0px;
   border: 0px solid #ffffff;
- }
- 
-img, svg {
+}
+
+img,
+svg {
   vertical-align: middle;
-  width: 85px; 
+  width: 85px;
 }
- .navbar {
-   background-color:#000000;
-   padding: 0 0;
-   margin: 0;
- }
 
- .navbar .navbar-nav .nav-link {
-   color: rgb(255, 255, 255);
- }
- 
+.navbar {
+  background-color: #000000;
+  padding: 0 0;
+  margin: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 .navbar .navbar-nav .nav-link:hover {
-  color:  #d4d4d4;;
+  color: #d4d4d4;
+
+  ;
 }
 
- .navbar .navbar-toggler {
-   width: 60px;
-   font-size: 25px;
-   border-color: rgb(255, 255, 255);
-   background-color: rgb(255, 255, 255);
- }
+.navbar .navbar-toggler {
+  width: 60px;
+  font-size: 25px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 
- .navbar .navbar-toggler:focus {
-   box-shadow: none;
- }
+}
 
- .input-group{
-   width: 400px;
-   height: 35px;
- }
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
 
- #item:focus{
+}
+
+.input-group {
+  width: 400px;
+  height: 35px;
+
+}
+
+#item:focus {
   color: rgb(241, 224, 138);
- }
- 
+}

@@ -43,14 +43,17 @@ function SignInSignupWithLocalStorage() {
         <div>
             {showHome ? <Home /> :
                 (show ?
+
                     <div className="container" id="Input-Data-user" >
+                    <p className="address">Welcom To Our</p>
+                    <h2 className="name"> Tchick Style</h2><p className="address">System</p>
                         <div className="input_space">
                             <input placeholder="Email" type='text' ref={email} />
                         </div>
                         <div className="input_space">
                             <input placeholder="Password" type='password' ref={password} />
                         </div>
-                        <button className="signin"onClick={handleSignIn}>Sign In</button>
+                        <button className="signin" onClick={handleSignIn}>Sign In</button>
                     </div>
                     :
 

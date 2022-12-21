@@ -8,6 +8,7 @@
     margin-left: 520px;
     width: 450px;
     height: 400px;
+    
 }
 
 .account {
@@ -17,7 +18,18 @@
 }
 
 .input_space {
+
     margin-bottom: 15px;
+}
+.address{
+
+    font-family:'Times New Roman', Times;
+    font-size: 40px;
+    color:rgb(78, 76, 76);
+}
+.name{
+     color:black ;
+    font-size: 50px;
 }
 
 input {
