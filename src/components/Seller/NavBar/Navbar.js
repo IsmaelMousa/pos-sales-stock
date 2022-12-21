@@ -38,8 +38,8 @@ function NavBar() {
           <div classame="container-fluid">
             <form className="d-flex">
               <div class="input-group">
-                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input className="form-control me-2 btn-primary raunded-pill main-btn" type="search" placeholder="Search..." aria-label="Search" onChange={handleChange} onKeyPress={(event) => {
+                <span class="input-group-text" id="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input className="form-control me-2 btn-primary raunded-pill main-btn"id="Search" type="search" placeholder="Search..."  onChange={handleChange} onKeyPress={(event) => {
                   if (event.key === 'Enter') {
                     handleSubmit(event);
                   }
