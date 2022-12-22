@@ -1,6 +1,4 @@
-*{
-    text-align: center;
-}
+
 #Input-Data-user {
     margin-top: 150px;
     margin-left: 520px;
@@ -50,7 +48,7 @@ input {
     background-color: rgb(16, 12, 12);
 }
 #logout {
-    margin-left:10px;
+    margin-left:450px;
     text-align: center;
     font-size: 30px;
     margin-top: 15px;
@@ -63,7 +61,7 @@ input {
 }
 
 #delete {
-    margin-left:3px;
+    margin-left:450px;
     text-align: center;
     font-size: 30px;
     margin-top: 10px;
@@ -76,39 +74,37 @@ input {
 }
 
 .goSeller {
-text-decoration: none;
     margin-top: 10px;
-    margin-left:10px;
-    color: #ffffff;
-    border-radius: 0px;
+    margin-left:450px;
     background-color: rgb(78, 76, 76);
     border-radius: 15px;
-    font-size: 30px;
     width: 40%;
     padding: 2px;
+
+
+}
+.text-center-button{
+    text-decoration: none;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 
 }
 .goAdmin {
-    text-decoration: none;
-    color: #ffffff;
+
     margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 0px;
+    margin-left: 450px;
     background-color: rgb(78, 76, 76);
     border-radius: 15px;
-    font-size: 30px;
+ 
     width: 40%;
     padding: 2px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.goSeller:hover {
+.text-center-button:hover {
     color:#d0cd14;
 }
-.goAdmin:hover{
-    color:#d0cd14;
-}
+
 #delete:hover{
     color:#d0cd14;
 }

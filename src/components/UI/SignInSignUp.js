@@ -58,6 +58,7 @@ function SignInSignupWithLocalStorage() {
 
                     <div className="container " id ="Input-Data-user">
                         <h2 className="account"> Create Your Account Please </h2>
+                        
                         <br></br>
                         <div className="input_space">
                             <input placeholder="Name" type='text' ref={name} />
