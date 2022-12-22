@@ -26,11 +26,14 @@ function Home() {
         <div className="home1">
             <div>
             <button onClick={goPage} className="goSeller">
-                  <Link to="/seller" className="goSeller">Go To Seller Page</Link></button>
-                  </div><br></br>
+                  <Link to="/seller" className="text-center-button">Go To Seller Page</Link>
+                  </button>
+                  </div>
+                  <br></br>
                   <div>
             <button onClick={goAdmin} className="goAdmin">
-                  <Link to="/admin" className="goAdmin">Go To Admin Page</Link></button></div>
+                  <Link to="/admin"className="text-center-button" >Go To Admin Page</Link>
+                  </button></div>
                   <div><br></br>
             <button onClick={logout} className="button" id="logout">LogOut</button></div>
             <div><br></br>
