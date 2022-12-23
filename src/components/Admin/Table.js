@@ -136,7 +136,7 @@ const Table = () => {
               data-bs-toggle="modal"
               data-bs-target="#addModalForm"
             >
-              <b>Add Product</b> <i class="fa-sharp fa-solid fa-cart-plus"></i>
+              <b>Add Product </b><i className="fa-solid fa-plus"></i>
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="me-auto"></div>
@@ -192,7 +192,7 @@ const Table = () => {
             <div className="modal-header">
               <h4 className="modal-title" id="exampleModalLabel">
                 <b>Add New Product</b>{" "}
-                <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                <i className="fa-solid fa-plus"></i>
               </h4>
               <button
                 type="button"
@@ -203,10 +203,10 @@ const Table = () => {
             </div>
             <div className="modal-body">
               <form onSubmit={handleAddPost}>
-                <div class="btn-group mb-3 col-12">
+                <div className="btn-group mb-3 col-12">
                   <button
                     type="button"
-                    class="btn bg-white border border-dark border-opacity-25 dropdown-toggle"
+                    className="btn bg-white border border-dark border-opacity-25 dropdown-toggle"
                     data-bs-toggle="dropdown"
                     data-bs-display="static"
                     aria-expanded="false"
@@ -216,10 +216,10 @@ const Table = () => {
                   >
                     Men
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-lg-start">
+                  <ul className="dropdown-menu dropdown-menu-lg-start">
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Men"
@@ -230,7 +230,7 @@ const Table = () => {
                     </li>
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Women"
@@ -241,7 +241,7 @@ const Table = () => {
                     </li>
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Kids"
@@ -368,10 +368,10 @@ const Table = () => {
                   >
                     Men
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-lg-start">
+                  <ul className="dropdown-menu dropdown-menu-lg-start">
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Men"
@@ -382,7 +382,7 @@ const Table = () => {
                     </li>
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Women"
@@ -393,7 +393,7 @@ const Table = () => {
                     </li>
                     <li>
                       <button
-                        class="dropdown-item"
+                        className="dropdown-item"
                         type="button"
                         name="category"
                         value="Kids"
