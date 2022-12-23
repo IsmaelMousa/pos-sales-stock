@@ -10,6 +10,7 @@ import Search from "./components/Seller/Products/Search";
 import Items from "./components/Seller/Products/Items/ItemsPage";
 import NavBar from "./components/Seller/NavBar/Navbar";
 import Table from "./components/Admin/Table";
+import Cart from "./components/Seller/Cart/Cart"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -31,6 +32,8 @@ root.render(
               <NavBar />
               <div className="parent">
                 <SalesPage />
+                <Cart/>
+
               </div>
             </>
           }
@@ -42,6 +45,8 @@ root.render(
               <NavBar />
               <div className="parent">
                 <SubCategoryPage />
+                <Cart/>
+
               </div>
             </>
           }
@@ -53,6 +58,8 @@ root.render(
               <NavBar />
               <div className="parent">
                 <Items />
+                <Cart/>
+
               </div>
             </>
           }
@@ -64,6 +71,8 @@ root.render(
               <NavBar />
               <div className="parent">
                 <Search />
+                <Cart/>
+
               </div>
             </>
           }

@@ -11,7 +11,7 @@ const ItemsPage= () =>{
     },[category,subcategory])
     return(
     <div>
-        {data.map((props) => {return (<ItemsCard title={props.productName} imgsrc={props.image} price={props.price+"$"} quantity={props.quantity}/>)})}
+        {data.map((props) => {return (<ItemsCard id={props.id} title={props.productName} imgsrc={props.image} price={props.price+"$"} quantity={props.quantity}/>)})}
     </div>);
     }
 export default ItemsPage;
