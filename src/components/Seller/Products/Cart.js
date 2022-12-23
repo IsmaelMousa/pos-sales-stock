@@ -1,7 +1,6 @@
-import React, { useState, useEffect} from "react";
-import "./Cart.css";
+import React, { useState, useEffect } from "react";
 
-function Cart() {
+function ShoppingCart() {
   const [CartItems, setCartItems] = useState([]);
   const [total, setTotal] = useState(0);
   function deleteFromCart(id) {
@@ -63,50 +62,50 @@ function Cart() {
   }
 
   return (
-    <div className="cart">
-      <div className="cart-info">
-        <div className="cart-table">
-          <table className="table">
-            <thead>
-              <tr>
-                <th className="items-name">Name</th>
-                <th className="items-qty">Qty</th>
-                <th className="items-price">Price</th>
-                <th className="remove-icon">Action</th>
+    <div className="container col-4 bg-light p-1">
+      <div className="p-2 shadow">
+        <table className="table table-striped">
+          <thead>
+            <tr className="text-center">
+              <th scope="col">Name</th>
+              <th scope="col">Qty</th>
+              <th scope="col">Price</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {CartItems?.map((item, index) => (
+              <tr key={index} className="text-center">
+                <td>{item.itemName}</td>
+                <td>{item.quantity}</td>
+                <td>{item.itemPrice}</td>
+                <td onClick={() => deleteFromCart(item.itemId)}>
+                  <i class="fa-solid text-danger text-hover fa-xl fa-ban"></i>
+                </td>
               </tr>
-            </thead>
-            <tbody>
-              {CartItems?.map((item, index) => (
-                <tr key={index}>
-                  <td className="items-name">{item.itemName}</td>
-                  <td className="items-qty">{item.quantity}</td>
-                  <td className="items-price">{item.itemPrice}</td>
-                  <td
-                    onClick={() => deleteFromCart(item.itemId)}
-                    className="remove-icon"
-                  >
-                    ❌
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+            ))}
+          </tbody>
+        </table>
+        <hr />
+        <div className="d-flex justify-content-center">
+          <b>Total: {total}$</b>
         </div>
-        <div className="total">
-          <hr />
-          <div className="total-price">Total:{total}$</div>
-          <hr />
-        </div>
+        <hr />
       </div>
-      <div className="cart-actions">
-        <button onClick={PrintCart} className="btn btn-outline-dark">
-          Pay
+      <br></br>
+      <div className="d-flex p-3 justify-content-between shadow">
+        <button onClick={PrintCart} className="btn btn-dark border-0">
+          <b>
+            Print <i class="fa-solid fa-print fa-xl"></i>
+          </b>
         </button>
-        <button onClick={emptyCart} className="btn btn-outline-danger">
-          Cancel
+        <button onClick={emptyCart} className="btn btn-danger border-0">
+          <b>
+            Cancel <i class="fa-solid fa-trash fa-xl"></i>
+          </b>
         </button>
       </div>
     </div>
   );
 }
-export default Cart;
+export default ShoppingCart;
