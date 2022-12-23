@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import Home from "./Home";
-import './SignInSignUp.css';
 
 function SignInSignupWithLocalStorage() {
     const name = useRef()
@@ -11,7 +10,6 @@ function SignInSignupWithLocalStorage() {
     const localSignUp = localStorage.getItem("signUp")
     const localEmail = localStorage.getItem("email")
     const localPassword = localStorage.getItem("password")
-    const localName = localStorage.getItem("name")
     useEffect(() => {
         if (localSignUp) {
             setShowHome(true)
@@ -40,39 +38,63 @@ function SignInSignupWithLocalStorage() {
         }
     }
     return (
+
         <div>
             {showHome ? <Home /> :
                 (show ?
 
-                    <div className="container" id="Input-Data-user" >
-                    <p className="address">Welcome To Our Chic Style Store</p>
-                        <div className="input_space">
-                            <input placeholder="Email" type='text' ref={email} />
+                    <div className="container col-xl-10 col-xxl-8 px-4 py-5">
+                        <div className="row align-items-center g-lg-5 py-5">
+                            <div className="col-md-10 mx-auto col-lg-5">
+                                <form className="p-4 p-md-5 border rounded-3 bg-light">
+                                    <div className="form-floating mb-3">
+                                        <input type="email" className="form-control" id="floatingInput" ref={email} />
+                                        <label htmlFor="floatingInput">Email address</label>
+                                    </div>
+                                    <div className="form-floating mb-3">
+                                        <input type="password" className="form-control" id="floatingPassword" ref={password} />
+                                        <label htmlFor="floatingPassword">Password</label>
+                                    </div>
+                                    <div className="checkbox mb-3">
+                                        <label>
+                                            <input type="checkbox" defaultValue="remember-me" /> Remember me
+                                        </label>
+                                    </div>
+                                    <button className="w-100 btn btn-lg btn-outline-secondary " onClick={handleSignIn}>Sign in</button>
+                                    <hr className="my-4" />
+                                    <small className="text-muted"> Chic Style  2022-2023 .</small>
+                                </form>
+                            </div>
                         </div>
-                        <div className="input_space">
-                            <input placeholder="Password" type='password' ref={password} />
-                        </div>
-                        <button className="signin" onClick={handleSignIn}>Sign In</button>
                     </div>
                     :
-
-                    <div className="container " id ="Input-Data-user">
-                        <h2 className="account"> Create Your Account Please </h2>
-                        
-                        <br></br>
-                        <div className="input_space">
-                            <input placeholder="Name" type='text' ref={name} />
+                    <div className="container col-xl-10 col-xxl-8 px-4 py-5">
+                        <div className="row align-items-center g-lg-5 py-5">
+                            <div className="col-md-10 mx-auto col-lg-5">
+                                <form className="p-4 p-md-5 border rounded-3 bg-light">
+                                    <div className="form-floating mb-3">
+                                        <input type="text" className="form-control" id="floatingInput" ref={name} />
+                                        <label htmlFor="floatingInput">Name</label>
+                                    </div>
+                                    <div className="form-floating mb-3">
+                                        <input type="email" className="form-control" id="floatingInput" ref={email} />
+                                        <label htmlFor="floatingInput">Email address</label>
+                                    </div>
+                                    <div className="form-floating mb-3">
+                                        <input type="password" className="form-control" id="floatingPassword" ref={password} />
+                                        <label htmlFor="floatingPassword">Password</label>
+                                    </div>
+                                    <button className="w-100 btn btn-lg btn-outline-secondary " onClick={handleClick}>Sign up</button>
+                                    <hr className="my-4" />
+                                </form>
+                            </div>
                         </div>
-                        <div className="input_space">
-                            <input placeholder="Email" type='text' ref={email} />
-                        </div>
-                        <div className="input_space">
-                            <input placeholder="Password" type='password' ref={password} />
-                        </div>
-                        <button id="button2" onClick={handleClick}>Sign Up</button>
-                    </div>)
+                    </div>
+                )
             }
+
         </div>
+
     );
 }
 export default SignInSignupWithLocalStorage;
