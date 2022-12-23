@@ -14,13 +14,12 @@ const EditRow = ({ handleEditPostForm, products }) => {
           <td>
             <button
               type="button"
-              className=" btn btn-primary ml-auto mb-2"
+              className=" btn btn-outline-primary ml-auto mb-2"
               data-bs-toggle="modal"
               data-bs-target="#editModalForm"
-              onClick={(set) => handleEditPostForm(set, product)}
+              onClick={(set) => handleEditPostForm(set, product)} 
             >
-                
-               Edit <i className="fa-solid fa-pen"></i>
+            Edit <i className="fa-solid fa-pen"></i>
             </button>
           </td>
         </tr>

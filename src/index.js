@@ -19,7 +19,7 @@ root.render(
         <Route
           path="/admin"
           element={
-            <div className="container">
+            <div className="p-4 bg-light">
               <Table />
             </div>
           }

@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import nextId from "react-id-generator";
-import { useNavigate } from "react-router-dom";
 import EditRow from "./EditRow";
 import Data from "../UI/ProductsData";
+import { Link,} from "react-router-dom";
 const Table = () => {
-  const navigate = useNavigate();
-
   const [products, setProducts] = useState(Data);
 
   const [addData, setAddPost] = useState({
@@ -48,7 +46,6 @@ const Table = () => {
 
     const newProducts = [...products, newProduct];
     setProducts(newProducts);
-    navigate("/");
     console.log(newProducts);
   };
 
@@ -128,31 +125,41 @@ const Table = () => {
         row.category.toLowerCase().indexOf(searchQuery) > -1
     );
   }
-
   return (
     <div>
-      <div className="d-flex flex-row">
-        <button
-          type="button"
-          className="me-3 btn btn-primary ml-auto d-block mb-2"
-          data-bs-toggle="modal"
-          data-bs-target="#addModalForm"
-        >
-          Add Product <i className="fa-sharp fa-solid fa-plus"></i>
-        </button>
-        <form className="row g-3 ms-auto">
-          <div className="col-auto">
-            <input
-              type="text"
-              className="form-control ms-auto"
-              placeholder="Search"
-              value={searchQuery}
-              onChange={(get) => setSearchQuery(get.target.value)}
-            />
+      <header className="p-5">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-2">
+          <div className="container-fluid">
+            <button
+              type="button"
+              className="btn bg-dark btn-dark text-info border border-0"
+              data-bs-toggle="modal"
+              data-bs-target="#addModalForm"
+            >
+              <b>Add Product</b> <i class="fa-sharp fa-solid fa-cart-plus"></i>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+              <div className="me-auto"></div>
+              <form className="d-flex col-7 me-5" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  value={searchQuery}
+                  onChange={(get) => setSearchQuery(get.target.value)}
+                ></input>
+              </form>
+              <div className="d-flex">
+              <button type="button" className="btn btn bg-dark btn-dark text-info border border-0">
+              <Link to="/"><i className="fa-sharp fa-xl fa-solid fa-right-from-bracket text-info"></i></Link>
+              </button>
+              </div>
+              </div>
           </div>
-        </form>
-      </div>
-      <table className="table table-bordered border-primary table-hover table-responsive">
+        </nav>
+      </header>
+      <table className="table table-hover table-responsive">
         <thead>
           <tr className="text-center">
             <th scope="col">Category</th>
@@ -183,9 +190,10 @@ const Table = () => {
         <div className="modal-dialog modal-lg">
           <div className="modal-content bg-light">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">
-                Add New Product <i className="fa-sharp fa-solid fa-plus"></i>
-              </h5>
+              <h4 className="modal-title" id="exampleModalLabel">
+                <b>Add New Product</b>{" "}
+                <i class="fa-sharp fa-solid fa-cart-plus"></i>
+              </h4>
               <button
                 type="button"
                 className="btn-close"
@@ -195,18 +203,57 @@ const Table = () => {
             </div>
             <div className="modal-body">
               <form onSubmit={handleAddPost}>
-                <div className="mb-2">
-                  <label className="form-label"></label>
-                  <input
-                    type="text"
-                    className="form-control"
+                <div class="btn-group mb-3 col-12">
+                  <button
+                    type="button"
+                    class="btn bg-white border border-dark border-opacity-25 dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    data-bs-display="static"
+                    aria-expanded="false"
                     name="category"
-                    placeholder="category"
-                    required
-                    onChange={handleChange("category")}
-                  />
+                    value="Men"
+                    onClick={handleChange("category")}
+                  >
+                    Men
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-lg-start">
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Men"
+                        onClick={handleChange("category")}
+                      >
+                        Men
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Women"
+                        onClick={handleChange("category")}
+                      >
+                        Women
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Kids"
+                        onClick={handleChange("category")}
+                      >
+                        Kids
+                      </button>
+                    </li>
+                  </ul>
                 </div>
-                <div className="mb-2">
+
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -217,7 +264,7 @@ const Table = () => {
                     onChange={handleChange("subCategory")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -228,7 +275,7 @@ const Table = () => {
                     onChange={handleChange("productName")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -239,7 +286,7 @@ const Table = () => {
                     onChange={handleChange("costPrice")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -250,7 +297,7 @@ const Table = () => {
                     onChange={handleChange("price")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -266,16 +313,16 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-success float-start"
+                    className="btn btn-outline-success col-2 float-start"
                   >
-                    Add <i className="fa-sharp fa-solid fa-plus"></i>
+                   <b> Add </b><i className="fa-sharp fa-solid fa-plus"></i>
                   </button>
                   <button
                     type="reset"
                     data-bs-dismiss="modal"
-                    className="btn btn-danger float-end"
+                    className="btn btn-outline-danger col-2 float-end"
                   >
-                    Reset
+                   <b>Reset</b>
                   </button>
                 </div>
               </form>
@@ -295,9 +342,10 @@ const Table = () => {
         <div className="modal-dialog modal-lg">
           <div className="modal-content bg-light">
             <div className="modal-header">
-              <h5 className="modal-title text-center" id="exampleModalLabel">
-                Edit Product
-              </h5>
+              <h4 className="modal-title" id="exampleModalLabel">
+                <b>Edit Product</b>{" "}
+                <i className="fa-sharp fa-solid fa-pen-to-square"></i>
+              </h4>
               <button
                 type="button"
                 className="btn-close"
@@ -307,19 +355,56 @@ const Table = () => {
             </div>
             <div className="modal-body">
               <form onSubmit={handleFormSave}>
-                <div className="mb-2">
-                  <label className="form-label"></label>
-                  <input
-                    type="text"
-                    className="form-control"
+                <div class="btn-group mb-3 col-12">
+                  <button
+                    type="button"
+                    class="btn bg-white border border-dark border-opacity-25 dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    data-bs-display="static"
+                    aria-expanded="false"
                     name="category"
-                    placeholder="category"
-                    value={editFormData.category}
-                    required
-                    onChange={handleEditFormClick("category")}
-                  />
-                </div>
-                <div className="mb-2">
+                    value="Men"
+                    onClick={handleEditFormClick("category")}
+                  >
+                    Men
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-lg-start">
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Men"
+                        onClick={handleEditFormClick("category")}
+                      >
+                        Men
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Women"
+                        onClick={handleEditFormClick("category")}
+                      >
+                        Women
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        class="dropdown-item"
+                        type="button"
+                        name="category"
+                        value="Kids"
+                        onClick={handleEditFormClick("category")}
+                      >
+                        Kids
+                      </button>
+                    </li>
+                  </ul>
+                </div>{" "}
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -331,7 +416,7 @@ const Table = () => {
                     onChange={handleEditFormClick("subCategory")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -343,7 +428,7 @@ const Table = () => {
                     onChange={handleEditFormClick("productName")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -355,7 +440,7 @@ const Table = () => {
                     onChange={handleEditFormClick("costPrice")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -367,7 +452,7 @@ const Table = () => {
                     onChange={handleEditFormClick("price")}
                   />
                 </div>
-                <div className="mb-2">
+                <div className="mb-3">
                   <label className="form-label"></label>
                   <input
                     type="text"
@@ -383,18 +468,18 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-success float-start"
+                    className="btn btn-outline-success border-0 float-start"
                   >
-                    <i className="fa-sharp fa-solid fa-check"></i>
+                    <i className="fa-sharp fa-solid fa-check fa-xl"></i>
                   </button>
 
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-danger float-end"
+                    className="btn btn-outline-danger border-0 float-end"
                     onClick={handleDelete}
                   >
-                    <i className="fa-sharp fa-solid fa-trash"></i>
+                    <i className="fa-sharp fa-solid fa-trash fa-xl"></i>
                   </button>
                 </div>
               </form>
