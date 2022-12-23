@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import nextId from "react-id-generator";
 import EditRow from "./EditRow";
 import Data from "../UI/ProductsData";
+import { Link,} from "react-router-dom";
 const Table = () => {
   const [products, setProducts] = useState(Data);
 
@@ -124,31 +125,41 @@ const Table = () => {
         row.category.toLowerCase().indexOf(searchQuery) > -1
     );
   }
-
   return (
     <div>
-      <div className="d-flex flex-row">
-        <button
-          type="button"
-          className="me-3 btn btn-outline-primary btn-lg ml-auto d-block mb-5"
-          data-bs-toggle="modal"
-          data-bs-target="#addModalForm"
-        >
-          Add Product <i className="fa-sharp fa-solid fa-plus"></i>
-        </button>
-        <form className="row g-3 ms-auto">
-          <div className="col-auto">
-            <input
-              type="text"
-              className="form-control ms-auto"
-              placeholder="Search"
-              value={searchQuery}
-              onChange={(get) => setSearchQuery(get.target.value)}
-            />
+      <header className="p-5">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-2">
+          <div className="container-fluid">
+            <button
+              type="button"
+              className="btn bg-dark btn-dark text-info border border-0"
+              data-bs-toggle="modal"
+              data-bs-target="#addModalForm"
+            >
+              <b>Add Product</b> <i class="fa-sharp fa-solid fa-cart-plus"></i>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+              <div className="me-auto"></div>
+              <form className="d-flex col-7 me-5" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  value={searchQuery}
+                  onChange={(get) => setSearchQuery(get.target.value)}
+                ></input>
+              </form>
+              <div className="d-flex">
+              <button type="button" className="btn btn bg-dark btn-dark text-info border border-0">
+              <Link to="/"><i className="fa-sharp fa-xl fa-solid fa-right-from-bracket text-info"></i></Link>
+              </button>
+              </div>
+              </div>
           </div>
-        </form>
-      </div>
-      <table className="table table-bordered border-primary table-hover table-responsive">
+        </nav>
+      </header>
+      <table className="table table-hover table-responsive">
         <thead>
           <tr className="text-center">
             <th scope="col">Category</th>
@@ -302,14 +313,14 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-outline-success btn-lg float-start btn-hover"
+                    className="btn btn-outline-success col-2 float-start btn-hover"
                   >
                     Add <i className="fa-sharp fa-solid fa-plus"></i>
                   </button>
                   <button
                     type="reset"
                     data-bs-dismiss="modal"
-                    className="btn btn-outline-danger btn-lg float-end"
+                    className="btn btn-outline-danger col-2 float-end"
                   >
                     Reset
                   </button>
@@ -331,7 +342,7 @@ const Table = () => {
         <div className="modal-dialog modal-lg">
           <div className="modal-content bg-light">
             <div className="modal-header">
-              <h4 className="modal-title text-center" id="exampleModalLabel">
+              <h4 className="modal-title" id="exampleModalLabel">
                 <b>Edit Product</b>{" "}
                 <i className="fa-sharp fa-solid fa-pen-to-square"></i>
               </h4>
@@ -457,18 +468,18 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn  btn-outline-success btn-lg float-start"
+                    className="btn btn-white border-0 col-2 float-start"
                   >
-                    <i className="fa-sharp fa-solid fa-check"></i>
+                    <i className="fa-sharp text-success fa-solid fa-check fa-xl"></i>
                   </button>
 
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn  btn-outline-danger btn-lg float-end"
+                    className="btn btn-white border-0 col-2 float-end"
                     onClick={handleDelete}
                   >
-                    <i className="fa-sharp fa-solid fa-trash"></i>
+                    <i className="fa-sharp text-danger fa-solid fa-trash fa-xl"></i>
                   </button>
                 </div>
               </form>
