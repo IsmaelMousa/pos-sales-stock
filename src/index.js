@@ -30,7 +30,7 @@ root.render(
           element={
             <>
               <NavBar />
-              <div className="parent">
+              <div className="parent bg-light">
                 <SalesPage />
                 <ShoppingCart />
               </div>
@@ -42,7 +42,7 @@ root.render(
           element={
             <>
               <NavBar />
-              <div className="parent">
+              <div className="parent bg-light">
                 <SubCategoryPage />
                 <ShoppingCart />
               </div>
@@ -54,7 +54,7 @@ root.render(
           element={
             <>
               <NavBar />
-              <div className="parent">
+              <div className="parent bg-light">
                 <Items />
                 <ShoppingCart />
               </div>
@@ -66,7 +66,7 @@ root.render(
           element={
             <>
               <NavBar />
-              <div className="parent">
+              <div className="parent bg-light">
                 <Search />
                 <ShoppingCart />
               </div>
