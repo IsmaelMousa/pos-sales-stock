@@ -216,7 +216,7 @@ const Table = () => {
                   >
                     Men
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                  <ul class="dropdown-menu dropdown-menu-lg-start">
                     <li>
                       <button
                         class="dropdown-item"
@@ -313,16 +313,16 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-outline-success col-2 float-start btn-hover"
+                    className="btn btn-outline-success col-2 float-start"
                   >
-                    Add <i className="fa-sharp fa-solid fa-plus"></i>
+                   <b> Add </b><i className="fa-sharp fa-solid fa-plus"></i>
                   </button>
                   <button
                     type="reset"
                     data-bs-dismiss="modal"
                     className="btn btn-outline-danger col-2 float-end"
                   >
-                    Reset
+                   <b>Reset</b>
                   </button>
                 </div>
               </form>
@@ -368,7 +368,7 @@ const Table = () => {
                   >
                     Men
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                  <ul class="dropdown-menu dropdown-menu-lg-start">
                     <li>
                       <button
                         class="dropdown-item"
@@ -468,18 +468,18 @@ const Table = () => {
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-white border-0 col-2 float-start"
+                    className="btn btn-outline-success border-0 float-start"
                   >
-                    <i className="fa-sharp text-success fa-solid fa-check fa-xl"></i>
+                    <i className="fa-sharp fa-solid fa-check fa-xl"></i>
                   </button>
 
                   <button
                     type="submit"
                     data-bs-dismiss="modal"
-                    className="btn btn-white border-0 col-2 float-end"
+                    className="btn btn-outline-danger border-0 float-end"
                     onClick={handleDelete}
                   >
-                    <i className="fa-sharp text-danger fa-solid fa-trash fa-xl"></i>
+                    <i className="fa-sharp fa-solid fa-trash fa-xl"></i>
                   </button>
                 </div>
               </form>
