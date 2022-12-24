@@ -1,8 +1,3 @@
-img,svg {
-  vertical-align: middle;
-  width: 85px;
-}
-
 .navbar {
   background-color: #161b22;
   font-family: "Roboto", sans-serif;
@@ -31,9 +26,14 @@ img,svg {
   box-shadow: none;
 }
 
-.input-group {
+img,svg {
+  vertical-align: middle;
+  width: 85px;
+}
+
+#InputGroup {
   width: 400px;
-  height: 35px;
+  height: 38px;
 }
 
 #item:focus {
@@ -42,9 +42,29 @@ img,svg {
 
 #SearchIcon{
   border: none;
+  color: rgb(183, 183, 183);
   background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+
 #Search{
   border: none;
-  outline: none;
+  text-align: left;
+  font-size: 18px;
+  padding: 0px 8px ;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.return{
+  border: none;
+  background-color: #161b22;
+  color:#161b22;
+  font-size: 30px;
+  margin-right: -90px;
+}
+
+#logout{
+  color:#ffffff;
 }

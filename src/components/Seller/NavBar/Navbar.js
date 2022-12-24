@@ -12,6 +12,7 @@ function NavBar() {
     navigate("/search/" + searchTerm);
   };
   return (
+    
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
         <div>
@@ -36,9 +37,9 @@ function NavBar() {
         <nav className="justify-content-center">
           <div classame="container-fluid">
             <form className="d-flex">
-              <div class="input-group">
-                <span class="input-group-text" id="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input className="form-control me-2 btn-primary raunded-pill main-btn"id="Search" type="search" placeholder="Search..."  onChange={handleChange} onKeyPress={(event) => {
+              <div className="input-group"id="InputGroup">
+                <span className="input-group-text" id="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input className="form-control me-0 btn-primary raunded-pill main-btn"id="Search" type="search" placeholder="Search..."  onChange={handleChange} onKeyPress={(event) => {
                   if (event.key === 'Enter') {
                     handleSubmit(event);
                   }
@@ -47,6 +48,11 @@ function NavBar() {
             </form>
           </div>
         </nav>
+        <li className='return'>
+                    < Link to="/">
+                        <i className="fa-solid fa-arrow-right-from-bracket" id="logout"/>
+                    </Link>
+            </li>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
