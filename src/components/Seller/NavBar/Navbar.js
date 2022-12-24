@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css"
 import { Link, useNavigate } from "react-router-dom";
-import { Button } from "bootstrap";
 function NavBar() {
   let navigate = useNavigate()
   const [searchTerm, setSearchTerm] = useState('');
