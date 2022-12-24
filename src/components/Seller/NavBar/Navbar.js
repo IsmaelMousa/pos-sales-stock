@@ -49,9 +49,9 @@ function NavBar() {
           </div>
         </nav>
         <li className='return'>
-                    <a href="/">
+                    < Link to="/">
                         <i className="fa-solid fa-arrow-right-from-bracket" id="logout"/>
-                    </a>
+                    </Link>
             </li>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
