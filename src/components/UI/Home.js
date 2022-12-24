@@ -77,8 +77,8 @@ function Home() {
                             </svg>
                         </div>
                         <div >
-                            <h3 className="fs-3">Loge Out </h3>
-                            <p>You Can LoginOut From Your Account By Clicking On The Button Below</p>
+                            <h3 className="fs-3">Log Out </h3>
+                            <p>You Can Log Out From Your Account By Clicking On The Button Below</p>
                             <button onClick={logout} className="btn btn-dark col-auto " >
                                 Log Out From Page
                             </button>

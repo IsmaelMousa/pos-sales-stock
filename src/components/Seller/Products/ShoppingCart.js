@@ -63,7 +63,7 @@ function ShoppingCart() {
 
   return (
     <div className="container col-4 bg-light p-1">
-      <div className="p-2 shadow">
+      <div className="p-2 shadow ">
         <table className="table table-striped">
           <thead>
             <tr className="text-center">

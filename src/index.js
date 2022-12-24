@@ -10,7 +10,7 @@ import Search from "./components/Seller/Products/Search";
 import Items from "./components/Seller/Products/Items/ItemsPage";
 import NavBar from "./components/Seller/NavBar/Navbar";
 import Table from "./components/Admin/Table";
-import ShoppingCart from "./components/Seller/Products/Cart";
+import ShoppingCart from "./components/Seller/Products/ShoppingCart";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
