@@ -43,10 +43,10 @@ function SignInSignupWithLocalStorage() {
             {showHome ? <Home /> :
                 (show ?
 
-                    <div className="container col-xl-10 col-xxl-8 px-4 py-5">
-                        <div className="row align-items-center g-lg-5 py-5">
-                            <div className="col-md-10 mx-auto col-lg-5">
-                                <form className="p-4 p-md-5 border rounded-3 bg-light">
+                    <div className="container col-xl-10 col-xxl-8 px-4 py-5 ">
+                        <div className="row align-items-center g-lg-5 py-5 ">
+                            <div className="col-md-10 mx-auto col-lg-5 ">
+                                <form className="p-4 p-md-5 border rounded-3 bg-light shadow-lg ">
                                     <div className="form-floating mb-3">
                                         <input type="email" className="form-control" id="floatingInput" ref={email} />
                                         <label htmlFor="floatingInput">Email address</label>
@@ -71,7 +71,7 @@ function SignInSignupWithLocalStorage() {
                     <div className="container col-xl-10 col-xxl-8 px-4 py-5">
                         <div className="row align-items-center g-lg-5 py-5">
                             <div className="col-md-10 mx-auto col-lg-5">
-                                <form className="p-4 p-md-5 border rounded-3 bg-light">
+                                <form className="p-4 p-md-5 border rounded-3 bg-light shadow-lg ">
                                     <div className="form-floating mb-3">
                                         <input type="text" className="form-control" id="floatingInput" ref={name} />
                                         <label htmlFor="floatingInput">Name</label>
@@ -86,6 +86,7 @@ function SignInSignupWithLocalStorage() {
                                     </div>
                                     <button className="w-100 btn btn-lg btn-outline-secondary " onClick={handleClick}>Sign up</button>
                                     <hr className="my-4" />
+                                    <p className="text-center text-secondary">Welcome to our store </p>
                                 </form>
                             </div>
                         </div>

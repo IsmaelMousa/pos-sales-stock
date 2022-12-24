@@ -62,7 +62,7 @@ function Home() {
                             </svg>
                         </div>
                         <div >
-                            <h3 className="fs-3">Delete Page</h3>
+                            <h3 className="fs-3">Delete Account</h3>
                             <p>You Can Delete Your Account By Clicking On The Button Below</p>
                             <button onClick={deleteAccount} className="btn btn-dark col-auto">
                                 Delete Your Account
