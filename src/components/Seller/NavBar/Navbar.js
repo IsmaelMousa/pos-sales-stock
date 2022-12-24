@@ -36,9 +36,9 @@ function NavBar() {
         <nav className="justify-content-center">
           <div classame="container-fluid">
             <form className="d-flex">
-              <div class="input-group">
-                <span class="input-group-text" id="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input className="form-control me-2 btn-primary raunded-pill main-btn"id="Search" type="search" placeholder="Search..."  onChange={handleChange} onKeyPress={(event) => {
+              <div className="input-group"id="InputGroup">
+                <span className="input-group-text" id="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input className="form-control me-0 btn-primary raunded-pill main-btn"id="Search" type="search" placeholder="Search..."  onChange={handleChange} onKeyPress={(event) => {
                   if (event.key === 'Enter') {
                     handleSubmit(event);
                   }
