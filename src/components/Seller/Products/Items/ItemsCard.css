@@ -1,7 +1,7 @@
 #card-item{
-    width: 340px;
-    height: 448px;
-    margin: 7px;
+    width: 320px;
+    height: 550px;
+    margin: 15px;
     background-color: #fff;
     float: left;
     border: none;
@@ -22,7 +22,7 @@
 }
 
 #card-img-top-item{
-    height:18rem;
+    height:23rem;
     width:100%;
 }
 #card-body-item{
@@ -39,12 +39,11 @@ background-color: rgba(0, 0, 0, 0.043);
     margin-top: 10px;
     color: #f4f8f8;
     border-radius: 90px ;
-    background-color: rgb(73, 73, 73);
-    border: none;
+    background-color: #333;
+        border: none;
     font-size: 21px;
     width: 40%;
     padding: 2%;
-    font-family: 'Times New Roman', Times, serif;
 }
 #b2:hover{
     box-shadow:5px 10px 20px 1px rgba !important;
