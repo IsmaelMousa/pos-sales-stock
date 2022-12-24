@@ -1,7 +1,7 @@
 #card-sale{
-    width: 340px;
-    height: 450px;
-    margin: 7px;
+    width: 320px;
+    height: 550px;
+    margin: 15px;
     background-color: #fff;
     zoom: 71%;
     float: left;
@@ -27,29 +27,28 @@
     
 }
 #card-img-top-sale{
-    height:18rem;
+    height:23.75rem;
     width:100%;
 }
 #card-body-sale {
-background-color: rgba(0, 0, 0, 0.043);
+background-color: rgba(0, 0, 0, 0.014);
 
 }
 #card-title-sale{
     color: #000000;
     text-align: center;
     font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
 }
 #b3{
     margin-top: 10px;
     color: #ffffff;
     border-radius: 21px;
-    background-color: rgb(73, 73, 73);
+    background-color:#333;
+      border: none;
     border: none;
     font-size: 21px;  
     width: 40%;
     padding: 2%;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 #b3:hover{

@@ -1,7 +1,7 @@
 #card-category{
-    width: 315px;
-    height: 390px;
-    margin: 7px;
+    width: 350px;
+    height: 400px;
+    margin: 12px;
     zoom: 81%;
     background-color:  rgb(255, 255, 255);
     float: left;
@@ -18,11 +18,10 @@
     width:100%;
   }
 #card-body-category{
-    background-color: rgb(202, 202, 202);
+    background-color: rgba(202, 202, 202, 0.039);
 }
 #card-title-category{
     color:#000000;
-font-family: 'Times New Roman', Times, serif;
 }
 .ClickImage{
     border :none;
