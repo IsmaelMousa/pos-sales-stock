@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css"
 import { Link, useNavigate } from "react-router-dom";
+import { Button } from "bootstrap";
 function NavBar() {
   let navigate = useNavigate()
   const [searchTerm, setSearchTerm] = useState('');
@@ -47,6 +48,11 @@ function NavBar() {
             </form>
           </div>
         </nav>
+        <li className='return'>
+                    <a href="/">
+                        <i className="fa-solid fa-arrow-right-from-bracket" id="logout"/>
+                    </a>
+            </li>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
