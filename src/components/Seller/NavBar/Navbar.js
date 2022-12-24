@@ -12,6 +12,7 @@ function NavBar() {
     navigate("/search/" + searchTerm);
   };
   return (
+    
     <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container">
         <div>
